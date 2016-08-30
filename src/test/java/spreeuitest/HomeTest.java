@@ -7,13 +7,14 @@ import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
 import utility.Utils;
+
 /**
  * Created by wasey on 8/29/16.
  */
 public class HomeTest extends beforeaftertest {
 
   // This is the starting of the Main Test Case
-  @Test
+  @Test(enabled = false)
   public void main() throws Exception {
 	  // Every exception thrown from any class or method, will be catch here and will be taken care off
 
@@ -72,7 +73,33 @@ public class HomeTest extends beforeaftertest {
 	  }
 		
   }
-		
+    @Test
+    public void accountButtonVerification() throws Exception {
+        try{
+            SignIn_Action.Execute(iTestCaseRow);
 
+            ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
+        }catch (Exception e){
+            ExcelUtils.setCellData("Fail", iTestCaseRow, Constant.Col_Result);
+            Utils.takeScreenshot(driver, sTestCaseName);
+            Log.error(e.getMessage());
+            throw (e);
+        }
 
+    }
+
+    @Test
+    public void productSelection() throws Exception {
+        try{
+            ProductSelect_Action.productType(iTestCaseRow);
+
+            ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
+        }catch (Exception e){
+            ExcelUtils.setCellData("Fail", iTestCaseRow, Constant.Col_Result);
+            Utils.takeScreenshot(driver, sTestCaseName);
+            Log.error(e.getMessage());
+            throw (e);
+        }
+
+    }
 }

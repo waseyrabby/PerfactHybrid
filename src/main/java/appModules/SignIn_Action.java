@@ -19,7 +19,7 @@ import utility.Utils;
     public class SignIn_Action {
     	// iTestcaseRow is the row number of our Testcase name in the Test Data sheet
     	// iTestcaseRow is passed as an Argument to this method, so that it can used inside this method
-    	// For use of Functions & Parameters, please see http://www.toolsqa.com/function-parameters/
+
         public static void Execute(int iTestCaseRow) throws Exception{
         	
         	// Clicking on the My Account link on the Home Page
@@ -30,11 +30,11 @@ import utility.Utils;
         	// iTestcaseRow is the row number of our Testcase name in the Test Data sheet
         	// Constant.Col_UserName is the column number for UserName column in the Test Data sheet
         	// Please see the Constant class in the Utility Package
-        	// For Use of Constant Variables, please see http://www.toolsqa.com/constant-variables/
+
         	String sUserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_UserName);
         	// Here we are sending the UserName string to the UserName Textbox on the LogIN Page
         	// This is call Page Object Model (POM)
-        	// For use of POM, please see http://www.toolsqa.com/page-object-model/
+
             LogIn_Page.txtbx_UserName().sendKeys(sUserName);
             // Printing the logs for what we have just performed
             Log.info(sUserName+" is entered in UserName text box" );

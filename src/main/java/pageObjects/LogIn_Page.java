@@ -16,7 +16,7 @@ import utility.Log;
         }     
         public static WebElement txtbx_UserName() throws Exception{
         	try{
-	            element = driver.findElement(By.name("j_username"));
+	            element = driver.findElement(By.id("spree_user_email"));
 	            Log.info("Username text box is found on the Login Page");
         	}catch (Exception e){
            		Log.error("UserName text box is not found on the Login Page");
@@ -27,7 +27,7 @@ import utility.Log;
         
         public static WebElement txtbx_Password() throws Exception{
         	try{
-	        	element = driver.findElement(By.name("j_password"));
+	        	element = driver.findElement(By.id("spree_user_password"));
 	            Log.info("Password text box is found on the Login page");
         	}catch (Exception e){
         		Log.error("Password text box is not found on the Login Page");
@@ -38,7 +38,7 @@ import utility.Log;
         
         public static WebElement btn_LogIn() throws Exception{
         	try{
-	        	element = driver.findElement(By.xpath(".//*[@id='login']/div/form/div[3]/input"));
+	        	element = driver.findElement(By.name("commit"));
 	            Log.info("Submit button is found on the Login page");
         	}catch (Exception e){
         		Log.error("Submit button is not found on the Login Page");

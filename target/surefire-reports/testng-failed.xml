@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="spreeapitest.SpreeApiTest"/>
+      <class name="spreeuitest.HomeTest"/>
+      <class name="spreeuitest.SmokeTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="spreeuitest.SmokeTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- spreeuitest.SmokeTest -->
+      <class name="spreeapitest.SpreeApiTest">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- spreeapitest.SpreeApiTest -->
+      <class name="spreeuitest.HomeTest">
+        <methods>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- spreeuitest.HomeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

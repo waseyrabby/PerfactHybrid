@@ -2,9 +2,7 @@ package pageObjects;
         import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import utility.Log;
-import utility.Utils;
 
 /**
  * Created by wasey on 8/29/16.
@@ -18,7 +16,7 @@ import utility.Utils;
         }    
         public static WebElement lnk_MyAccount() throws Exception{
             try{ 
-	        	 element = driver.findElement(By.xpath(".//*[@id='cart_info']/a[1]/span"));
+	        	 element = driver.findElement(By.xpath(".//*[@id='link-to-login']/a"));
 	             Log.info("My Account link is found on the Home Page");
             }catch (Exception e){
            		Log.error("My Acocunt link is not found on the Home Page");
@@ -28,7 +26,7 @@ import utility.Utils;
         }
         public static WebElement lnk_LogOut() throws Exception{
             try{
-	        	element = driver.findElement(By.xpath(".//*[@id='cart_info']/a[1]/span"));
+	        	element = driver.findElement(By.xpath(".//*[@id='nav-bar']/li[2]/a"));
 	        
 	            Log.info("Log Out link is found on the Home Page");
             }catch (Exception e){
@@ -44,46 +42,50 @@ import utility.Utils;
         		
         			static WebElement mainElement;
       		
-        		public static void Accessories() throws Exception{
+        		public static void Ruby() throws Exception{
         			try{
-	        			mainElement = driver.findElement(By.linkText("Product Category"));
-	        			Log.info("Product category link is found under Top Navigation");
-	        			Utils.mouseHoverAction(mainElement, "Accessories");
+	        			mainElement = driver.findElement(By.xpath(".//*[@id='taxonomies']/div[2]/a[1]"));
+                        String Ruby= mainElement.getText();
+	        			Log.info(  Ruby+ " product category link is found under Shop by Brand");
+
         			}catch (Exception e){
-        				Log.error("Accessories link is not found under Product Category");
+        				Log.error("Ruby product category link is not found under Shop by Brand");
         				throw(e);
         			}
                    }
         		
-        		public static void iMacs() throws Exception{
+        		public static void Bags() throws Exception{
         			try{
-	        			mainElement = driver.findElement(By.linkText("Product Category"));
-	        			Log.info("Product category link is found under Top Navigation");
-	        			Utils.mouseHoverAction(mainElement, "iMacs");
+	        			mainElement = driver.findElement(By.xpath(".//*[@id='taxonomies']/div[1]/a[1]"));
+                       String Bags= mainElement.getText();
+	        			Log.info( Bags +" category link is found under Shop by Categories");
+
         			}catch (Exception e){
-        				Log.error("Accessories link is not found under Product Category");
+        				Log.error("Bags category link is not found under Shop by Categories");
         				throw(e);
         			}
                    }
         		
-        		public static void iPads() throws Exception{
+        		public static void Mugs() throws Exception{
         			try{
-	        			mainElement = driver.findElement(By.linkText("Product Category"));
-	        			Log.info("Product category link is found under Top Navigation");
-	        			Utils.mouseHoverAction(mainElement, "iPads");
+	        			mainElement = driver.findElement(By.xpath(".//*[@id='taxonomies']/div[1]/a[2]"));
+                        String Mugs=mainElement.getText();
+	        			Log.info(Mugs +" category link is found under Shop by Categories");
+
         			}catch (Exception e){
-        				Log.error("Accessories link is not found under Product Category");
+        				Log.error("Mugs category link is not found under Shop by Categories");
         				throw(e);
         			}
                    }
         		
-        		public static void iPhones() throws Exception{
+        		public static void Clothing() throws Exception{
         			try{
-	        			mainElement = driver.findElement(By.linkText("Product Category"));
-	        			Log.info("Product category link is found under Top Navigation");
-	        			Utils.mouseHoverAction(mainElement, "iPhones");
+	        			mainElement = driver.findElement(By.xpath(".//*[@id='taxonomies']/div[1]/a[3]"));
+                        String Clothing=mainElement.getText();
+	        			Log.info(Clothing+ "  category link is found under Shop by Categories");
+
         			}catch (Exception e){
-        				Log.error("Accessories link is not found under Product Category");
+        				Log.error("Clothing category link is not found under Shop by Categories");
         				throw(e);
         			}
                    }

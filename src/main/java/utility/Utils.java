@@ -1,11 +1,13 @@
 package utility;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -78,30 +80,7 @@ public class Utils {
 					}
 			}
 	
-	 public static void mouseHoverAction(WebElement mainElement, String subElement){
-		
-		 Actions action = new Actions(driver);
-         action.moveToElement(mainElement).perform();
-         if(subElement.equals("Accessories")){
-        	 action.moveToElement(driver.findElement(By.linkText("Accessories")));
-        	 Log.info("Accessories link is found under Product Category");
-         }
-         if(subElement.equals("iMacs")){
-        	 action.moveToElement(driver.findElement(By.linkText("iMacs")));
-        	 Log.info("iMacs link is found under Product Category");
-         }
-         if(subElement.equals("iPads")){
-        	 action.moveToElement(driver.findElement(By.linkText("iPads")));
-        	 Log.info("iPads link is found under Product Category");
-         }
-         if(subElement.equals("iPhones")){
-        	 action.moveToElement(driver.findElement(By.linkText("iPhones")));
-        	 Log.info("iPhones link is found under Product Category");
-         }
-         action.click();
-         action.perform();
-         Log.info("Click action is performed on the selected Product Type");
-	 }
+
 	 public static void waitForElement(WebElement element){
 		 
 		 WebDriverWait wait = new WebDriverWait(driver, 10);

@@ -1,7 +1,7 @@
 package utility;
 
 public class Constant {
-	    public static final String URL = "http://qa1.paxotech.com/heatclinic/";
+	    public static final String URL = "http://spree.paxotech.com/";
 	    public static final String Username = "testuser_1";
 	    public static final String Password ="Test@123";
 		public static final String Path_TestData = "/Users/wasey/IdeaProjects/PerFactHybrid/src/main/java/testData/";

@@ -1,0 +1,505 @@
+2014-04-22 14:45:41,741 INFO  [Log] **************************************************************************************** 
+2014-04-22 14:45:41,742 INFO  [Log] **************************************************************************************** 
+2014-04-22 14:45:41,742 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2014-04-22 14:45:41,742 INFO  [Log] **************************************************************************************** 
+2014-04-22 14:45:41,743 INFO  [Log] **************************************************************************************** 
+2014-04-22 14:45:42,302 INFO  [Log] Excel sheet opened 
+2014-04-22 14:45:42,302 INFO  [Log] Total number of Row used return as < 2 >. 
+2014-04-22 14:45:59,257 INFO  [Log] New driver instantiated 
+2014-04-22 14:45:59,358 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2014-04-22 14:46:12,211 INFO  [Log] Web application launched successfully 
+2014-04-22 14:46:12,488 INFO  [Log] My Account link is found on the Home Page 
+2014-04-22 14:46:12,588 INFO  [Log] Click action is perfromed on My Account link 
+2014-04-22 14:46:17,885 INFO  [Log] Username text box is found on the Login Page 
+2014-04-22 14:46:17,956 INFO  [Log] testuser_1 is entered in UserName text box 
+2014-04-22 14:46:17,977 INFO  [Log] Password text box is found on the Login page 
+2014-04-22 14:46:18,039 INFO  [Log] Test@123 is entered in Password text box 
+2014-04-22 14:46:18,055 INFO  [Log] Submit button is found on the Login page 
+2014-04-22 14:46:18,715 INFO  [Log] Click action is performed on Submit button 
+2014-04-22 14:46:31,327 INFO  [Log] Log Out link is found on the Home Page 
+2014-04-22 14:46:31,574 INFO  [Log] Product category link is found under Top Navigation 
+2014-04-22 14:46:31,927 INFO  [Log] Accessories link is found under Product Category 
+2014-04-22 14:46:32,006 INFO  [Log] Click action is performed on the selected Product Type 
+2014-04-22 14:46:32,007 INFO  [Log] Product Type Accessories is selected from the Top menu 
+2014-04-22 14:46:37,285 INFO  [Log] Add to Cart button is found for Product 2 
+2014-04-22 14:46:37,458 INFO  [Log] Product 2 is selected from the Product listing page 
+2014-04-22 14:46:38,517 INFO  [Log] Go to Cart button is found on the Cart Pop Up window 
+2014-04-22 14:46:41,771 INFO  [Log] Product Name for purchased product is found on the Check Out Page 
+2014-04-22 14:46:41,824 INFO  [Log] Product Price for purchased product is found on the Check Out Page 
+2014-04-22 14:46:41,860 INFO  [Log] Continue button is found on the Check Out Page 
+2014-04-22 14:46:41,957 INFO  [Log] Email text box on Payment Details page is found. 
+2014-04-22 14:46:43,029 INFO  [Log] Email text box on Payment Details page is found. 
+2014-04-22 14:46:43,108 INFO  [Log] tooolsqa@gmail.com is entered as First Name on the Payment detail page 
+2014-04-22 14:46:43,126 INFO  [Log] First Name text box on Payment Details page is found. 
+2014-04-22 14:46:43,201 INFO  [Log] First Name text box on Payment Details page is found. 
+2014-04-22 14:46:43,356 INFO  [Log] Lakshay is entered as First Name on the Payment detail page 
+2014-04-22 14:46:43,366 INFO  [Log] Last Name text box on Payment Details page is found. 
+2014-04-22 14:46:43,453 INFO  [Log] Last Name text box on Payment Details page is found. 
+2014-04-22 14:46:43,560 INFO  [Log] Sharma is entered as Last Name on the Payment detail page 
+2014-04-22 14:46:43,568 INFO  [Log] Address text box on Payment Details page is found. 
+2014-04-22 14:46:43,756 INFO  [Log] Address text box on Payment Details page is found. 
+2014-04-22 14:46:44,151 INFO  [Log] 35, Marconi House, Walker Road is entered as Address on the Payment detail page 
+2014-04-22 14:46:44,162 INFO  [Log] City text box on Payment Details page is found. 
+2014-04-22 14:46:44,244 INFO  [Log] City text box on Payment Details page is found. 
+2014-04-22 14:46:44,393 INFO  [Log] Newcastle is entered as City on the Payment detail page 
+2014-04-22 14:46:44,509 INFO  [Log] Country dropdown on Payment Details page is found. 
+2014-04-22 14:46:44,570 INFO  [Log] United Kingdom is Selected as Country on the Payment detail page 
+2014-04-22 14:46:44,633 INFO  [Log] Phone text box on Payment Details page is found. 
+2014-04-22 14:46:44,740 INFO  [Log] Phone text box on Payment Details page is found. 
+2014-04-22 14:46:44,868 INFO  [Log] 07777777777 is entered as Phone on the Payment detail page 
+2014-04-22 14:46:44,876 INFO  [Log] Same as Billing address check box on Payment Details page is found. 
+2014-04-22 14:46:44,890 INFO  [Log] Purchase button on Payment Details page is found. 
+2014-04-22 14:46:47,948 INFO  [Log] Click action is performed on Purchase button on the Payment detail page 
+2014-04-22 14:46:47,959 INFO  [Log] Product name is found on the Confirmation Page 
+2014-04-22 14:46:47,985 INFO  [Log] Product price is found on the Confirmation Page 
+2014-04-22 14:46:48,185 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2014-04-22 14:46:48,185 INFO  [Log] X 
+2014-04-22 14:46:48,185 INFO  [Log] X 
+2014-04-22 14:46:48,186 INFO  [Log] X 
+2014-04-22 14:46:48,186 INFO  [Log] X 
+2014-04-22 17:32:40,212 INFO  [Log] New driver instantiated 
+2014-04-22 17:32:40,227 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2014-04-22 17:32:58,881 INFO  [Log] Web application launched 
+2014-04-22 17:32:59,000 INFO  [Log] Click action performed on My Account link 
+2014-04-22 17:35:15,781 INFO  [Log] New driver instantiated 
+2014-04-22 17:35:15,799 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2014-04-22 17:35:33,430 INFO  [Log] Web application launched 
+2014-04-22 17:35:33,539 INFO  [Log] Click action performed on My Account link 
+2014-04-22 17:47:58,080 INFO  [Log] New driver instantiated 
+2014-04-22 17:47:58,101 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2014-04-22 17:48:15,116 INFO  [Log] Web application launched 
+2014-04-22 17:48:36,220 INFO  [Log] Click action performed on My Account link 
+2014-04-22 17:48:37,787 INFO  [Log] Username entered in the Username text box 
+2014-04-22 17:48:37,877 INFO  [Log] Password entered in the Password text box 
+2014-04-22 17:48:38,576 INFO  [Log] Click action performed on Submit button 
+2014-04-22 17:48:45,875 INFO  [Log] Click action performed on Log out link 
+2014-04-22 17:48:46,110 INFO  [Log] Browser closed 
+2016-08-27 14:27:28,489 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:27:28,489 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:27:28,489 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 14:27:28,490 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:27:28,490 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:29:07,356 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:29:07,356 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:29:07,357 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 14:29:07,357 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:29:07,357 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:33:39,948 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:33:39,948 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:33:39,948 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 14:33:39,948 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:33:39,948 INFO  [Log] **************************************************************************************** 
+2016-08-27 14:33:40,456 INFO  [Log] Excel sheet opened 
+2016-08-27 14:33:40,456 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:03:10,277 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:03:10,278 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:03:10,278 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 15:03:10,279 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:03:10,279 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:03:10,814 INFO  [Log] Excel sheet opened 
+2016-08-27 15:03:10,814 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:05:29,249 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:05:29,249 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:05:29,249 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 15:05:29,249 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:05:29,249 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:05:29,761 INFO  [Log] Excel sheet opened 
+2016-08-27 15:05:29,761 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:07:51,494 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:07:51,494 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:07:51,494 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 15:07:51,494 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:07:51,494 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:07:51,952 INFO  [Log] Excel sheet opened 
+2016-08-27 15:07:51,952 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:12:32,366 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:12:32,367 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:12:32,367 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 15:12:32,367 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:12:32,367 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:12:32,839 INFO  [Log] Excel sheet opened 
+2016-08-27 15:12:32,839 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:13:40,354 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:13:40,354 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:13:40,354 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 15:13:40,354 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:13:40,354 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:13:40,898 INFO  [Log] Excel sheet opened 
+2016-08-27 15:13:40,898 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:15:13,721 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:15:13,721 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:15:13,721 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 15:15:13,721 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:15:13,721 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:15:14,196 INFO  [Log] Excel sheet opened 
+2016-08-27 15:15:14,196 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:18:12,234 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:18:12,234 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:18:12,234 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 15:18:12,234 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:18:12,235 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:18:12,857 INFO  [Log] Excel sheet opened 
+2016-08-27 15:18:12,857 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:18:15,072 INFO  [Log] New driver instantiated 
+2016-08-27 15:18:15,087 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-27 15:18:15,183 INFO  [Log] Web application launched successfully 
+2016-08-27 15:18:34,023 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:18:34,024 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:18:34,024 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 15:18:34,024 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:18:34,024 INFO  [Log] **************************************************************************************** 
+2016-08-27 15:18:34,511 INFO  [Log] Excel sheet opened 
+2016-08-27 15:18:34,511 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 15:18:36,335 INFO  [Log] New driver instantiated 
+2016-08-27 15:18:36,355 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-27 15:18:36,432 INFO  [Log] Web application launched successfully 
+2016-08-27 15:18:56,503 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-27 15:18:56,616 ERROR [Log] Unable to locate element: {"method":"xpath","selector":".//*[@id='account']/a"}
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Aams-MacBook-Pro-2.local', ip: '172.16.162.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 51bb7162-67ad-b74a-b0a1-9dbba51dea2f
+*** Element info: {Using=xpath, value=.//*[@id='account']/a} 
+2016-08-27 15:18:56,623 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-27 15:18:56,623 INFO  [Log] X 
+2016-08-27 15:18:56,623 INFO  [Log] X 
+2016-08-27 15:18:56,623 INFO  [Log] X 
+2016-08-27 15:18:56,623 INFO  [Log] X 
+2016-08-27 16:11:16,707 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:11:16,707 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:11:16,707 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 16:11:16,707 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:11:16,707 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:11:17,165 INFO  [Log] Excel sheet opened 
+2016-08-27 16:11:17,165 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 16:11:19,120 INFO  [Log] New driver instantiated 
+2016-08-27 16:11:19,127 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-27 16:11:19,528 INFO  [Log] Web application launched successfully 
+2016-08-27 16:11:39,589 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-27 16:11:40,451 ERROR [Log] Unable to locate element: {"method":"xpath","selector":".//*[@id='account']/a"}
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Aams-MacBook-Pro-2.local', ip: '10.10.30.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 35f9707f-0a19-8942-bb9b-8e98a577bf84
+*** Element info: {Using=xpath, value=.//*[@id='account']/a} 
+2016-08-27 16:11:40,461 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-27 16:11:40,461 INFO  [Log] X 
+2016-08-27 16:11:40,461 INFO  [Log] X 
+2016-08-27 16:11:40,461 INFO  [Log] X 
+2016-08-27 16:11:40,461 INFO  [Log] X 
+2016-08-27 16:32:35,384 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:32:35,385 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:32:35,385 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 16:32:35,385 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:32:35,385 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:32:35,899 INFO  [Log] Excel sheet opened 
+2016-08-27 16:32:35,899 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 16:32:37,879 INFO  [Log] New driver instantiated 
+2016-08-27 16:32:37,893 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-27 16:32:38,849 INFO  [Log] Web application launched successfully 
+2016-08-27 16:32:38,924 INFO  [Log] My Account link is found on the Home Page 
+2016-08-27 16:32:40,511 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-27 16:33:02,963 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:33:02,963 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:33:02,963 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-27 16:33:02,963 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:33:02,963 INFO  [Log] **************************************************************************************** 
+2016-08-27 16:33:03,410 INFO  [Log] Excel sheet opened 
+2016-08-27 16:33:03,410 INFO  [Log] Total number of Row used return as < 2 >. 
+2016-08-27 16:33:05,313 INFO  [Log] New driver instantiated 
+2016-08-27 16:33:05,321 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-27 16:33:06,588 INFO  [Log] Web application launched successfully 
+2016-08-27 16:33:06,637 INFO  [Log] My Account link is found on the Home Page 
+2016-08-27 16:33:07,386 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-29 16:28:12,582 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:28:12,583 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:28:12,583 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:28:12,583 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:28:12,583 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:28:13,442 INFO  [Log] Excel sheet opened 
+2016-08-29 16:28:13,442 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:28:15,955 INFO  [Log] New driver instantiated 
+2016-08-29 16:28:15,978 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-29 16:28:16,482 INFO  [Log] Web application launched successfully 
+2016-08-29 16:28:16,538 INFO  [Log] My Account link is found on the Home Page 
+2016-08-29 16:28:18,188 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-29 16:35:38,487 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:35:38,488 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:35:38,488 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:35:38,488 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:35:38,488 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:35:39,222 INFO  [Log] Excel sheet opened 
+2016-08-29 16:35:39,222 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:35:41,671 INFO  [Log] New driver instantiated 
+2016-08-29 16:35:41,683 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-29 16:35:42,101 INFO  [Log] Web application launched successfully 
+2016-08-29 16:35:42,148 INFO  [Log] My Account link is found on the Home Page 
+2016-08-29 16:35:43,766 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-29 16:36:28,753 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:36:28,753 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:36:28,753 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:36:28,753 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:36:28,753 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:36:29,426 INFO  [Log] Excel sheet opened 
+2016-08-29 16:36:29,426 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:36:31,761 INFO  [Log] New driver instantiated 
+2016-08-29 16:36:31,783 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-29 16:36:32,227 INFO  [Log] Web application launched successfully 
+2016-08-29 16:36:32,277 INFO  [Log] My Account link is found on the Home Page 
+2016-08-29 16:36:34,110 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-29 16:37:23,884 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:37:23,884 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:37:23,884 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:37:23,884 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:37:23,884 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:37:24,507 INFO  [Log] Excel sheet opened 
+2016-08-29 16:37:24,508 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:37:24,516 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 16:37:24,598 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 16:37:24,603 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 16:37:24,603 INFO  [Log] X 
+2016-08-29 16:37:24,603 INFO  [Log] X 
+2016-08-29 16:37:24,603 INFO  [Log] X 
+2016-08-29 16:37:24,603 INFO  [Log] X 
+2016-08-29 16:40:52,226 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:40:52,227 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:40:52,227 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:40:52,227 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:40:52,227 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:40:52,825 INFO  [Log] Excel sheet opened 
+2016-08-29 16:40:52,825 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:40:52,832 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 16:40:52,910 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 16:40:52,914 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 16:40:52,914 INFO  [Log] X 
+2016-08-29 16:40:52,914 INFO  [Log] X 
+2016-08-29 16:40:52,914 INFO  [Log] X 
+2016-08-29 16:40:52,914 INFO  [Log] X 
+2016-08-29 16:41:41,564 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:41:41,564 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:41:41,564 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:41:41,564 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:41:41,564 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:41:42,149 INFO  [Log] Excel sheet opened 
+2016-08-29 16:41:42,149 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:41:42,156 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 16:41:42,227 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 16:41:42,231 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 16:41:42,231 INFO  [Log] X 
+2016-08-29 16:41:42,231 INFO  [Log] X 
+2016-08-29 16:41:42,231 INFO  [Log] X 
+2016-08-29 16:41:42,231 INFO  [Log] X 
+2016-08-29 16:43:01,421 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:43:01,422 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:43:01,422 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:43:01,422 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:43:01,422 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:43:02,127 INFO  [Log] Excel sheet opened 
+2016-08-29 16:43:02,127 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:43:02,136 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 16:43:02,216 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 16:43:02,220 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 16:43:02,220 INFO  [Log] X 
+2016-08-29 16:43:02,220 INFO  [Log] X 
+2016-08-29 16:43:02,220 INFO  [Log] X 
+2016-08-29 16:43:02,220 INFO  [Log] X 
+2016-08-29 16:44:00,544 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:44:00,545 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:44:00,545 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:44:00,545 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:44:00,545 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:44:01,158 INFO  [Log] Excel sheet opened 
+2016-08-29 16:44:01,158 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:44:01,167 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 16:44:01,237 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 16:44:01,241 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 16:44:01,241 INFO  [Log] X 
+2016-08-29 16:44:01,241 INFO  [Log] X 
+2016-08-29 16:44:01,241 INFO  [Log] X 
+2016-08-29 16:44:01,241 INFO  [Log] X 
+2016-08-29 16:44:28,735 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:44:28,736 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:44:28,736 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 16:44:28,736 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:44:28,736 INFO  [Log] **************************************************************************************** 
+2016-08-29 16:44:29,377 INFO  [Log] Excel sheet opened 
+2016-08-29 16:44:29,377 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 16:44:31,405 INFO  [Log] New driver instantiated 
+2016-08-29 16:44:31,420 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-29 16:44:31,818 INFO  [Log] Web application launched successfully 
+2016-08-29 16:44:31,887 INFO  [Log] My Account link is found on the Home Page 
+2016-08-29 16:44:33,484 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-29 21:42:10,789 INFO  [Log] **************************************************************************************** 
+2016-08-29 21:42:10,790 INFO  [Log] **************************************************************************************** 
+2016-08-29 21:42:10,790 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 21:42:10,790 INFO  [Log] **************************************************************************************** 
+2016-08-29 21:42:10,790 INFO  [Log] **************************************************************************************** 
+2016-08-29 21:42:11,330 INFO  [Log] Excel sheet opened 
+2016-08-29 21:42:11,331 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 21:42:11,335 INFO  [Log] New driver instantiated 
+2016-08-29 21:45:46,296 INFO  [Log] **************************************************************************************** 
+2016-08-29 21:45:46,296 INFO  [Log] **************************************************************************************** 
+2016-08-29 21:45:46,296 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 21:45:46,296 INFO  [Log] **************************************************************************************** 
+2016-08-29 21:45:46,296 INFO  [Log] **************************************************************************************** 
+2016-08-29 21:45:46,740 INFO  [Log] Excel sheet opened 
+2016-08-29 21:45:46,740 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 21:45:46,744 INFO  [Log] New driver instantiated 
+2016-08-29 21:45:46,744 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : null 
+2016-08-29 21:45:46,747 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 21:45:46,825 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 21:45:46,829 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 21:45:46,829 INFO  [Log] X 
+2016-08-29 21:45:46,829 INFO  [Log] X 
+2016-08-29 21:45:46,829 INFO  [Log] X 
+2016-08-29 21:45:46,829 INFO  [Log] X 
+2016-08-29 22:21:35,972 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:21:35,972 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:21:35,972 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 22:21:35,972 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:21:35,972 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:21:36,591 INFO  [Log] Excel sheet opened 
+2016-08-29 22:21:36,591 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 22:21:36,595 INFO  [Log] New driver instantiated 
+2016-08-29 22:21:36,595 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : null 
+2016-08-29 22:21:36,599 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 22:21:36,677 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 22:21:36,681 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 22:21:36,681 INFO  [Log] X 
+2016-08-29 22:21:36,681 INFO  [Log] X 
+2016-08-29 22:21:36,681 INFO  [Log] X 
+2016-08-29 22:21:36,681 INFO  [Log] X 
+2016-08-29 22:22:30,880 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:22:30,880 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:22:30,880 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 22:22:30,880 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:22:30,880 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:22:31,450 INFO  [Log] Excel sheet opened 
+2016-08-29 22:22:31,450 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 22:22:31,453 INFO  [Log] New driver instantiated 
+2016-08-29 22:22:31,454 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : null 
+2016-08-29 22:22:31,457 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 22:22:31,521 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 22:22:31,525 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 22:22:31,525 INFO  [Log] X 
+2016-08-29 22:22:31,525 INFO  [Log] X 
+2016-08-29 22:22:31,525 INFO  [Log] X 
+2016-08-29 22:22:31,525 INFO  [Log] X 
+2016-08-29 22:30:25,735 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:30:25,735 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:30:25,735 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 22:30:25,735 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:30:25,735 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:30:26,486 INFO  [Log] Excel sheet opened 
+2016-08-29 22:30:26,487 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 22:30:26,493 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 22:30:26,580 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 22:30:26,584 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 22:30:26,584 INFO  [Log] X 
+2016-08-29 22:30:26,584 INFO  [Log] X 
+2016-08-29 22:30:26,584 INFO  [Log] X 
+2016-08-29 22:30:26,584 INFO  [Log] X 
+2016-08-29 22:32:13,921 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:32:13,921 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:32:13,921 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 22:32:13,921 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:32:13,921 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:32:14,608 INFO  [Log] Excel sheet opened 
+2016-08-29 22:32:14,608 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 22:32:14,617 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 22:32:14,700 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-08-29 22:32:14,704 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 22:32:14,704 INFO  [Log] X 
+2016-08-29 22:32:14,704 INFO  [Log] X 
+2016-08-29 22:32:14,704 INFO  [Log] X 
+2016-08-29 22:32:14,704 INFO  [Log] X 
+2016-08-29 22:32:34,485 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:32:34,486 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:32:34,486 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 22:32:34,486 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:32:34,486 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:32:35,070 INFO  [Log] Excel sheet opened 
+2016-08-29 22:32:35,070 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 22:32:37,076 ERROR [Log] My Acocunt link is not found on the Home Page 
+2016-08-29 22:32:37,179 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : Destination '/src/main/java/Screenshots' directory cannot be created 
+2016-08-29 22:32:37,183 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 22:32:37,183 INFO  [Log] X 
+2016-08-29 22:32:37,183 INFO  [Log] X 
+2016-08-29 22:32:37,183 INFO  [Log] X 
+2016-08-29 22:32:37,183 INFO  [Log] X 
+2016-08-29 22:37:33,910 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:37:33,910 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:37:33,910 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 22:37:33,910 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:37:33,910 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:37:34,493 INFO  [Log] Excel sheet opened 
+2016-08-29 22:37:34,493 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 22:37:36,296 INFO  [Log] New driver instantiated 
+2016-08-29 22:37:36,779 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-29 22:37:37,976 INFO  [Log] Web application launched successfully 
+2016-08-29 22:37:38,021 INFO  [Log] My Account link is found on the Home Page 
+2016-08-29 22:37:39,083 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-29 22:45:31,107 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:45:31,108 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:45:31,108 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 22:45:31,108 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:45:31,108 INFO  [Log] **************************************************************************************** 
+2016-08-29 22:45:31,736 INFO  [Log] Excel sheet opened 
+2016-08-29 22:45:31,736 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 22:45:33,576 INFO  [Log] New driver instantiated 
+2016-08-29 22:45:33,999 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-29 22:45:35,087 INFO  [Log] Web application launched successfully 
+2016-08-29 22:45:35,131 INFO  [Log] My Account link is found on the Home Page 
+2016-08-29 22:45:36,653 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-29 22:45:36,661 INFO  [Log] Username text box is found on the Login Page 
+2016-08-29 22:45:36,696 INFO  [Log] waseyrabby is entered in UserName text box 
+2016-08-29 22:45:36,702 INFO  [Log] Password text box is found on the Login page 
+2016-08-29 22:45:36,740 INFO  [Log] 718756home is entered in Password text box 
+2016-08-29 22:45:36,748 INFO  [Log] Submit button is found on the Login page 
+2016-08-29 22:45:36,823 INFO  [Log] Click action is performed on Submit button 
+2016-08-29 22:45:56,856 ERROR [Log] Log Out link is not found on the Home Page 
+2016-08-29 22:45:57,113 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : Destination '/src/main/java/Screenshots' directory cannot be created 
+2016-08-29 22:45:57,117 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 22:45:57,117 INFO  [Log] X 
+2016-08-29 22:45:57,117 INFO  [Log] X 
+2016-08-29 22:45:57,117 INFO  [Log] X 
+2016-08-29 22:45:57,117 INFO  [Log] X 
+2016-08-29 23:11:28,421 INFO  [Log] **************************************************************************************** 
+2016-08-29 23:11:28,421 INFO  [Log] **************************************************************************************** 
+2016-08-29 23:11:28,421 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-08-29 23:11:28,422 INFO  [Log] **************************************************************************************** 
+2016-08-29 23:11:28,422 INFO  [Log] **************************************************************************************** 
+2016-08-29 23:11:29,101 INFO  [Log] Excel sheet opened 
+2016-08-29 23:11:29,101 INFO  [Log] Total number of Row used return as < 41 >. 
+2016-08-29 23:11:30,913 INFO  [Log] New driver instantiated 
+2016-08-29 23:11:31,365 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2016-08-29 23:11:32,513 INFO  [Log] Web application launched successfully 
+2016-08-29 23:11:32,556 INFO  [Log] My Account link is found on the Home Page 
+2016-08-29 23:11:34,166 INFO  [Log] Click action is perfromed on My Account link 
+2016-08-29 23:11:34,174 INFO  [Log] Username text box is found on the Login Page 
+2016-08-29 23:11:34,207 INFO  [Log] waseyrabby is entered in UserName text box 
+2016-08-29 23:11:34,214 INFO  [Log] Password text box is found on the Login page 
+2016-08-29 23:11:34,246 INFO  [Log] 718756home is entered in Password text box 
+2016-08-29 23:11:34,254 INFO  [Log] Submit button is found on the Login page 
+2016-08-29 23:11:34,340 INFO  [Log] Click action is performed on Submit button 
+2016-08-29 23:11:54,397 ERROR [Log] Log Out link is not found on the Home Page 
+2016-08-29 23:11:55,138 ERROR [Log] Unable to locate element: {"method":"id","selector":"account_logout"}
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Aams-MacBook-Pro-2.local', ip: '172.16.162.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b35e029b-26e6-4645-bbf7-cbe403cc8989
+*** Element info: {Using=id, value=account_logout} 
+2016-08-29 23:11:55,145 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-08-29 23:11:55,145 INFO  [Log] X 
+2016-08-29 23:11:55,146 INFO  [Log] X 
+2016-08-29 23:11:55,146 INFO  [Log] X 
+2016-08-29 23:11:55,146 INFO  [Log] X 

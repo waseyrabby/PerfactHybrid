@@ -17,129 +17,129 @@
       <![CDATA[SignIn Action is successfully perfomred]]>
     </line>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="48974" started-at="2016-08-31T20:04:02Z" finished-at="2016-08-31T20:04:51Z">
+  <suite name="Surefire suite" duration-ms="56727" started-at="2016-08-31T21:27:47Z" finished-at="2016-08-31T21:28:44Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="48974" started-at="2016-08-31T20:04:02Z" finished-at="2016-08-31T20:04:51Z">
+    <test name="Surefire test" duration-ms="56727" started-at="2016-08-31T21:27:47Z" finished-at="2016-08-31T21:28:44Z">
       <class name="spreeuitest.LoginTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.LoginTest@6d78f375]" name="beforeMethod" is-config="true" duration-ms="3559" started-at="2016-08-31T16:04:10Z" finished-at="2016-08-31T16:04:14Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.LoginTest@6ae7deac]" name="beforeMethod" is-config="true" duration-ms="3893" started-at="2016-08-31T17:28:05Z" finished-at="2016-08-31T17:28:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="accountButtonVerification()[pri:0, instance:spreeuitest.LoginTest@6d78f375]" name="accountButtonVerification" duration-ms="2254" started-at="2016-08-31T16:04:14Z" finished-at="2016-08-31T16:04:16Z">
+        <test-method status="PASS" signature="accountButtonVerification()[pri:0, instance:spreeuitest.LoginTest@6ae7deac]" name="accountButtonVerification" duration-ms="4522" started-at="2016-08-31T17:28:09Z" finished-at="2016-08-31T17:28:13Z">
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
           </reporter-output>
         </test-method> <!-- accountButtonVerification -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.LoginTest@6d78f375]" name="afterMethod" is-config="true" duration-ms="107" started-at="2016-08-31T16:04:16Z" finished-at="2016-08-31T16:04:16Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.LoginTest@6ae7deac]" name="afterMethod" is-config="true" duration-ms="117" started-at="2016-08-31T17:28:13Z" finished-at="2016-08-31T17:28:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- spreeuitest.LoginTest -->
       <class name="spreeapitest.SpreeApiTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeapitest.SpreeApiTest@548b7f67]" name="beforeMethod" is-config="true" duration-ms="212" started-at="2016-08-31T16:04:48Z" finished-at="2016-08-31T16:04:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeapitest.SpreeApiTest@7ad54c55]" name="beforeMethod" is-config="true" duration-ms="5100" started-at="2016-08-31T17:27:47Z" finished-at="2016-08-31T17:27:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="chqconnectiontest()[pri:0, instance:spreeapitest.SpreeApiTest@548b7f67]" name="chqconnectiontest" duration-ms="2921" started-at="2016-08-31T16:04:48Z" finished-at="2016-08-31T16:04:51Z">
+        <test-method status="PASS" signature="chqconnectiontest()[pri:0, instance:spreeapitest.SpreeApiTest@7ad54c55]" name="chqconnectiontest" duration-ms="3488" started-at="2016-08-31T17:27:52Z" finished-at="2016-08-31T17:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chqconnectiontest -->
       </class> <!-- spreeapitest.SpreeApiTest -->
       <class name="spreeuitest.ProductTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.ProductTest@50c87b21]" name="beforeMethod" is-config="true" duration-ms="4309" started-at="2016-08-31T16:04:16Z" finished-at="2016-08-31T16:04:20Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.ProductTest@4a5905d9]" name="beforeMethod" is-config="true" duration-ms="3927" started-at="2016-08-31T17:28:13Z" finished-at="2016-08-31T17:28:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Product1Test()[pri:0, instance:spreeuitest.ProductTest@50c87b21]" name="Product1Test" duration-ms="1676" started-at="2016-08-31T16:04:20Z" finished-at="2016-08-31T16:04:22Z">
+        <test-method status="PASS" signature="Product1Test()[pri:0, instance:spreeuitest.ProductTest@4a5905d9]" name="Product1Test" duration-ms="898" started-at="2016-08-31T17:28:17Z" finished-at="2016-08-31T17:28:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Product1Test -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.ProductTest@50c87b21]" name="afterMethod" is-config="true" duration-ms="6" started-at="2016-08-31T16:04:22Z" finished-at="2016-08-31T16:04:22Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.ProductTest@4a5905d9]" name="afterMethod" is-config="true" duration-ms="109" started-at="2016-08-31T17:28:18Z" finished-at="2016-08-31T17:28:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.ProductTest@50c87b21]" name="beforeMethod" is-config="true" duration-ms="4768" started-at="2016-08-31T16:04:22Z" finished-at="2016-08-31T16:04:27Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.ProductTest@4a5905d9]" name="beforeMethod" is-config="true" duration-ms="4517" started-at="2016-08-31T17:28:18Z" finished-at="2016-08-31T17:28:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ProductSelectionTest()[pri:0, instance:spreeuitest.ProductTest@50c87b21]" name="ProductSelectionTest" duration-ms="171" started-at="2016-08-31T16:04:27Z" finished-at="2016-08-31T16:04:27Z">
+        <test-method status="PASS" signature="ProductSelectionTest()[pri:0, instance:spreeuitest.ProductTest@4a5905d9]" name="ProductSelectionTest" duration-ms="173" started-at="2016-08-31T17:28:23Z" finished-at="2016-08-31T17:28:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSelectionTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.ProductTest@50c87b21]" name="afterMethod" is-config="true" duration-ms="5" started-at="2016-08-31T16:04:27Z" finished-at="2016-08-31T16:04:27Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.ProductTest@4a5905d9]" name="afterMethod" is-config="true" duration-ms="7" started-at="2016-08-31T17:28:23Z" finished-at="2016-08-31T17:28:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- spreeuitest.ProductTest -->
       <class name="spreeuitest.SmokeTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.SmokeTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="3909" started-at="2016-08-31T16:04:34Z" finished-at="2016-08-31T16:04:38Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.SmokeTest@6293e39e]" name="beforeMethod" is-config="true" duration-ms="4223" started-at="2016-08-31T17:28:31Z" finished-at="2016-08-31T17:28:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="BrowserTest()[pri:0, instance:spreeuitest.SmokeTest@1810399e]" name="BrowserTest" duration-ms="3121" started-at="2016-08-31T16:04:38Z" finished-at="2016-08-31T16:04:41Z">
+        <test-method status="PASS" signature="BrowserTest()[pri:0, instance:spreeuitest.SmokeTest@6293e39e]" name="BrowserTest" duration-ms="2363" started-at="2016-08-31T17:28:35Z" finished-at="2016-08-31T17:28:37Z">
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
           </reporter-output>
         </test-method> <!-- BrowserTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.SmokeTest@1810399e]" name="afterMethod" is-config="true" duration-ms="109" started-at="2016-08-31T16:04:41Z" finished-at="2016-08-31T16:04:41Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.SmokeTest@6293e39e]" name="afterMethod" is-config="true" duration-ms="5" started-at="2016-08-31T17:28:37Z" finished-at="2016-08-31T17:28:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.SmokeTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="3921" started-at="2016-08-31T16:04:41Z" finished-at="2016-08-31T16:04:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.SmokeTest@6293e39e]" name="beforeMethod" is-config="true" duration-ms="3760" started-at="2016-08-31T17:28:37Z" finished-at="2016-08-31T17:28:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="signInTest()[pri:0, instance:spreeuitest.SmokeTest@1810399e]" name="signInTest" duration-ms="2634" started-at="2016-08-31T16:04:45Z" finished-at="2016-08-31T16:04:48Z">
+        <test-method status="PASS" signature="signInTest()[pri:0, instance:spreeuitest.SmokeTest@6293e39e]" name="signInTest" duration-ms="2972" started-at="2016-08-31T17:28:41Z" finished-at="2016-08-31T17:28:44Z">
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
           </reporter-output>
         </test-method> <!-- signInTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.SmokeTest@1810399e]" name="afterMethod" is-config="true" duration-ms="5" started-at="2016-08-31T16:04:48Z" finished-at="2016-08-31T16:04:48Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.SmokeTest@6293e39e]" name="afterMethod" is-config="true" duration-ms="5" started-at="2016-08-31T17:28:44Z" finished-at="2016-08-31T17:28:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- spreeuitest.SmokeTest -->
       <class name="spreeuitest.RegistrationTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.RegistrationTest@5f375618]" name="beforeMethod" is-config="true" duration-ms="4408" started-at="2016-08-31T16:04:27Z" finished-at="2016-08-31T16:04:31Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.RegistrationTest@1a3e5f23]" name="beforeMethod" is-config="true" duration-ms="4514" started-at="2016-08-31T17:28:23Z" finished-at="2016-08-31T17:28:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="accountButtonVerification()[pri:0, instance:spreeuitest.RegistrationTest@5f375618]" name="accountButtonVerification" duration-ms="2561" started-at="2016-08-31T16:04:31Z" finished-at="2016-08-31T16:04:34Z">
+        <test-method status="PASS" signature="accountButtonVerification()[pri:0, instance:spreeuitest.RegistrationTest@1a3e5f23]" name="accountButtonVerification" duration-ms="3130" started-at="2016-08-31T17:28:28Z" finished-at="2016-08-31T17:28:31Z">
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
           </reporter-output>
         </test-method> <!-- accountButtonVerification -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.RegistrationTest@5f375618]" name="afterMethod" is-config="true" duration-ms="8" started-at="2016-08-31T16:04:34Z" finished-at="2016-08-31T16:04:34Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.RegistrationTest@1a3e5f23]" name="afterMethod" is-config="true" duration-ms="6" started-at="2016-08-31T17:28:31Z" finished-at="2016-08-31T17:28:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- spreeuitest.RegistrationTest -->
       <class name="spreeuitest.HomeTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.HomeTest@7ac7a4e4]" name="beforeMethod" is-config="true" duration-ms="5293" started-at="2016-08-31T16:04:02Z" finished-at="2016-08-31T16:04:07Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spreeuitest.HomeTest@73017a80]" name="beforeMethod" is-config="true" duration-ms="6531" started-at="2016-08-31T17:27:56Z" finished-at="2016-08-31T17:28:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="HomeTest()[pri:0, instance:spreeuitest.HomeTest@7ac7a4e4]" name="HomeTest" duration-ms="3002" started-at="2016-08-31T16:04:07Z" finished-at="2016-08-31T16:04:10Z">
+        <test-method status="PASS" signature="HomeTest()[pri:0, instance:spreeuitest.HomeTest@73017a80]" name="HomeTest" duration-ms="2351" started-at="2016-08-31T17:28:03Z" finished-at="2016-08-31T17:28:05Z">
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
           </reporter-output>
         </test-method> <!-- HomeTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.HomeTest@7ac7a4e4]" name="afterMethod" is-config="true" duration-ms="5" started-at="2016-08-31T16:04:10Z" finished-at="2016-08-31T16:04:10Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spreeuitest.HomeTest@73017a80]" name="afterMethod" is-config="true" duration-ms="6" started-at="2016-08-31T17:28:05Z" finished-at="2016-08-31T17:28:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- spreeuitest.HomeTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

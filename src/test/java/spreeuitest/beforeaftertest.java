@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pageObjects.BaseClass;
+import ru.yandex.qatools.allure.annotations.Attachment;
 import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
@@ -52,7 +53,16 @@ public class beforeaftertest {
         new BaseClass(driver);
 
     }
-    // Its time to close the finish the test case
+
+    @Attachment
+    public String performedActions(beforeaftertest actionSequence) {
+        return actionSequence.toString();
+    }
+
+    @Attachment(value = "Page screenshot", type = "image/png")
+    public byte[] saveScreenshot(byte[] screenShot) {
+        return screenShot;
+    }  // Its time to close the finish the test case
     @AfterMethod
     public void afterMethod() {
         // Printing beautiful logs to end the test case

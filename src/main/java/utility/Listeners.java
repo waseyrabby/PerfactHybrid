@@ -3,6 +3,7 @@ package utility;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
+import ru.yandex.qatools.allure.annotations.Attachment;
 
 public class Listeners extends TestListenerAdapter {
 

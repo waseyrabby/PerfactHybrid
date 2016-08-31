@@ -90,7 +90,7 @@
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
     </src_description>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -138,7 +138,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.jackrabbit:jackrabbit-jcr-commons:1.5.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-nop:1.5.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-jdk14:1.5.6" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-api:1.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.5.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jcl-over-slf4j:1.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.reporting:maven-reporting-api:2.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-logging-api:1.1" level="project" />
@@ -165,6 +165,17 @@
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-json:2.4.6" level="project" />
     <orderEntry type="library" name="Maven: io.rest-assured:rest-assured-common:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: io.rest-assured:xml-path:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-testng-adaptor:1.4.16" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-java-aspects:1.4.16" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-java-adaptor-api:1.4.16" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-java-annotations:1.4.16" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-model:1.4.16" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.9.3" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.properties:properties-loader:1.5" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils-core:1.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tika:tika-core:1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.9" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.3" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:2.53.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:2.53.0" level="project" />

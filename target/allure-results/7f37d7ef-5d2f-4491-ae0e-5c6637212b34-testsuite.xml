@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1472677602095" stop="1472677619269" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : PerFactHybrid</name>
+    <title>Default Suite : PerFactHybrid</title>
+    <test-cases>
+        <test-case start="1472677609055" stop="1472677611319" status="passed">
+            <name>BrowserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="78449@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472677616641" stop="1472677619258" status="passed">
+            <name>signInTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="78449@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1472678867874" stop="1472678924581" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Surefire suite : Surefire test</name>
+    <title>Surefire suite : Surefire test</title>
+    <test-cases>
+        <test-case start="1472678867870" stop="1472678867874" status="pending">
+            <name>main</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678867874" stop="1472678867874" status="pending">
+            <name>test5</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678867875" stop="1472678867875" status="pending">
+            <name>main</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678867875" stop="1472678867875" status="pending">
+            <name>test5</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678872995" stop="1472678876481" status="passed">
+            <name>chqconnectiontest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678872995" stop="1472678876481" status="passed">
+            <name>chqconnectiontest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678883062" stop="1472678885412" status="passed">
+            <name>HomeTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678883062" stop="1472678885412" status="passed">
+            <name>HomeTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678889313" stop="1472678893834" status="passed">
+            <name>accountButtonVerification</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678889313" stop="1472678893834" status="passed">
+            <name>accountButtonVerification</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678897880" stop="1472678898777" status="passed">
+            <name>Product1Test</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678897880" stop="1472678898777" status="passed">
+            <name>Product1Test</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678903405" stop="1472678903577" status="passed">
+            <name>ProductSelectionTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678903405" stop="1472678903577" status="passed">
+            <name>ProductSelectionTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678908099" stop="1472678911229" status="passed">
+            <name>accountButtonVerification</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678908099" stop="1472678911229" status="passed">
+            <name>accountButtonVerification</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678915460" stop="1472678917823" status="passed">
+            <name>BrowserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678915460" stop="1472678917823" status="passed">
+            <name>BrowserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678921589" stop="1472678924560" status="passed">
+            <name>signInTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1472678921589" stop="1472678924560" status="passed">
+            <name>signInTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="81029@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

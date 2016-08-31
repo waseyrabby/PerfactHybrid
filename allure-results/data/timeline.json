@@ -1,0 +1,477 @@
+{
+  "hosts" : [ {
+    "title" : "Aams-MacBook-Pro-2.local",
+    "threads" : [ {
+      "title" : "81029@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "79d05a38d9062262",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472678867870,
+          "stop" : 1472678867874,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "7f51cae89e547dfa",
+        "name" : "test5",
+        "title" : "Test 5",
+        "time" : {
+          "start" : 1472678867874,
+          "stop" : 1472678867874,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "7b3bae4834b6a81e",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472678867875,
+          "stop" : 1472678867875,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "33543be46b6d9273",
+        "name" : "test5",
+        "title" : "Test 5",
+        "time" : {
+          "start" : 1472678867875,
+          "stop" : 1472678867875,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "50b09ef7f882cb3a",
+        "name" : "chqconnectiontest",
+        "title" : "Chqconnectiontest",
+        "time" : {
+          "start" : 1472678872995,
+          "stop" : 1472678876481,
+          "duration" : 3486
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "df21365226712653",
+        "name" : "chqconnectiontest",
+        "title" : "Chqconnectiontest",
+        "time" : {
+          "start" : 1472678872995,
+          "stop" : 1472678876481,
+          "duration" : 3486
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b50f3dc8c0462e66",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472678883062,
+          "stop" : 1472678885412,
+          "duration" : 2350
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d18953bea30c0316",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472678883062,
+          "stop" : 1472678885412,
+          "duration" : 2350
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eddc2203928124df",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472678889313,
+          "stop" : 1472678893834,
+          "duration" : 4521
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a7f56550f23282b4",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472678889313,
+          "stop" : 1472678893834,
+          "duration" : 4521
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b5c2c2a563806c9",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1472678897880,
+          "stop" : 1472678898777,
+          "duration" : 897
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "972a0ee5deb95a03",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1472678897880,
+          "stop" : 1472678898777,
+          "duration" : 897
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e6c93daa1a13a646",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472678903405,
+          "stop" : 1472678903577,
+          "duration" : 172
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "80885a7ee56bfe1a",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472678903405,
+          "stop" : 1472678903577,
+          "duration" : 172
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f3e9f33791acd736",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472678908099,
+          "stop" : 1472678911229,
+          "duration" : 3130
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f48d2382a13c422b",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472678908099,
+          "stop" : 1472678911229,
+          "duration" : 3130
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4d037f01b096b741",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1472678915460,
+          "stop" : 1472678917823,
+          "duration" : 2363
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5a6e2204e22c7bb9",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1472678915460,
+          "stop" : 1472678917823,
+          "duration" : 2363
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d7224f024a4a944b",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1472678921589,
+          "stop" : 1472678924560,
+          "duration" : 2971
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a4ab9439b07b6a56",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1472678921589,
+          "stop" : 1472678924560,
+          "duration" : 2971
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "title" : "78449@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "c8e3b28ad47c89d5",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1472677609055,
+          "stop" : 1472677611319,
+          "duration" : 2264
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "61e4efc2099ded71",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1472677616641,
+          "stop" : 1472677619258,
+          "duration" : 2617
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "title" : "79534@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "5c0900b57d8360c6",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472678116173,
+          "stop" : 1472678116177,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "f6e42762f739181f",
+        "name" : "test5",
+        "title" : "Test 5",
+        "time" : {
+          "start" : 1472678116178,
+          "stop" : 1472678116178,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "677de4a78e6f6e94",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472678116178,
+          "stop" : 1472678116178,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "c60f861aa858de3e",
+        "name" : "test5",
+        "title" : "Test 5",
+        "time" : {
+          "start" : 1472678116178,
+          "stop" : 1472678116178,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "371cee64937bd01a",
+        "name" : "chqconnectiontest",
+        "title" : "Chqconnectiontest",
+        "time" : {
+          "start" : 1472678120588,
+          "stop" : 1472678124504,
+          "duration" : 3916
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "770733ae21ef77ab",
+        "name" : "chqconnectiontest",
+        "title" : "Chqconnectiontest",
+        "time" : {
+          "start" : 1472678120588,
+          "stop" : 1472678124504,
+          "duration" : 3916
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "303b9b68ff2da525",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472678130469,
+          "stop" : 1472678132649,
+          "duration" : 2180
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1f621aca525f3de2",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472678130469,
+          "stop" : 1472678132649,
+          "duration" : 2180
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bf1730b039026acb",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472678137482,
+          "stop" : 1472678141829,
+          "duration" : 4347
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d0be4c7c310e1139",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472678137482,
+          "stop" : 1472678141829,
+          "duration" : 4347
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3748077297f1c6f6",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1472678146381,
+          "stop" : 1472678147879,
+          "duration" : 1498
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "49dfc9e894549302",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1472678146381,
+          "stop" : 1472678147879,
+          "duration" : 1498
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "733ea69cdb4d1750",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472678152599,
+          "stop" : 1472678152788,
+          "duration" : 189
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d95cfb57a6b71968",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472678152599,
+          "stop" : 1472678152788,
+          "duration" : 189
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c2c8c2a5bf0ca6e3",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472678156846,
+          "stop" : 1472678159445,
+          "duration" : 2599
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9dd03ef483d06f65",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472678156846,
+          "stop" : 1472678159445,
+          "duration" : 2599
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "53596bf9a64212d3",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1472678163385,
+          "stop" : 1472678166521,
+          "duration" : 3136
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "25ce638c77e1c364",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1472678163385,
+          "stop" : 1472678166521,
+          "duration" : 3136
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1a22c831056577f9",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1472678171501,
+          "stop" : 1472678174557,
+          "duration" : 3056
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3d16c103f0579839",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1472678171501,
+          "stop" : 1472678174557,
+          "duration" : 3056
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

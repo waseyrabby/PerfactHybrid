@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="2" name="TestSuite" time="48.886" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="TestSuite" time="18.343" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib"/>
@@ -62,154 +62,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="spreeuitest.HomeTest" name="main" time="22.621">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Product Category&quot;}
-Command duration or timeout: 20.18 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Aams-MacBook-Pro-2.local&apos;, ip: &apos;172.16.162.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 915e093c-cdd5-0f46-adec-f0273e6d4324
-*** Element info: {Using=link text, value=Product Category}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Product Category&quot;}
-Command duration or timeout: 20.18 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Aams-MacBook-Pro-2.local&apos;, ip: &apos;172.16.162.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 915e093c-cdd5-0f46-adec-f0273e6d4324
-*** Element info: {Using=link text, value=Product Category}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.Home_Page$TopNavigation$Product_Type.Accessories(Home_Page.java:49)
-	at appModules.ProductSelect_Action.productType(ProductSelect_Action.java:34)
-	at spreeuitest.HomeTest.main(HomeTest.java:30)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Product Category&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Aams-MacBook-Pro-2.local&apos;, ip: &apos;172.16.162.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous1498468852520320898webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous1498468852520320898webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@3a4afd8d
-INFO  Log - ****************************************************************************************
-INFO  Log - ****************************************************************************************
-INFO  Log - $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$
-INFO  Log - ****************************************************************************************
-INFO  Log - ****************************************************************************************
-INFO  Log - Excel sheet opened
-INFO  Log - Total number of Row used return as &lt; 41 &gt;.
-INFO  Log - New driver instantiated
-INFO  Log - Implicit wait applied on the driver for 10 seconds
-INFO  Log - Web application launched successfully
-INFO  Log - My Account link is found on the Home Page
-INFO  Log - Click action is perfromed on My Account link
-INFO  Log - Username text box is found on the Login Page
-INFO  Log - waseyrabby is entered in UserName text box
-INFO  Log - Password text box is found on the Login page
-INFO  Log - 718756home is entered in Password text box
-INFO  Log - Submit button is found on the Login page
-INFO  Log - Click action is performed on Submit button
-INFO  Log - Log Out link is found on the Home Page
-ERROR Log - Accessories link is not found under Product Category
-ERROR Log - Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Product Category&quot;}
-Command duration or timeout: 20.18 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Aams-MacBook-Pro-2.local&apos;, ip: &apos;172.16.162.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 915e093c-cdd5-0f46-adec-f0273e6d4324
-*** Element info: {Using=link text, value=Product Category}
-</system-out>
-  </testcase>
-  <testcase classname="spreeuitest.SmokeTest" name="f" time="21.945">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Product Category&quot;}
-Command duration or timeout: 20.12 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Aams-MacBook-Pro-2.local&apos;, ip: &apos;172.16.162.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 07a637c0-f652-7e40-843d-e3a878f0f40d
-*** Element info: {Using=link text, value=Product Category}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Product Category&quot;}
-Command duration or timeout: 20.12 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Aams-MacBook-Pro-2.local&apos;, ip: &apos;172.16.162.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 07a637c0-f652-7e40-843d-e3a878f0f40d
-*** Element info: {Using=link text, value=Product Category}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.Home_Page$TopNavigation$Product_Type.iMacs(Home_Page.java:60)
-	at appModules.ProductSelect_Action.productType(ProductSelect_Action.java:40)
-	at spreeuitest.SmokeTest.f(SmokeTest.java:18)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Product Category&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Aams-MacBook-Pro-2.local&apos;, ip: &apos;172.16.162.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous4231011576612108998webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous4231011576612108998webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>INFO  Log - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-INFO  Log - X
-INFO  Log - X
-INFO  Log - X
-INFO  Log - X
-INFO  Log - ****************************************************************************************
-INFO  Log - ****************************************************************************************
-INFO  Log - $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$
-INFO  Log - ****************************************************************************************
-INFO  Log - ****************************************************************************************
-INFO  Log - Excel sheet opened
-INFO  Log - Total number of Row used return as &lt; 41 &gt;.
-INFO  Log - New driver instantiated
-INFO  Log - Implicit wait applied on the driver for 10 seconds
-INFO  Log - Web application launched successfully
-INFO  Log - My Account link is found on the Home Page
-INFO  Log - Click action is perfromed on My Account link
-INFO  Log - Username text box is found on the Login Page
-INFO  Log - waseyrabby is entered in UserName text box
-INFO  Log - Password text box is found on the Login page
-INFO  Log - 718756home is entered in Password text box
-INFO  Log - Submit button is found on the Login page
-INFO  Log - Click action is performed on Submit button
-INFO  Log - Log Out link is found on the Home Page
-ERROR Log - Accessories link is not found under Product Category
-ERROR Log - Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Product Category&quot;}
-Command duration or timeout: 20.12 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Aams-MacBook-Pro-2.local&apos;, ip: &apos;172.16.162.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_77&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 07a637c0-f652-7e40-843d-e3a878f0f40d
-*** Element info: {Using=link text, value=Product Category}
-</system-out>
-  </testcase>
-  <testcase classname="spreeapitest.SpreeApiTest" name="chqconnectiontest" time="3.367"/>
-  <testcase classname="spreeapitest.SpreeApiTest" name="test5" time="0.953"/>
+  <testcase classname="spreeuitest.HomeTest" name="HomeTest" time="3.003"/>
+  <testcase classname="spreeuitest.LoginTest" name="accountButtonVerification" time="2.254"/>
+  <testcase classname="spreeuitest.ProductTest" name="Product1Test" time="1.676"/>
+  <testcase classname="spreeuitest.ProductTest" name="ProductSelectionTest" time="0.171"/>
+  <testcase classname="spreeuitest.RegistrationTest" name="accountButtonVerification" time="2.562"/>
+  <testcase classname="spreeuitest.SmokeTest" name="BrowserTest" time="3.122"/>
+  <testcase classname="spreeuitest.SmokeTest" name="signInTest" time="2.634"/>
+  <testcase classname="spreeapitest.SpreeApiTest" name="chqconnectiontest" time="2.921"/>
 </testsuite>

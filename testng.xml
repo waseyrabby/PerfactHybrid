@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="none">
+<suite name="Suite" >
        <listeners>
               <listener class-name="utility.Listener"></listener>
        </listeners>  
   	<test name="Random Test">
 		<classes>
        		<!-- 	-->
-       			<class name="automationFramework.Framework_001" />
-       			<class name="automationFramework.Framework_002" />
-       			
+       			<class name="spreeuitest.HomeTest" />
+       			<class name="spreeuitest.ProductTest" />
+            <class name="spreeuitest.RegistrationTest" />
+            <class name="spreeuitest.SmokeTest" />
 				  
 		</classes>
   	</test> <!-- Test -->

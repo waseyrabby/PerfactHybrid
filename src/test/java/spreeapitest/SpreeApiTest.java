@@ -1,9 +1,8 @@
 package spreeapitest;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import utility.Log;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
@@ -12,30 +11,32 @@ import static utility.Constant.*;
 /**
  * Created by wasey on 8/29/16.
  */
-public class SpreeApiTest {
-    @BeforeMethod
-    public void beforeMethod(){
-        RestAssured.baseURI = SpreeURL;
-        RestAssured.port = SpreePort;
-        RestAssured.basePath = SpreeBase;
-
-    }
+public class SpreeApiTest extends beforeAfterTest {
 
     @Test
-    public void chqconnectiontest(){
-        given()
-                .header(SpreeToken, SpreeKey)
-                .log().all()
-                .contentType(ContentType.JSON)
-                .accept(ContentType.JSON)
-                .when()
-                .get("/products")
+    public void chqconnectiontest() throws Exception {
 
-                .then()
-                .statusCode(OK);
+
+
+
+        try{given()
+                    .header(SpreeToken, SpreeKey)
+                    //  .log().all()
+                    .contentType(ContentType.JSON)
+                    .accept(ContentType.JSON)
+                    .when()
+                    .get("/products")
+
+                    .then()
+                    .statusCode(OK);
+        }catch (Exception e){
+
+            Log.error(e.getMessage());
+            throw (e);
+        }
     }
 
-    @Test
+    @Test(enabled = false)
     public void test5(){
         given()
                 .log().all()

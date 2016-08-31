@@ -32,7 +32,8 @@ import utility.Utils;
         	// Please see the Constant class in the Utility Package
 
         	String sUserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_UserName);
-        	// Here we are sending the UserName string to the UserName Textbox on the LogIN Page
+            System.out.println(sUserName);
+            // Here we are sending the UserName string to the UserName Textbox on the LogIN Page
         	// This is call Page Object Model (POM)
 
             LogIn_Page.txtbx_UserName().sendKeys(sUserName);
@@ -40,8 +41,10 @@ import utility.Utils;
             Log.info(sUserName+" is entered in UserName text box" );
             
             String sPassword = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Password);
-            LogIn_Page.txtbx_Password().sendKeys(sPassword);
-            Log.info(sPassword+" is entered in Password text box" );
+            System.out.println(sPassword);
+            LogIn_Page.txtbx_Password().click();
+            LogIn_Page.txtbx_Password().sendKeys("718756");
+            Log.info("718756"+" is entered in Password text box" );
             
             LogIn_Page.btn_LogIn().click();
             Log.info("Click action is performed on Submit button");

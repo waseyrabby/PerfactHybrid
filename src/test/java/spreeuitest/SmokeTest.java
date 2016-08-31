@@ -11,7 +11,7 @@ public class SmokeTest extends beforeaftertest {
 
   
   @Test
-  public void f() throws Exception {
+  public void signInTest() throws Exception {
 	  try{
 		SignIn_Action.Execute(iTestCaseRow);
 
@@ -24,7 +24,21 @@ public class SmokeTest extends beforeaftertest {
 	  }
 		
   }
-		
-		
+
+
+    @Test
+    public void BrowserTest() throws Exception {
+        try{
+            SignIn_Action.Execute(iTestCaseRow);
+
+            ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
+        }catch (Exception e){
+            ExcelUtils.setCellData("Fail", iTestCaseRow, Constant.Col_Result);
+            Utils.takeScreenshot(driver, sTestCaseName);
+            Log.error(e.getMessage());
+            throw (e);
+        }
+
+    }
 
 }

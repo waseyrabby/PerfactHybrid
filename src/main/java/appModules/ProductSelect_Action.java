@@ -25,7 +25,7 @@ public class ProductSelect_Action {
         	// Constant.Col_ProductType is the column number for Product Type column in the Test Data sheet
         	// Please see the Constant class in the Utility Package
 
-			if("Accessories".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if("Ruby".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
 	        	
 				// Selecting the link Accessories from Home Page under Top Navigation
 				// This is call Page Object Model (POM)
@@ -35,17 +35,17 @@ public class ProductSelect_Action {
 				Log.info("Product Brand Ruby  is selected from the Shop by Brand Menu");
 			}
 			// If the Excel value for the Product Type is iMacs, then do this
-			if("iMacs".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if("Bags".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
 				Home_Page.TopNavigation.Product_Type.Bags();
 				Log.info("Product Type Bags is selected from the Categories");
 			}
 			// If the Excel value for the Product Type is iPads, then do this
-			if("iPads".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if("Clothing".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
 				Home_Page.TopNavigation.Product_Type.Clothing();
 				Log.info("Product Type Clothing is selected from the Categories");
 			}
 			// If the Excel value for the Product Type is iPhones, then do this
-			if("iPhones".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
+			if("Mugs".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductType))){
 				Home_Page.TopNavigation.Product_Type.Mugs();
 				Log.info("Product Type Mugs is selected from the Categories");
 			}
@@ -81,22 +81,34 @@ public class ProductSelect_Action {
 				// Clicking on the Add to Cart button for the Product 1
 				// This is call Page Object Model (POM)
 
-				ProductListing_Page.Product_1.btn_AddToCart().click();
+				ProductListing_Page.Product_1.SelectProduct1().click();
+
 				// Printing logs for the performed action
-				Log.info("Product 1 is selected from the Product listing page");
+				Log.info("Ruby on Rails Tote is selected from the Product listing page");
+                ProductListing_Page.Product_1.txt_Name();
+                ProductListing_Page.Product_1.img_Product();
+                ProductListing_Page.Product_1.txt_Price();
+
 			}
 			// If the Excel value for the Product Number is "Product 2", then do this
-			if("Product 2".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductNumber))){
+			else if("Product 2".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductNumber))){
 				ProductListing_Page.Product_2.btn_AddToCart().click();
-				Log.info("Product 2 is selected from the Product listing page");
+				Log.info("Ruby on Rails Bag is selected from the Product listing page");
+                ProductListing_Page.Product_2.txt_Name();
+                ProductListing_Page.Product_2.img_Product();
+                ProductListing_Page.Product_2.txt_Price();
 			}
+            else if("Product 3".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductNumber))){
+                ProductListing_Page.Product_2.btn_AddToCart().click();
+                Log.info("Product 3 is selected from the Product listing page");
+            }
 			/// If the Excel value for the Product Type is null, then do this
-			if("".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductNumber))){
+            else if("".equals(ExcelUtils.getCellData(iTestCaseRow, Constant.Col_ProductNumber))){
 				Log.warn("Excel value for Product Number is Blank");
 			}
 			
 			// Clicking on the "Go to Cart" button on the Pop Up Box
-			ProductListing_Page.PopUpAddToCart.btn_GoToCart().click();
+		//	ProductListing_Page.PopUpAddToCart.btn_GoToCart().click();
 
 		 // Every exception thrown from any class or method, will be catch here and will be taken care off
 

@@ -1,0 +1,56 @@
+{
+  "uid" : "347003ecd0b84e27",
+  "name" : "BrowserTest",
+  "title" : "Browser test",
+  "time" : {
+    "start" : 1472681873072,
+    "stop" : 1472681876006,
+    "duration" : 2934
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c0a6d5b754853009",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "password"
+  }, {
+    "name" : "story",
+    "value" : "waseyrabby@btinternet.com"
+  }, {
+    "name" : "thread",
+    "value" : "87054@Aams-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "SignIN TO Spree Account"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}

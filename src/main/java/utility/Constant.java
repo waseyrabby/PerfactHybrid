@@ -5,7 +5,9 @@ public class Constant {
 	    public static final String Username = "testuser_1";
 	    public static final String Password ="Test@123";
 		public static final String Path_TestData = "/Users/wasey/IdeaProjects/PerFactHybrid/src/main/resources/TestData/UiTestData/";
-		public static final String File_TestData = "TestData.xlsx";
+    public static final String Path_ApiTestData = "/Users/wasey/IdeaProjects/PerFactHybrid/src/main/resources/TestData/UiTestData/";
+
+    public static final String File_TestData = "TestData.xlsx";
 		//Test Data Sheet Columns
 		public static final int Col_TestCaseName = 0;	
 		public static final int Col_UserName =1 ;

@@ -2,6 +2,8 @@ package spreeuitest;
 
 import appModules.SignIn_Action;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
 import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
@@ -11,6 +13,8 @@ import utility.Utils;
  * Created by wasey on 8/30/16.
  */
 public class RegistrationTest extends beforeaftertest {
+    @Features("My Feature")
+    @Stories({"Story1", "Story2"})
     @Test
     public void accountButtonVerification() throws Exception {
         try {

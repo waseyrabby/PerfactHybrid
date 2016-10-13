@@ -1,0 +1,56 @@
+{
+  "uid" : "579217ecfb848e8b",
+  "name" : "Product1Test",
+  "title" : "Product 1 test",
+  "time" : {
+    "start" : 1472680034659,
+    "stop" : 1472680035934,
+    "duration" : 1275
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c870a30c72215887",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "83313@Aams-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Ruby on Rail Begs"
+  }, {
+    "name" : "feature",
+    "value" : "Verify Product Information"
+  }, {
+    "name" : "story",
+    "value" : "Ruby on Rail Tote"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}

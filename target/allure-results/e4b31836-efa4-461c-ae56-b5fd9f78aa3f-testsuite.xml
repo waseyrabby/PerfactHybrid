@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476380773466" stop="1476380801632" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : PerFactHybrid</name>
+    <title>Default Suite : PerFactHybrid</title>
+    <test-cases>
+        <test-case start="1476380773858" stop="1476380773863" status="pending">
+            <name>main</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="91168@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476380788003" stop="1476380801491" status="passed">
+            <name>HomeTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="W"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="91168@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

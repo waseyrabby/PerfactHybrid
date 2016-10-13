@@ -2,6 +2,8 @@ package spreeuitest;
 
 import appModules.ProductSelect_Action;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
 import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
@@ -11,7 +13,8 @@ import utility.Utils;
  * Created by wasey on 8/30/16.
  */
 public class ProductTest extends beforeaftertest {
-
+    @Features("Verify Product Information")
+    @Stories({"Ruby on Rail Tote", "Ruby on Rail Begs"})
     @Test
     public void Product1Test() throws Exception {
         try{
@@ -26,6 +29,9 @@ public class ProductTest extends beforeaftertest {
         }
 
     }
+
+    @Features("My Feature")
+    @Stories({"Story1", "Story2"})
     @Test
     public void ProductSelectionTest() throws Exception {
         try{

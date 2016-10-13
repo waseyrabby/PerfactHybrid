@@ -1,6 +1,14 @@
 {
-  "id" : "187ec9ad-aae3-49d1-8b53-9ff8ca707d0d",
-  "name" : "Allure Test Pack",
+  "id" : "2a54c4d7-7d79-4615-b80d-ffc1107016a1",
+  "name" : "Allure sample test pack",
   "url" : null,
-  "parameter" : [ ]
+  "parameter" : [ {
+    "name" : "Browser",
+    "key" : "Browser",
+    "value" : "Firefox,Chrome,PhantomjS"
+  }, {
+    "name" : "Test stand",
+    "key" : "Test Url",
+    "value" : "http://spree.paxotech.com/"
+  } ]
 }

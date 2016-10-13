@@ -23,7 +23,8 @@ public class Verification_Action {
 		// These are static variables, see how easy is to use them in your test
 		if(CheckOut_Page.sProductName.equals(Confirmation_Page.sProductName)){
 			// Here I have put a verification check on the Product Name, if it is matched, my verification will pass
-			Reporter.log("Verification Passed for Product Name");
+
+            Reporter.log("Verification Passed for Product Name");
 			
 		}else{
 			// If it not matched then the verification check is failed

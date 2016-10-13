@@ -3,6 +3,8 @@ package spreeuitest;
 import appModules.*;
 import org.testng.annotations.Test;
 import pageObjects.BaseClass;
+import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
 import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
@@ -14,7 +16,9 @@ import utility.Utils;
 public class HomeTest extends beforeaftertest {
 
   // This is the starting of the Main Test Case
- @Test(enabled = false)
+  @Features("My Feature")
+  @Stories({"Story1", "Story2"})
+    @Test(enabled = false)
   public void main() throws Exception {
 	  // Every exception thrown from any class or method, will be catch here and will be taken care off
 
@@ -73,6 +77,8 @@ public class HomeTest extends beforeaftertest {
 	  }
 		
   }
+    @Features("My Feature")
+    @Stories({"W", "Story2"})
     @Test
     public void HomeTest() throws Exception {
         try{

@@ -12,4 +12,45 @@
       <class name="spreeuitest.SmokeTest"/>
     </classes>
   </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="spreeuitest.HomeTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- spreeuitest.HomeTest -->
+      <class name="spreeuitest.RegistrationTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- spreeuitest.RegistrationTest -->
+      <class name="spreeapitest.SpreeApiTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="chqconnectiontest"/>
+          <include name="chqImage"/>
+        </methods>
+      </class> <!-- spreeapitest.SpreeApiTest -->
+      <class name="spreeuitest.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- spreeuitest.LoginTest -->
+      <class name="spreeuitest.ProductTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- spreeuitest.ProductTest -->
+      <class name="spreeuitest.SmokeTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- spreeuitest.SmokeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

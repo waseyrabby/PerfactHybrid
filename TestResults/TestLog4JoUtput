@@ -1,25 +1,25 @@
-2016-08-31 17:28:37 INFO  Log:9 - ****************************************************************************************
-2016-08-31 17:28:37 INFO  Log:10 - ****************************************************************************************
-2016-08-31 17:28:37 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$
-2016-08-31 17:28:37 INFO  Log:12 - ****************************************************************************************
-2016-08-31 17:28:37 INFO  Log:13 - ****************************************************************************************
-2016-08-31 17:28:37 INFO  Log:27 - Excel sheet opened
-2016-08-31 17:28:37 INFO  Log:27 - Total number of Row used return as < 41 >.
-2016-08-31 17:28:39 INFO  Log:27 - New driver instantiated
-2016-08-31 17:28:39 INFO  Log:27 - Implicit wait applied on the driver for 10 seconds
-2016-08-31 17:28:41 INFO  Log:27 - Web application launched successfully
-2016-08-31 17:28:41 INFO  Log:27 - My Account link is found on the Home Page
-2016-08-31 17:28:42 INFO  Log:27 - Click action is perfromed on My Account link
-2016-08-31 17:28:42 INFO  Log:27 - Username text box is found on the Login Page
-2016-08-31 17:28:42 INFO  Log:27 - waseyrabby@btinternet.com is entered in UserName text box
-2016-08-31 17:28:42 INFO  Log:27 - Password text box is found on the Login page
-2016-08-31 17:28:42 INFO  Log:27 - Password text box is found on the Login page
-2016-08-31 17:28:42 INFO  Log:27 - 718756 is entered in Password text box
-2016-08-31 17:28:42 INFO  Log:27 - Submit button is found on the Login page
-2016-08-31 17:28:44 INFO  Log:27 - Click action is performed on Submit button
-2016-08-31 17:28:44 INFO  Log:27 - Log Out link is found on the Home Page
-2016-08-31 17:28:44 INFO  Log:18 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2016-08-31 17:28:44 INFO  Log:19 - X
-2016-08-31 17:28:44 INFO  Log:20 - X
-2016-08-31 17:28:44 INFO  Log:21 - X
-2016-08-31 17:28:44 INFO  Log:22 - X
+2016-10-13 13:46:14 INFO  Log:9 - ****************************************************************************************
+2016-10-13 13:46:14 INFO  Log:10 - ****************************************************************************************
+2016-10-13 13:46:14 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 HomeTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-13 13:46:14 INFO  Log:12 - ****************************************************************************************
+2016-10-13 13:46:14 INFO  Log:13 - ****************************************************************************************
+2016-10-13 13:46:15 INFO  Log:27 - Excel sheet opened
+2016-10-13 13:46:15 INFO  Log:27 - Total number of Row used return as < 41 >.
+2016-10-13 13:46:21 INFO  Log:27 - New driver instantiated
+2016-10-13 13:46:21 INFO  Log:27 - Implicit wait applied on the driver for 10 seconds
+2016-10-13 13:46:28 INFO  Log:27 - Web application launched successfully
+2016-10-13 13:46:28 INFO  Log:27 - My Account link is found on the Home Page
+2016-10-13 13:46:33 INFO  Log:27 - Click action is perfromed on My Account link
+2016-10-13 13:46:33 INFO  Log:27 - Username text box is found on the Login Page
+2016-10-13 13:46:34 INFO  Log:27 - waseyrabby@btinternet.com is entered in UserName text box
+2016-10-13 13:46:34 INFO  Log:27 - Password text box is found on the Login page
+2016-10-13 13:46:34 INFO  Log:27 - Password text box is found on the Login page
+2016-10-13 13:46:35 INFO  Log:27 - 718756 is entered in Password text box
+2016-10-13 13:46:35 INFO  Log:27 - Submit button is found on the Login page
+2016-10-13 13:46:40 INFO  Log:27 - Click action is performed on Submit button
+2016-10-13 13:46:41 INFO  Log:27 - Log Out link is found on the Home Page
+2016-10-13 13:46:41 INFO  Log:18 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-13 13:46:41 INFO  Log:19 - X
+2016-10-13 13:46:41 INFO  Log:20 - X
+2016-10-13 13:46:41 INFO  Log:21 - X
+2016-10-13 13:46:41 INFO  Log:22 - X

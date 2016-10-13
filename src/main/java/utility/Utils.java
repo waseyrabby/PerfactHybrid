@@ -9,8 +9,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.net.URL;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -19,7 +22,11 @@ public class Utils {
 
 
 		public static WebDriver driver = null;
-	public static WebDriver OpenBrowser(int iTestCaseRow) throws Exception{
+    public static final String USERNAME = "home28";
+    public static final String AUTOMATE_KEY = "onzjKpFdLAbmEDP4fQHX";
+    public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+
+    public static WebDriver OpenBrowser(int iTestCaseRow) throws Exception{
 
 		String sBrowserName;
 		try{
@@ -45,6 +52,16 @@ public class Utils {
             phantomBinayPath = System.getProperty("user.dir") + "/src/main/resources/Drivers/phantomjs";
             System.setProperty("phantomjs.binary.path", phantomBinayPath);
             driver= new PhantomJSDriver();
+        }
+        else if(sBrowserName.contentEquals("RemoteIE")){
+            DesiredCapabilities capsIE = new DesiredCapabilities();
+            capsIE.setCapability("browser", "IE");
+            capsIE.setCapability("browser_version", "7.0");
+            capsIE.setCapability("os", "Windows");
+            capsIE.setCapability("os_version", "XP");
+            capsIE.setCapability("browserstack.debug", "true");
+
+            driver = new RemoteWebDriver(new URL(URL), capsIE );
         }
             Log.info("New driver instantiated");
             driver.manage().window().maximize();
@@ -79,7 +96,13 @@ public class Utils {
 			throw (e);
 					}
 			}
-	
+
+    public static void DesiredBrowserCapabilities()
+
+    {
+
+
+    }
 
 	 public static void waitForElement(WebElement element){
 		 

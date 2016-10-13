@@ -42,9 +42,9 @@ import java.io.FileOutputStream;
                     Cell = Row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
                     if (Cell == null) {
                         Cell = Row.createCell(ColNum);
-                        Cell.setCellValue(Result);
+                        Cell.setCellValue(Result+ " On Initial Test");
                         } else {
-                            Cell.setCellValue(Result);
+                            Cell.setCellValue(Result+" On Initial Test");
                         }
           // Constant variables Test Data path and Test Data file name
                           FileOutputStream fileOut = new FileOutputStream(Constant.Path_TestData + Constant.File_TestData);

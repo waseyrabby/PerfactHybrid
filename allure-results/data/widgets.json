@@ -2,17 +2,17 @@
   "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
   "data" : [ {
     "statistic" : {
-      "total" : 42,
-      "passed" : 34,
-      "pending" : 8,
+      "total" : 126,
+      "passed" : 101,
+      "pending" : 19,
       "canceled" : 0,
       "failed" : 0,
-      "broken" : 0
+      "broken" : 6
     },
     "time" : {
       "start" : 1472677609055,
-      "stop" : 1472678924560,
-      "duration" : 1315505
+      "stop" : 1472685677968,
+      "duration" : 8068913
     },
     "name" : "total",
     "type" : "TOTAL"
@@ -20,9 +20,13 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
-      "count" : 0,
-      "message" : "There are no defects!",
-      "status" : "PASSED"
+      "count" : 4,
+      "message" : "UnknownHostException: spree.paxotech.com: unknown error",
+      "status" : "BROKEN"
+    }, {
+      "count" : 2,
+      "message" : "UnknownHostException: spree.paxotech.com",
+      "status" : "BROKEN"
     } ]
   }, {
     "name" : "xunit",
@@ -30,19 +34,19 @@
     "data" : [ {
       "title" : "Surefire suite : Surefire test",
       "statistic" : {
-        "total" : 40,
-        "passed" : 32,
-        "pending" : 8,
+        "total" : 120,
+        "passed" : 96,
+        "pending" : 18,
         "canceled" : 0,
         "failed" : 0,
-        "broken" : 0
+        "broken" : 6
       }
     }, {
       "title" : "Default Suite : PerFactHybrid",
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
-        "pending" : 0,
+        "total" : 6,
+        "passed" : 5,
+        "pending" : 1,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
@@ -52,19 +56,55 @@
     "name" : "behaviors",
     "type" : "TITLE_STATISTICS",
     "data" : [ {
-      "title" : "Without feature",
+      "title" : "My Feature",
       "statistic" : {
-        "total" : 42,
-        "passed" : 34,
-        "pending" : 8,
+        "total" : 80,
+        "passed" : 64,
+        "pending" : 16,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
+      }
+    }, {
+      "title" : "SignIN TO Spree Account",
+      "statistic" : {
+        "total" : 32,
+        "passed" : 32,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Verify Product Information",
+      "statistic" : {
+        "total" : 16,
+        "passed" : 16,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 62,
+        "passed" : 45,
+        "pending" : 11,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 6
       }
     } ]
   }, {
     "name" : "environment",
     "type" : "KEY_VALUE",
-    "data" : [ ]
+    "data" : [ {
+      "key" : "Browser",
+      "value" : "Firefox,Chrome,PhantomjS"
+    }, {
+      "key" : "Test Url",
+      "value" : "http://spree.paxotech.com/"
+    } ]
   } ]
 }

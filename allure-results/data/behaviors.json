@@ -1,954 +1,60 @@
 {
   "features" : [ {
-    "title" : "My Feature",
-    "statistic" : {
-      "total" : 80,
-      "passed" : 64,
-      "pending" : 16,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "stories" : [ {
-      "uid" : "3b055937d535320b",
-      "title" : "Story2",
-      "statistic" : {
-        "total" : 40,
-        "passed" : 32,
-        "pending" : 8,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      },
-      "testCases" : [ {
-        "uid" : "a7149f5928a30461",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472683872082,
-          "stop" : 1472683872087,
-          "duration" : 5
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "76ed104203823825",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472683872087,
-          "stop" : 1472683872087,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "e0b98c46ee50bad2",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472683889781,
-          "stop" : 1472683891876,
-          "duration" : 2095
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "19af4097c5766a29",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472683889781,
-          "stop" : 1472683891876,
-          "duration" : 2095
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "25ce8aa4cf0d7633",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683896061,
-          "stop" : 1472683900943,
-          "duration" : 4882
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "123c13146863a743",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683896061,
-          "stop" : 1472683900943,
-          "duration" : 4882
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "f9e9dc5b19965510",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472683910202,
-          "stop" : 1472683910303,
-          "duration" : 101
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d1acc78db07d6e74",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472683910202,
-          "stop" : 1472683910303,
-          "duration" : 101
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b5f42ec2c8e2066d",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683915340,
-          "stop" : 1472683918271,
-          "duration" : 2931
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b2f8c7458db6dc1a",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683915340,
-          "stop" : 1472683918271,
-          "duration" : 2931
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "febcc0019b530d27",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472679996027,
-          "stop" : 1472679996031,
-          "duration" : 4
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "af9db5b5787bdb02",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472679996031,
-          "stop" : 1472679996031,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "2db53927398796c5",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472680006502,
-          "stop" : 1472680023206,
-          "duration" : 16704
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "87c3cbc31ce4c692",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472680006502,
-          "stop" : 1472680023206,
-          "duration" : 16704
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b20903c550c957b9",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472680026678,
-          "stop" : 1472680030550,
-          "duration" : 3872
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "fb3c58586d05433e",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472680026678,
-          "stop" : 1472680030550,
-          "duration" : 3872
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "24fab819618f6e7d",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472680040441,
-          "stop" : 1472680040541,
-          "duration" : 100
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "5340afef8cda2c42",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472680040441,
-          "stop" : 1472680040541,
-          "duration" : 100
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6cb623df4cf839",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472680044403,
-          "stop" : 1472680047524,
-          "duration" : 3121
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "eaf48998a7910107",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472680044403,
-          "stop" : 1472680047524,
-          "duration" : 3121
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "56012382ee981455",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472685615196,
-          "stop" : 1472685615200,
-          "duration" : 4
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "7dfb97ee415ecd0",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472685615200,
-          "stop" : 1472685615200,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "76478d12ff419f5e",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472685625050,
-          "stop" : 1472685638980,
-          "duration" : 13930
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8299b7b905153cdc",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472685625050,
-          "stop" : 1472685638980,
-          "duration" : 13930
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b9832ce63209d92",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685642909,
-          "stop" : 1472685646147,
-          "duration" : 3238
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "a64935a8984b556d",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685642909,
-          "stop" : 1472685646147,
-          "duration" : 3238
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8e8466a2bdb7b914",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472685657419,
-          "stop" : 1472685657480,
-          "duration" : 61
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "366deaafa4c8880e",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472685657419,
-          "stop" : 1472685657480,
-          "duration" : 61
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "5674a1cbacd7fb28",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685661392,
-          "stop" : 1472685664056,
-          "duration" : 2664
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8ce58e12e0a5d213",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685661392,
-          "stop" : 1472685664056,
-          "duration" : 2664
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "44faa84099d706a9",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472681826495,
-          "stop" : 1472681826500,
-          "duration" : 5
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "378b4ac9aa3ff3bf",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472681826500,
-          "stop" : 1472681826500,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "ea426577e3e15faa",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472681843000,
-          "stop" : 1472681844943,
-          "duration" : 1943
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "9634ec7a5fb83e11",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472681843000,
-          "stop" : 1472681844943,
-          "duration" : 1943
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "7e3a3684d7f6e467",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681848365,
-          "stop" : 1472681851414,
-          "duration" : 3049
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "bf6a63de676b8aeb",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681848365,
-          "stop" : 1472681851414,
-          "duration" : 3049
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "562231211b1c2425",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472681861114,
-          "stop" : 1472681861330,
-          "duration" : 216
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "27f6f554c444dbb8",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472681861114,
-          "stop" : 1472681861330,
-          "duration" : 216
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "c5e81619be509dc6",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681865391,
-          "stop" : 1472681868371,
-          "duration" : 2980
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "47e4321e9546eeba",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681865391,
-          "stop" : 1472681868371,
-          "duration" : 2980
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      } ]
-    }, {
-      "uid" : "cbbd0227defe6717",
-      "title" : "Story1",
-      "statistic" : {
-        "total" : 38,
-        "passed" : 30,
-        "pending" : 8,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      },
-      "testCases" : [ {
-        "uid" : "a7149f5928a30461",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472683872082,
-          "stop" : 1472683872087,
-          "duration" : 5
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "76ed104203823825",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472683872087,
-          "stop" : 1472683872087,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "e0b98c46ee50bad2",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472683889781,
-          "stop" : 1472683891876,
-          "duration" : 2095
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "19af4097c5766a29",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472683889781,
-          "stop" : 1472683891876,
-          "duration" : 2095
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "25ce8aa4cf0d7633",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683896061,
-          "stop" : 1472683900943,
-          "duration" : 4882
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "123c13146863a743",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683896061,
-          "stop" : 1472683900943,
-          "duration" : 4882
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "f9e9dc5b19965510",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472683910202,
-          "stop" : 1472683910303,
-          "duration" : 101
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d1acc78db07d6e74",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472683910202,
-          "stop" : 1472683910303,
-          "duration" : 101
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b5f42ec2c8e2066d",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683915340,
-          "stop" : 1472683918271,
-          "duration" : 2931
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b2f8c7458db6dc1a",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683915340,
-          "stop" : 1472683918271,
-          "duration" : 2931
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "febcc0019b530d27",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472679996027,
-          "stop" : 1472679996031,
-          "duration" : 4
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "af9db5b5787bdb02",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472679996031,
-          "stop" : 1472679996031,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "2db53927398796c5",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472680006502,
-          "stop" : 1472680023206,
-          "duration" : 16704
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "87c3cbc31ce4c692",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472680006502,
-          "stop" : 1472680023206,
-          "duration" : 16704
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b20903c550c957b9",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472680026678,
-          "stop" : 1472680030550,
-          "duration" : 3872
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "fb3c58586d05433e",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472680026678,
-          "stop" : 1472680030550,
-          "duration" : 3872
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "24fab819618f6e7d",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472680040441,
-          "stop" : 1472680040541,
-          "duration" : 100
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "5340afef8cda2c42",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472680040441,
-          "stop" : 1472680040541,
-          "duration" : 100
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6cb623df4cf839",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472680044403,
-          "stop" : 1472680047524,
-          "duration" : 3121
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "eaf48998a7910107",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472680044403,
-          "stop" : 1472680047524,
-          "duration" : 3121
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "56012382ee981455",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472685615196,
-          "stop" : 1472685615200,
-          "duration" : 4
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "7dfb97ee415ecd0",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472685615200,
-          "stop" : 1472685615200,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "b9832ce63209d92",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685642909,
-          "stop" : 1472685646147,
-          "duration" : 3238
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "a64935a8984b556d",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685642909,
-          "stop" : 1472685646147,
-          "duration" : 3238
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8e8466a2bdb7b914",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472685657419,
-          "stop" : 1472685657480,
-          "duration" : 61
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "366deaafa4c8880e",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472685657419,
-          "stop" : 1472685657480,
-          "duration" : 61
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "5674a1cbacd7fb28",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685661392,
-          "stop" : 1472685664056,
-          "duration" : 2664
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8ce58e12e0a5d213",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685661392,
-          "stop" : 1472685664056,
-          "duration" : 2664
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "44faa84099d706a9",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472681826495,
-          "stop" : 1472681826500,
-          "duration" : 5
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "378b4ac9aa3ff3bf",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472681826500,
-          "stop" : 1472681826500,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "ea426577e3e15faa",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472681843000,
-          "stop" : 1472681844943,
-          "duration" : 1943
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "9634ec7a5fb83e11",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472681843000,
-          "stop" : 1472681844943,
-          "duration" : 1943
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "7e3a3684d7f6e467",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681848365,
-          "stop" : 1472681851414,
-          "duration" : 3049
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "bf6a63de676b8aeb",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681848365,
-          "stop" : 1472681851414,
-          "duration" : 3049
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "562231211b1c2425",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472681861114,
-          "stop" : 1472681861330,
-          "duration" : 216
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "27f6f554c444dbb8",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472681861114,
-          "stop" : 1472681861330,
-          "duration" : 216
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "c5e81619be509dc6",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681865391,
-          "stop" : 1472681868371,
-          "duration" : 2980
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "47e4321e9546eeba",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681865391,
-          "stop" : 1472681868371,
-          "duration" : 2980
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      } ]
-    }, {
-      "uid" : "8df910b434e32130",
-      "title" : "W",
-      "statistic" : {
-        "total" : 2,
-        "passed" : 2,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      },
-      "testCases" : [ {
-        "uid" : "76478d12ff419f5e",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472685625050,
-          "stop" : 1472685638980,
-          "duration" : 13930
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8299b7b905153cdc",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472685625050,
-          "stop" : 1472685638980,
-          "duration" : 13930
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      } ]
-    } ]
-  }, {
     "title" : "Without feature",
     "statistic" : {
-      "total" : 62,
-      "passed" : 45,
+      "total" : 83,
+      "passed" : 57,
       "pending" : 11,
-      "canceled" : 0,
+      "canceled" : 1,
       "failed" : 0,
-      "broken" : 6
+      "broken" : 14
     },
     "stories" : [ {
-      "uid" : "c7027140f359ffa2",
+      "uid" : "3957b697bd777f9",
       "title" : "Without story",
       "statistic" : {
-        "total" : 62,
-        "passed" : 45,
+        "total" : 83,
+        "passed" : 57,
         "pending" : 11,
-        "canceled" : 0,
+        "canceled" : 1,
         "failed" : 0,
-        "broken" : 6
+        "broken" : 14
       },
       "testCases" : [ {
-        "uid" : "b56b878cf3966c9f",
+        "uid" : "7710a2f6e9f6278b",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472849086581,
+          "stop" : 1472849118288,
+          "duration" : 31707
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1b7791b373c8a567",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472849898685,
+          "stop" : 1472849910403,
+          "duration" : 11718
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bb411cc1d6b1ae07",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472848946943,
+          "stop" : 1472848979912,
+          "duration" : 32969
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7df44a5312c60da5",
         "name" : "chqImage",
         "title" : "Chq image",
         "time" : {
@@ -959,7 +65,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "8554da825adac897",
+        "uid" : "eaeba9071a41dced",
         "name" : "chqImage",
         "title" : "Chq image",
         "time" : {
@@ -970,7 +76,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "466b1053bbc8faf",
+        "uid" : "9b71ea66d38e0614",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -981,7 +87,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "154225898988de05",
+        "uid" : "918c883e699b8dea",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -992,7 +98,18 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "6c776584d340b4b2",
+        "uid" : "ff70b6e7060c3ab5",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472772596446,
+          "stop" : 1472772629266,
+          "duration" : 32820
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8153e3392d5d15be",
         "name" : "main",
         "title" : "Main",
         "time" : {
@@ -1003,7 +120,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "447eb2cbbc937293",
+        "uid" : "11fa3661fe208a59",
         "name" : "test5",
         "title" : "Test 5",
         "time" : {
@@ -1014,7 +131,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "f784dd47b2c37c60",
+        "uid" : "94d6d1794e9d2ed8",
         "name" : "main",
         "title" : "Main",
         "time" : {
@@ -1025,7 +142,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "4cc8fa1856764afc",
+        "uid" : "dbdff09f09bfa422",
         "name" : "test5",
         "title" : "Test 5",
         "time" : {
@@ -1036,7 +153,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "b2caf92b3059502c",
+        "uid" : "4844466cc913da29",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1047,7 +164,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4c3ee134e831f4dd",
+        "uid" : "134cce71a13b6540",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1058,7 +175,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "b54f50bf46fa2bf5",
+        "uid" : "eec51c9fdb6e19b5",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
@@ -1069,7 +186,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "7c67fcc8a17c088b",
+        "uid" : "14b60ccbb0e027fa",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
@@ -1080,7 +197,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "a73ce8fe6f0a5c8d",
+        "uid" : "bee0ee58cb5f50fe",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
@@ -1091,7 +208,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "8d35b893faf69278",
+        "uid" : "7d3af8011e0e609b",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
@@ -1102,7 +219,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "b51383b7fd89d115",
+        "uid" : "4c1575d7852030fd",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1113,7 +230,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4af46681b91bc327",
+        "uid" : "bdad328dde47942",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1124,7 +241,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "f0933e16795a9cd2",
+        "uid" : "b39d6c986233f9a6",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
@@ -1135,7 +252,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cce911874a6ca166",
+        "uid" : "89e9cd7af5d8c3e2",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
@@ -1146,7 +263,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "ecc57f0bf5eebac5",
+        "uid" : "3d7f87f4fbde51d3",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
@@ -1157,7 +274,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "b67bf15aadc815c2",
+        "uid" : "7300394186fa1ac6",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
@@ -1168,7 +285,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "dcbec0ee00b21421",
+        "uid" : "395ae759294c5ecc",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1179,7 +296,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "fb2f6b4113a6e5eb",
+        "uid" : "e12c841d6962441f",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1190,7 +307,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "2991c36b898cee29",
+        "uid" : "3fb9c1e88ad49cb5",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -1201,7 +318,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "f54d90bd27acd98a",
+        "uid" : "8a38b5cc709c272f",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -1212,7 +329,18 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "5c100cd91b4ff529",
+        "uid" : "6f33f15cdf8bb3a8",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1474760645214,
+          "stop" : 1474760645214,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "cb4ba028fa7267c3",
         "name" : "chqImage",
         "title" : "Chq image",
         "time" : {
@@ -1223,7 +351,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "c8e047b2a64fc32e",
+        "uid" : "ec1e9f5b00db06bd",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1234,7 +362,18 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "caa2ff329c56107d",
+        "uid" : "6d5a1be3e95b9b64",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472849390635,
+          "stop" : 1472849402093,
+          "duration" : 11458
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8e3c2ffe2694493e",
         "name" : "test5",
         "title" : "Test 5",
         "time" : {
@@ -1245,7 +384,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "60805df7560524b3",
+        "uid" : "1b4195cc6270a4ed",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1256,7 +395,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "92830f5148dede4a",
+        "uid" : "bcc02a87101521f9",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1267,7 +406,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "6fc32ce7117a4764",
+        "uid" : "e575d835c91be48e",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -1278,7 +417,18 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "83a9b474356fc5fd",
+        "uid" : "e3277401624ac434",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472850010504,
+          "stop" : 1472850022246,
+          "duration" : 11742
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2081b7207bd7767b",
         "name" : "test5",
         "title" : "Test 5",
         "time" : {
@@ -1289,7 +439,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "890d14c9c8557bb",
+        "uid" : "9011e71151642cc0",
         "name" : "test5",
         "title" : "Test 5",
         "time" : {
@@ -1300,7 +450,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "caf8f91f476d34b1",
+        "uid" : "72ff62503c0df120",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1311,7 +461,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "bf032142b7c5a5e2",
+        "uid" : "a7047e71c17484d7",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1322,7 +472,161 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "c400ffc4536ff7e1",
+        "uid" : "7d20c7a022753abb",
+        "name" : "chqImage",
+        "title" : "Chq image",
+        "time" : {
+          "start" : 1476383309462,
+          "stop" : 1476383312228,
+          "duration" : 2766
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4bd469a63b5efc73",
+        "name" : "chqImage",
+        "title" : "Chq image",
+        "time" : {
+          "start" : 1476383309462,
+          "stop" : 1476383312228,
+          "duration" : 2766
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "36652c9b307de4df",
+        "name" : "chqconnectiontest",
+        "title" : "Chqconnectiontest",
+        "time" : {
+          "start" : 1476383312338,
+          "stop" : 1476383314964,
+          "duration" : 2626
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "223dcf0fd266c17e",
+        "name" : "chqconnectiontest",
+        "title" : "Chqconnectiontest",
+        "time" : {
+          "start" : 1476383312338,
+          "stop" : 1476383314964,
+          "duration" : 2626
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6f36dc2651fa6a42",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476383314969,
+          "stop" : 1476383358458,
+          "duration" : 43489
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1ba93fe0e69a88a0",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476383314969,
+          "stop" : 1476383358458,
+          "duration" : 43489
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "dabb8a95261e9ce0",
+        "name" : "Surefire suite : Surefire test",
+        "title" : "Surefire suite : Surefire test",
+        "time" : {
+          "start" : 1476383303093,
+          "stop" : 1476383358458,
+          "duration" : 55365
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "290f46a4c66402ab",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472849762493,
+          "stop" : 1472849775661,
+          "duration" : 13168
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "34b4243eeb88d69f",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472772511097,
+          "stop" : 1472772518168,
+          "duration" : 7071
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "48e8ab160951e072",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476383422482,
+          "stop" : 1476383468298,
+          "duration" : 45816
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "c267aa514ec0f8ab",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476383422482,
+          "stop" : 1476383468298,
+          "duration" : 45816
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4569486c9fa97c60",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476383523981,
+          "stop" : 1476383523982,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "31c0f45547ba46d4",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476383523982,
+          "stop" : 1476383523984,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "8218dcda5a0f6e86",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1472848811482,
+          "stop" : 1472848847270,
+          "duration" : 35788
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3f2ce3dadc83f4d",
         "name" : "main",
         "title" : "Main",
         "time" : {
@@ -1333,7 +637,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "500b556dfdab03fe",
+        "uid" : "57428833feb8fab6",
         "name" : "test5",
         "title" : "Test 5",
         "time" : {
@@ -1344,7 +648,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "c655b10c9fe85094",
+        "uid" : "3185b625dca86a72",
         "name" : "main",
         "title" : "Main",
         "time" : {
@@ -1355,7 +659,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "9907fdf4761bf313",
+        "uid" : "f72ba0576e48815",
         "name" : "test5",
         "title" : "Test 5",
         "time" : {
@@ -1366,7 +670,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "41ed58eea045735f",
+        "uid" : "b883efa6395bc74c",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1377,7 +681,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "787adbf0b5737135",
+        "uid" : "d43cdd4ec643cb7",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1388,7 +692,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "582e924ddaad68",
+        "uid" : "df7ed413b2360809",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
@@ -1399,7 +703,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "55e30601d2ae4a02",
+        "uid" : "5c21e29b961bd280",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
@@ -1410,7 +714,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "911404608bc9ff2a",
+        "uid" : "ecc54561ca1c25e0",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
@@ -1421,7 +725,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "edc2f41b9adb30f9",
+        "uid" : "21e6c11c9b7aaf94",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
@@ -1432,7 +736,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "db445741a82e2727",
+        "uid" : "396f51e6e49646e1",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1443,7 +747,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "70eb550dd3fef36f",
+        "uid" : "c8758661913ba1ed",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1454,7 +758,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "c346e8ff8d3bc134",
+        "uid" : "af4acd682e44d138",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
@@ -1465,7 +769,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "834f657cd43a6ec1",
+        "uid" : "e5d126677f2d5c9b",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
@@ -1476,7 +780,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "32f29a4caa6603e4",
+        "uid" : "692e26acb9f34778",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
@@ -1487,7 +791,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "8930c4064faaa6df",
+        "uid" : "1157135c22d49a13",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
@@ -1498,7 +802,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "182d18f0534fe19b",
+        "uid" : "37c1906cf6f1a42c",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1509,7 +813,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "97f224e481a38ea",
+        "uid" : "626613c36ae7dc65",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1520,7 +824,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "ffbf7a67a8630b40",
+        "uid" : "48ffbd795942f5a2",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -1531,7 +835,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "1359bf5f26b44b2f",
+        "uid" : "fea4c4a978eccbac",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -1542,7 +846,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "de11502fbc8ec317",
+        "uid" : "f84cd7b5be6e6b90",
         "name" : "chqImage",
         "title" : "Chq image",
         "time" : {
@@ -1553,7 +857,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "33cffdb259594e73",
+        "uid" : "3177a6f3c2624c0d",
         "name" : "chqImage",
         "title" : "Chq image",
         "time" : {
@@ -1564,7 +868,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "485a5d6db6d17b3d",
+        "uid" : "f565504a6bf12352",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1575,7 +879,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "b4b47251fb28af3c",
+        "uid" : "270dba8feb9e8ba5",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1586,7 +890,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "171e01def96d9a09",
+        "uid" : "39d506b611631aff",
         "name" : "chqImage",
         "title" : "Chq image",
         "time" : {
@@ -1597,7 +901,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "b220004a9d84d098",
+        "uid" : "627d4f3c0732c25e",
         "name" : "chqImage",
         "title" : "Chq image",
         "time" : {
@@ -1608,7 +912,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "f60e4b521b36d19b",
+        "uid" : "aaea52d98e83bb3a",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1619,7 +923,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "b885b40909d0aa47",
+        "uid" : "fed3ac60d45477c1",
         "name" : "chqconnectiontest",
         "title" : "Chqconnectiontest",
         "time" : {
@@ -1632,28 +936,1329 @@
       } ]
     } ]
   }, {
-    "title" : "Verify Product Information",
+    "title" : "My Feature",
     "statistic" : {
-      "total" : 16,
-      "passed" : 16,
-      "pending" : 0,
-      "canceled" : 0,
+      "total" : 114,
+      "passed" : 78,
+      "pending" : 26,
+      "canceled" : 8,
       "failed" : 0,
-      "broken" : 0
+      "broken" : 2
     },
     "stories" : [ {
-      "uid" : "f9040a76da56645e",
-      "title" : "Ruby on Rail Begs",
+      "uid" : "bc2129343ee07705",
+      "title" : "Story2",
       "statistic" : {
-        "total" : 8,
-        "passed" : 8,
+        "total" : 57,
+        "passed" : 39,
+        "pending" : 13,
+        "canceled" : 4,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "57dcd21f6346332f",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472683872082,
+          "stop" : 1472683872087,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "a269cbd0466354e7",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472683872087,
+          "stop" : 1472683872087,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "3be7651f6a2cef55",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472683889781,
+          "stop" : 1472683891876,
+          "duration" : 2095
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5b75e74c2271e274",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472683889781,
+          "stop" : 1472683891876,
+          "duration" : 2095
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "326bea4463795ce3",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472683896061,
+          "stop" : 1472683900943,
+          "duration" : 4882
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "621fcb6f0d0b3f72",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472683896061,
+          "stop" : 1472683900943,
+          "duration" : 4882
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e597de69cae978c7",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472683910202,
+          "stop" : 1472683910303,
+          "duration" : 101
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "23072186c0af61e2",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472683910202,
+          "stop" : 1472683910303,
+          "duration" : 101
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "63e603057d88b7e7",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472683915340,
+          "stop" : 1472683918271,
+          "duration" : 2931
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d90b948994d9bdd2",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472683915340,
+          "stop" : 1472683918271,
+          "duration" : 2931
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b8c11b2f29ce8a79",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1474760900808,
+          "stop" : 1474760903240,
+          "duration" : 2432
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d696e2f260d33797",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1474760645042,
+          "stop" : 1474760645209,
+          "duration" : 167
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "673de2e5b64156c8",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472679996027,
+          "stop" : 1472679996031,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "b368c44149f4fd0a",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472679996031,
+          "stop" : 1472679996031,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "d98c90003122c8fa",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472680006502,
+          "stop" : 1472680023206,
+          "duration" : 16704
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cf3196aa058f1db8",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472680006502,
+          "stop" : 1472680023206,
+          "duration" : 16704
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "79bd2a55da931f2",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472680026678,
+          "stop" : 1472680030550,
+          "duration" : 3872
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "49d400e5740c1722",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472680026678,
+          "stop" : 1472680030550,
+          "duration" : 3872
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "108a400ae0a4c918",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472680040441,
+          "stop" : 1472680040541,
+          "duration" : 100
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "424c7116ae7e4689",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472680040441,
+          "stop" : 1472680040541,
+          "duration" : 100
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c5c5efead959fa2a",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472680044403,
+          "stop" : 1472680047524,
+          "duration" : 3121
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4e719b2d9f6a2a6d",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472680044403,
+          "stop" : 1472680047524,
+          "duration" : 3121
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9273255e1f94ad4d",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476383303088,
+          "stop" : 1476383303093,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "c2983384af2af2dd",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476383303093,
+          "stop" : 1476383303093,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "f9650975883a8cb8",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1474761220737,
+          "stop" : 1474761223013,
+          "duration" : 2276
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e6c1d870d7160b4",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476383422457,
+          "stop" : 1476383422461,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "2c4647d8d196f783",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476383422461,
+          "stop" : 1476383422461,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "d519d5c535f9cbf1",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476383484562,
+          "stop" : 1476383495838,
+          "duration" : 11276
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6a20dd1e6876b90e",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476383484562,
+          "stop" : 1476383495838,
+          "duration" : 11276
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7ec30e8f7670cd7",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476383507117,
+          "stop" : 1476383521346,
+          "duration" : 14229
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "867c6f0e0d7bdc2",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476383507117,
+          "stop" : 1476383521346,
+          "duration" : 14229
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f6e638bb08b1dcb5",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476383523984,
+          "stop" : 1476383523984,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f2217c71f8edbc39",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476383523984,
+          "stop" : 1476383523984,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "1af78fe70b94aba6",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476383523985,
+          "stop" : 1476383523985,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "2c312f591d05aa7",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476383523985,
+          "stop" : 1476383523985,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "aa8cf7420f656e94",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476380773858,
+          "stop" : 1476380773863,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "6beca37594456aaa",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476380788003,
+          "stop" : 1476380801491,
+          "duration" : 13488
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4a58cc4f1919e10a",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472685615196,
+          "stop" : 1472685615200,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "ae31821265770950",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472685615200,
+          "stop" : 1472685615200,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "d5fbe61164ea4da5",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472685625050,
+          "stop" : 1472685638980,
+          "duration" : 13930
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cacd8108099f2846",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472685625050,
+          "stop" : 1472685638980,
+          "duration" : 13930
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e7ab7250ec32f6d1",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472685642909,
+          "stop" : 1472685646147,
+          "duration" : 3238
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b7a60eabbb3891c2",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472685642909,
+          "stop" : 1472685646147,
+          "duration" : 3238
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "be5cab7f03467d25",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472685657419,
+          "stop" : 1472685657480,
+          "duration" : 61
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "128ff24916e28bde",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472685657419,
+          "stop" : 1472685657480,
+          "duration" : 61
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "190d363ff15a9ebb",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472685661392,
+          "stop" : 1472685664056,
+          "duration" : 2664
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b563a2fe94a6f2c7",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472685661392,
+          "stop" : 1472685664056,
+          "duration" : 2664
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2ba5f90c0643b6bb",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472681826495,
+          "stop" : 1472681826500,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "42011c544b8e3765",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472681826500,
+          "stop" : 1472681826500,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "cdde8aa6a678a752",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472681843000,
+          "stop" : 1472681844943,
+          "duration" : 1943
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "83577b7c3e8f5a6a",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472681843000,
+          "stop" : 1472681844943,
+          "duration" : 1943
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8b0225d8d122ef3e",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472681848365,
+          "stop" : 1472681851414,
+          "duration" : 3049
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f5b99f5641d70508",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472681848365,
+          "stop" : 1472681851414,
+          "duration" : 3049
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ca49365d20909fb4",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472681861114,
+          "stop" : 1472681861330,
+          "duration" : 216
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2a1f3878bcfc252e",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472681861114,
+          "stop" : 1472681861330,
+          "duration" : 216
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1d6d7692df31103a",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472681865391,
+          "stop" : 1472681868371,
+          "duration" : 2980
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8578dd83ad6ccb3f",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472681865391,
+          "stop" : 1472681868371,
+          "duration" : 2980
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "2c7a8d2f8e4de1a2",
+      "title" : "Story1",
+      "statistic" : {
+        "total" : 52,
+        "passed" : 34,
+        "pending" : 13,
+        "canceled" : 4,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "57dcd21f6346332f",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472683872082,
+          "stop" : 1472683872087,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "a269cbd0466354e7",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472683872087,
+          "stop" : 1472683872087,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "3be7651f6a2cef55",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472683889781,
+          "stop" : 1472683891876,
+          "duration" : 2095
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5b75e74c2271e274",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472683889781,
+          "stop" : 1472683891876,
+          "duration" : 2095
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "326bea4463795ce3",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472683896061,
+          "stop" : 1472683900943,
+          "duration" : 4882
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "621fcb6f0d0b3f72",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472683896061,
+          "stop" : 1472683900943,
+          "duration" : 4882
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e597de69cae978c7",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472683910202,
+          "stop" : 1472683910303,
+          "duration" : 101
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "23072186c0af61e2",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472683910202,
+          "stop" : 1472683910303,
+          "duration" : 101
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "63e603057d88b7e7",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472683915340,
+          "stop" : 1472683918271,
+          "duration" : 2931
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d90b948994d9bdd2",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472683915340,
+          "stop" : 1472683918271,
+          "duration" : 2931
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b8c11b2f29ce8a79",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1474760900808,
+          "stop" : 1474760903240,
+          "duration" : 2432
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d696e2f260d33797",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1474760645042,
+          "stop" : 1474760645209,
+          "duration" : 167
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "673de2e5b64156c8",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472679996027,
+          "stop" : 1472679996031,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "b368c44149f4fd0a",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472679996031,
+          "stop" : 1472679996031,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "d98c90003122c8fa",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472680006502,
+          "stop" : 1472680023206,
+          "duration" : 16704
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cf3196aa058f1db8",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472680006502,
+          "stop" : 1472680023206,
+          "duration" : 16704
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "79bd2a55da931f2",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472680026678,
+          "stop" : 1472680030550,
+          "duration" : 3872
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "49d400e5740c1722",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472680026678,
+          "stop" : 1472680030550,
+          "duration" : 3872
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "108a400ae0a4c918",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472680040441,
+          "stop" : 1472680040541,
+          "duration" : 100
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "424c7116ae7e4689",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472680040441,
+          "stop" : 1472680040541,
+          "duration" : 100
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c5c5efead959fa2a",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472680044403,
+          "stop" : 1472680047524,
+          "duration" : 3121
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4e719b2d9f6a2a6d",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472680044403,
+          "stop" : 1472680047524,
+          "duration" : 3121
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9273255e1f94ad4d",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476383303088,
+          "stop" : 1476383303093,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "c2983384af2af2dd",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476383303093,
+          "stop" : 1476383303093,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "f9650975883a8cb8",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1474761220737,
+          "stop" : 1474761223013,
+          "duration" : 2276
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e6c1d870d7160b4",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476383422457,
+          "stop" : 1476383422461,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "2c4647d8d196f783",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476383422461,
+          "stop" : 1476383422461,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "7ec30e8f7670cd7",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476383507117,
+          "stop" : 1476383521346,
+          "duration" : 14229
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "867c6f0e0d7bdc2",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476383507117,
+          "stop" : 1476383521346,
+          "duration" : 14229
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f6e638bb08b1dcb5",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476383523984,
+          "stop" : 1476383523984,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f2217c71f8edbc39",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476383523984,
+          "stop" : 1476383523984,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "1af78fe70b94aba6",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476383523985,
+          "stop" : 1476383523985,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "2c312f591d05aa7",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476383523985,
+          "stop" : 1476383523985,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "aa8cf7420f656e94",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476380773858,
+          "stop" : 1476380773863,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "4a58cc4f1919e10a",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472685615196,
+          "stop" : 1472685615200,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "ae31821265770950",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472685615200,
+          "stop" : 1472685615200,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "e7ab7250ec32f6d1",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472685642909,
+          "stop" : 1472685646147,
+          "duration" : 3238
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b7a60eabbb3891c2",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472685642909,
+          "stop" : 1472685646147,
+          "duration" : 3238
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "be5cab7f03467d25",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472685657419,
+          "stop" : 1472685657480,
+          "duration" : 61
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "128ff24916e28bde",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472685657419,
+          "stop" : 1472685657480,
+          "duration" : 61
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "190d363ff15a9ebb",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472685661392,
+          "stop" : 1472685664056,
+          "duration" : 2664
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b563a2fe94a6f2c7",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472685661392,
+          "stop" : 1472685664056,
+          "duration" : 2664
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2ba5f90c0643b6bb",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472681826495,
+          "stop" : 1472681826500,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "42011c544b8e3765",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1472681826500,
+          "stop" : 1472681826500,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "cdde8aa6a678a752",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472681843000,
+          "stop" : 1472681844943,
+          "duration" : 1943
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "83577b7c3e8f5a6a",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472681843000,
+          "stop" : 1472681844943,
+          "duration" : 1943
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8b0225d8d122ef3e",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472681848365,
+          "stop" : 1472681851414,
+          "duration" : 3049
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f5b99f5641d70508",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472681848365,
+          "stop" : 1472681851414,
+          "duration" : 3049
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ca49365d20909fb4",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472681861114,
+          "stop" : 1472681861330,
+          "duration" : 216
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2a1f3878bcfc252e",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1472681861114,
+          "stop" : 1472681861330,
+          "duration" : 216
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1d6d7692df31103a",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472681865391,
+          "stop" : 1472681868371,
+          "duration" : 2980
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8578dd83ad6ccb3f",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1472681865391,
+          "stop" : 1472681868371,
+          "duration" : 2980
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "ea589432c76faef3",
+      "title" : "W",
+      "statistic" : {
+        "total" : 5,
+        "passed" : 5,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "becced9cbe8762ed",
+        "uid" : "d519d5c535f9cbf1",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476383484562,
+          "stop" : 1476383495838,
+          "duration" : 11276
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6a20dd1e6876b90e",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476383484562,
+          "stop" : 1476383495838,
+          "duration" : 11276
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6beca37594456aaa",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476380788003,
+          "stop" : 1476380801491,
+          "duration" : 13488
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d5fbe61164ea4da5",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472685625050,
+          "stop" : 1472685638980,
+          "duration" : 13930
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cacd8108099f2846",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1472685625050,
+          "stop" : 1472685638980,
+          "duration" : 13930
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Verify Product Information",
+    "statistic" : {
+      "total" : 20,
+      "passed" : 20,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "a7c5280c56763ca4",
+      "title" : "Ruby on Rail Begs",
+      "statistic" : {
+        "total" : 10,
+        "passed" : 10,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b8a42f96b497637a",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1664,7 +2269,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "47dd6430bbb794e4",
+        "uid" : "49eeb463c3679802",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1675,7 +2280,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "42b1de2eeeb0c5e3",
+        "uid" : "4a27923f564d5af2",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1686,7 +2291,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "5dde7314047a7c6f",
+        "uid" : "5514cd5f14e787f9",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1697,7 +2302,29 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "55725094eee18579",
+        "uid" : "6b3de98129dcb74",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476383522080,
+          "stop" : 1476383522103,
+          "duration" : 23
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7e1e259661b09398",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476383522080,
+          "stop" : 1476383522103,
+          "duration" : 23
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1869ee99b381ae8",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1708,7 +2335,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "fd07611e132758c5",
+        "uid" : "810d1610cd32250d",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1719,7 +2346,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "fb1097eb111a1166",
+        "uid" : "221b6f657e9ed88e",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1730,7 +2357,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "5334bd8598c8add3",
+        "uid" : "95636dd80beb9d43",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1742,18 +2369,18 @@
         "status" : "PASSED"
       } ]
     }, {
-      "uid" : "23ee62b1b53e16a6",
+      "uid" : "faefc54441dd6a12",
       "title" : "Ruby on Rail Tote",
       "statistic" : {
-        "total" : 8,
-        "passed" : 8,
+        "total" : 10,
+        "passed" : 10,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "becced9cbe8762ed",
+        "uid" : "b8a42f96b497637a",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1764,7 +2391,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "47dd6430bbb794e4",
+        "uid" : "49eeb463c3679802",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1775,7 +2402,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "42b1de2eeeb0c5e3",
+        "uid" : "4a27923f564d5af2",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1786,7 +2413,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "5dde7314047a7c6f",
+        "uid" : "5514cd5f14e787f9",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1797,7 +2424,29 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "55725094eee18579",
+        "uid" : "6b3de98129dcb74",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476383522080,
+          "stop" : 1476383522103,
+          "duration" : 23
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7e1e259661b09398",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476383522080,
+          "stop" : 1476383522103,
+          "duration" : 23
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1869ee99b381ae8",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1808,7 +2457,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "fd07611e132758c5",
+        "uid" : "810d1610cd32250d",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1819,7 +2468,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "fb1097eb111a1166",
+        "uid" : "221b6f657e9ed88e",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1830,7 +2479,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "5334bd8598c8add3",
+        "uid" : "95636dd80beb9d43",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
@@ -1845,26 +2494,26 @@
   }, {
     "title" : "SignIN TO Spree Account",
     "statistic" : {
-      "total" : 32,
+      "total" : 40,
       "passed" : 32,
       "pending" : 0,
-      "canceled" : 0,
+      "canceled" : 8,
       "failed" : 0,
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "1f60332302c10522",
+      "uid" : "802c629e37ef21b1",
       "title" : "password",
       "statistic" : {
-        "total" : 8,
+        "total" : 10,
         "passed" : 8,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 2,
         "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "e2dfba07e8bd1fb1",
+        "uid" : "a8a02b5b1a0636eb",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1875,7 +2524,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4127f6d7e90b86c0",
+        "uid" : "6a6c96060dbad1dc",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1886,7 +2535,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "1c977ef0cc1b4540",
+        "uid" : "1d7aae277665dc92",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1897,7 +2546,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cc96782be56b38c2",
+        "uid" : "80b2ddeebb0fb464",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1908,7 +2557,29 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "c1d79cf7300170e1",
+        "uid" : "8ef26757f797719b",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476383523986,
+          "stop" : 1476383523987,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f6388ff9e7adfd2c",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476383523986,
+          "stop" : 1476383523987,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "ea3fc731ca657cf7",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1919,7 +2590,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "850089316f88fe7e",
+        "uid" : "6aa3ffa9c36c12a6",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1930,7 +2601,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4ce0a74443203039",
+        "uid" : "457c5be87ffc893f",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1941,7 +2612,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cfd714fbe442b200",
+        "uid" : "8f9eb114dc468b27",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1953,18 +2624,18 @@
         "status" : "PASSED"
       } ]
     }, {
-      "uid" : "e893c9621e9899f4",
+      "uid" : "d6f5bceb8c1782b9",
       "title" : "waseyrabby@btinternet.com",
       "statistic" : {
-        "total" : 8,
+        "total" : 10,
         "passed" : 8,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 2,
         "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "e2dfba07e8bd1fb1",
+        "uid" : "a8a02b5b1a0636eb",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1975,7 +2646,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4127f6d7e90b86c0",
+        "uid" : "6a6c96060dbad1dc",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1986,7 +2657,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "1c977ef0cc1b4540",
+        "uid" : "1d7aae277665dc92",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -1997,7 +2668,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cc96782be56b38c2",
+        "uid" : "80b2ddeebb0fb464",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -2008,7 +2679,29 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "c1d79cf7300170e1",
+        "uid" : "8ef26757f797719b",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476383523986,
+          "stop" : 1476383523987,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f6388ff9e7adfd2c",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476383523986,
+          "stop" : 1476383523987,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "ea3fc731ca657cf7",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -2019,7 +2712,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "850089316f88fe7e",
+        "uid" : "6aa3ffa9c36c12a6",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -2030,7 +2723,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4ce0a74443203039",
+        "uid" : "457c5be87ffc893f",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -2041,7 +2734,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cfd714fbe442b200",
+        "uid" : "8f9eb114dc468b27",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
@@ -2053,18 +2746,18 @@
         "status" : "PASSED"
       } ]
     }, {
-      "uid" : "8998a0dc24d9051d",
+      "uid" : "15b3b2c15be1f151",
       "title" : "Story2",
       "statistic" : {
-        "total" : 8,
+        "total" : 10,
         "passed" : 8,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 2,
         "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "b95f16aea59b8d4e",
+        "uid" : "bd05ca20d19686ed",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2075,7 +2768,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "81c4a39bbce3b4f9",
+        "uid" : "d7ae8174f63c403c",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2086,7 +2779,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "fce182807aaf95d7",
+        "uid" : "e30ead289ee42e26",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2097,7 +2790,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "e064a2e8cd6bc278",
+        "uid" : "5b9d66efae5f650a",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2108,7 +2801,29 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "8de92d94e18965f0",
+        "uid" : "684fa4120044ba7a",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476383523988,
+          "stop" : 1476383523988,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "4c65b79b814ee544",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476383523988,
+          "stop" : 1476383523988,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9fd33a48e8ab071f",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2119,7 +2834,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "1abe5882da7b87a9",
+        "uid" : "499439f34f26c1b1",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2130,7 +2845,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "556b5d793b14ddc9",
+        "uid" : "8af1cda0f171b73c",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2141,7 +2856,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cc0cbf3ccd2305c1",
+        "uid" : "6a5810936f5baf5c",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2153,18 +2868,18 @@
         "status" : "PASSED"
       } ]
     }, {
-      "uid" : "e7232e7e61a15d10",
+      "uid" : "8590f96e3cebda92",
       "title" : "Story1",
       "statistic" : {
-        "total" : 8,
+        "total" : 10,
         "passed" : 8,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 2,
         "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "b95f16aea59b8d4e",
+        "uid" : "bd05ca20d19686ed",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2175,7 +2890,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "81c4a39bbce3b4f9",
+        "uid" : "d7ae8174f63c403c",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2186,7 +2901,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "fce182807aaf95d7",
+        "uid" : "e30ead289ee42e26",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2197,7 +2912,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "e064a2e8cd6bc278",
+        "uid" : "5b9d66efae5f650a",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2208,7 +2923,29 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "8de92d94e18965f0",
+        "uid" : "684fa4120044ba7a",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476383523988,
+          "stop" : 1476383523988,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "4c65b79b814ee544",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476383523988,
+          "stop" : 1476383523988,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9fd33a48e8ab071f",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2219,7 +2956,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "1abe5882da7b87a9",
+        "uid" : "499439f34f26c1b1",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2230,7 +2967,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "556b5d793b14ddc9",
+        "uid" : "8af1cda0f171b73c",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {
@@ -2241,7 +2978,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cc0cbf3ccd2305c1",
+        "uid" : "6a5810936f5baf5c",
         "name" : "signInTest",
         "title" : "Sign in test",
         "time" : {

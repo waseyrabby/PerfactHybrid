@@ -1,0 +1,44 @@
+{
+  "uid" : "dabb8a95261e9ce0",
+  "name" : "Surefire suite : Surefire test",
+  "title" : "Surefire suite : Surefire test",
+  "time" : {
+    "start" : 1476383303093,
+    "stop" : 1476383358458,
+    "duration" : 55365
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test suite was interrupted, some test cases may be lost",
+    "stackTrace" : null
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a09e1e11a344d949",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}

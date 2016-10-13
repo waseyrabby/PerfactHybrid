@@ -97,12 +97,6 @@ public class Utils {
 					}
 			}
 
-    public static void DesiredBrowserCapabilities()
-
-    {
-
-
-    }
 
 	 public static void waitForElement(WebElement element){
 		 

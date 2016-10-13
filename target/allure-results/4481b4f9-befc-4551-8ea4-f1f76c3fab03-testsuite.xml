@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476387172319" stop="1476387234033" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Surefire suite : Surefire test</name>
+    <title>Surefire suite : Surefire test</title>
+    <test-cases>
+        <test-case start="1476387172315" stop="1476387172319" status="pending">
+            <name>main</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387172320" stop="1476387172320" status="pending">
+            <name>main</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387172340" stop="1476387183777" status="passed">
+            <name>allElements</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387172340" stop="1476387183777" status="passed">
+            <name>allElements</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387188816" stop="1476387191498" status="passed">
+            <name>HomeTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="W"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387188816" stop="1476387191498" status="passed">
+            <name>HomeTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="W"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387196026" stop="1476387199012" status="passed">
+            <name>accountButtonVerification</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387196026" stop="1476387199012" status="passed">
+            <name>accountButtonVerification</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387203593" stop="1476387204898" status="passed">
+            <name>Product1Test</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Ruby on Rail Tote"/>
+                <label name="story" value="Ruby on Rail Begs"/>
+                <label name="feature" value="Verify Product Information"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387203593" stop="1476387204898" status="passed">
+            <name>Product1Test</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Ruby on Rail Tote"/>
+                <label name="story" value="Ruby on Rail Begs"/>
+                <label name="feature" value="Verify Product Information"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387210425" stop="1476387210496" status="passed">
+            <name>ProductSelectionTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387210425" stop="1476387210496" status="passed">
+            <name>ProductSelectionTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387215439" stop="1476387218450" status="passed">
+            <name>accountButtonVerification</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387215439" stop="1476387218450" status="passed">
+            <name>accountButtonVerification</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="My Feature"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387223305" stop="1476387226423" status="passed">
+            <name>BrowserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="waseyrabby@btinternet.com"/>
+                <label name="story" value="password"/>
+                <label name="feature" value="SignIN TO Spree Account"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387223305" stop="1476387226423" status="passed">
+            <name>BrowserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="waseyrabby@btinternet.com"/>
+                <label name="story" value="password"/>
+                <label name="feature" value="SignIN TO Spree Account"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387231290" stop="1476387234014" status="passed">
+            <name>signInTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="SignIN TO Spree Account"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476387231290" stop="1476387234014" status="passed">
+            <name>signInTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Story1"/>
+                <label name="story" value="Story2"/>
+                <label name="feature" value="SignIN TO Spree Account"/>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="99960@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="63.372" tests="9" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="62.497" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib"/>
@@ -32,6 +32,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/wasey"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -42,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -56,94 +57,16 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="chqImage" classname="spreeapitest.SpreeApiTest" time="1.12">
-    <failure message="spree.paxotech.com: unknown error" type="java.net.UnknownHostException">java.net.UnknownHostException: spree.paxotech.com: unknown error
-	at spreeapitest.SpreeApiTest.chqImage(SpreeApiTest.java:32)
-</failure>
-    <system-out><![CDATA[log4j: reset attribute= "false".
-log4j: Threshold ="null".
-log4j: Level value for root is  [DEBUG].
-log4j: root level set to DEBUG
-log4j: Class name: [org.apache.log4j.ConsoleAppender]
-log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
-log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
-log4j: Adding appender named [console] to category [root].
-log4j: Class name: [org.apache.log4j.RollingFileAppender]
-log4j: Setting property [append] to [false].
-log4j: Setting property [maxFileSize] to [10MB].
-log4j: Setting property [maxBackupIndex] to [10].
-log4j: Setting property [file] to [/Users/wasey/IdeaProjects/PerFactHybrid/TestResults/TestLog4JoUtput].
-log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
-log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
-log4j: setFile called: /Users/wasey/IdeaProjects/PerFactHybrid/TestResults/TestLog4JoUtput, false
-log4j: setFile ended
-log4j: Adding appender named [file] to category [root].
-2016-08-31 19:20:15 INFO  Log:9 - ****************************************************************************************
-2016-08-31 19:20:15 INFO  Log:10 - ****************************************************************************************
-2016-08-31 19:20:15 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 SpreeApiTest       $$$$$$$$$$$$$$$$$$$$$$$$$
-2016-08-31 19:20:15 INFO  Log:12 - ****************************************************************************************
-2016-08-31 19:20:15 INFO  Log:13 - ****************************************************************************************
-2016-08-31 19:20:16 INFO  Log:27 - Excel sheet opened
-2016-08-31 19:20:16 INFO  Log:27 - Total number of Row used return as < 41 >.
-Request method:	GET
-Request URI:	http://spree.paxotech.com:80/api/products/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Multiparts:		<none>
-Headers:		X-Spree-Token=52a997116f906d2587dd9d8508e27d9167bdc90348bbdc9b
-				Accept=application/json, application/javascript, text/javascript
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Body:			<none>
-2016-08-31 19:20:22 ERROR Log:33 - spree.paxotech.com: unknown error
-]]></system-out>
-  </testcase>
-  <testcase name="chqconnectiontest" classname="spreeapitest.SpreeApiTest" time="0.058">
-    <failure message="spree.paxotech.com" type="java.net.UnknownHostException">java.net.UnknownHostException: spree.paxotech.com
-	at spreeapitest.SpreeApiTest.chqconnectiontest(SpreeApiTest.java:19)
-</failure>
-    <system-out><![CDATA[log4j: System property is :null
-log4j: Standard DocumentBuilderFactory search succeded.
-log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
-log4j: debug attribute= "true".
-log4j: reset attribute= "false".
-log4j: Threshold ="null".
-log4j: Level value for root is  [DEBUG].
-log4j: root level set to DEBUG
-log4j: Class name: [org.apache.log4j.ConsoleAppender]
-log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
-log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
-log4j: Adding appender named [console] to category [root].
-log4j: Class name: [org.apache.log4j.RollingFileAppender]
-log4j: Setting property [append] to [false].
-log4j: Setting property [maxFileSize] to [10MB].
-log4j: Setting property [maxBackupIndex] to [10].
-log4j: Setting property [file] to [/Users/wasey/IdeaProjects/PerFactHybrid/TestResults/TestLog4JoUtput].
-log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
-log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
-log4j: setFile called: /Users/wasey/IdeaProjects/PerFactHybrid/TestResults/TestLog4JoUtput, false
-log4j: setFile ended
-log4j: Adding appender named [file] to category [root].
-2016-08-31 19:20:22 INFO  Log:9 - ****************************************************************************************
-2016-08-31 19:20:22 INFO  Log:10 - ****************************************************************************************
-2016-08-31 19:20:22 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 SpreeApiTest       $$$$$$$$$$$$$$$$$$$$$$$$$
-2016-08-31 19:20:22 INFO  Log:12 - ****************************************************************************************
-2016-08-31 19:20:22 INFO  Log:13 - ****************************************************************************************
-2016-08-31 19:20:22 INFO  Log:27 - Excel sheet opened
-2016-08-31 19:20:22 INFO  Log:27 - Total number of Row used return as < 41 >.
-2016-08-31 19:20:22 ERROR Log:33 - spree.paxotech.com
-]]></system-out>
-  </testcase>
-  <testcase name="HomeTest" classname="spreeuitest.HomeTest" time="13.979"/>
-  <testcase name="accountButtonVerification" classname="spreeuitest.LoginTest" time="3.238"/>
-  <testcase name="Product1Test" classname="spreeuitest.ProductTest" time="1.315"/>
-  <testcase name="ProductSelectionTest" classname="spreeuitest.ProductTest" time="0.062"/>
-  <testcase name="accountButtonVerification" classname="spreeuitest.RegistrationTest" time="2.665"/>
-  <testcase name="BrowserTest" classname="spreeuitest.SmokeTest" time="2.537"/>
-  <testcase name="signInTest" classname="spreeuitest.SmokeTest" time="2.859"/>
+  <testcase name="allElements" classname="spreeuitest.ElimentsTest" time="11.509"/>
+  <testcase name="HomeTest" classname="spreeuitest.HomeTest" time="2.683"/>
+  <testcase name="accountButtonVerification" classname="spreeuitest.LoginTest" time="2.987"/>
+  <testcase name="Product1Test" classname="spreeuitest.ProductTest" time="1.306"/>
+  <testcase name="ProductSelectionTest" classname="spreeuitest.ProductTest" time="0.072"/>
+  <testcase name="accountButtonVerification" classname="spreeuitest.RegistrationTest" time="3.012"/>
+  <testcase name="BrowserTest" classname="spreeuitest.SmokeTest" time="3.119"/>
+  <testcase name="signInTest" classname="spreeuitest.SmokeTest" time="2.725"/>
 </testsuite>

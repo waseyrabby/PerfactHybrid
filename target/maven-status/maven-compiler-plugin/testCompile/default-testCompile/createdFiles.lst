@@ -1,6 +1,9 @@
+spreeuitest/LoginTest.class
 spreeuitest/SmokeTest.class
 spreeuitest/RegistrationTest.class
+spreeuitest/ElimentsTest.class
 spreeuitest/HomeTest.class
+spreeapitest/beforeAfterTest.class
 spreeuitest/beforeaftertest.class
 spreeapitest/SpreeApiTest.class
 spreeuitest/ProductTest.class

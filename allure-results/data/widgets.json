@@ -2,17 +2,17 @@
   "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
   "data" : [ {
     "statistic" : {
-      "total" : 126,
-      "passed" : 101,
-      "pending" : 19,
-      "canceled" : 0,
+      "total" : 170,
+      "passed" : 122,
+      "pending" : 24,
+      "canceled" : 9,
       "failed" : 0,
-      "broken" : 6
+      "broken" : 15
     },
     "time" : {
       "start" : 1472677609055,
-      "stop" : 1472685677968,
-      "duration" : 8068913
+      "stop" : 1476383523988,
+      "duration" : 3705914933
     },
     "name" : "total",
     "type" : "TOTAL"
@@ -25,7 +25,35 @@
       "status" : "BROKEN"
     }, {
       "count" : 2,
+      "message" : "Test was interrupted",
+      "status" : "BROKEN"
+    }, {
+      "count" : 2,
+      "message" : "WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: \n08198ce6fd}\",\"syncGUID\":\"QihWObMFns-W\",\"location\":\"app-global\",\"version\":\"49.0.1\",\"type\":\"theme\",\"internalName\":\"classic/1.0\",\"updateURL\":null,\"updateKey\":null,\"optionsURL\":null,\"optionsType\":null,\"aboutURL\":null,\"icons\":{\"32\":\"icon.png\",\"48\":\"icon.png\"},\"iconURL\":null,\"icon64URL\":null,\"defaultLocale\":{\"name\":\"Default\",\"description\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1475967370000,\"updateDate\":1475967370000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":7140,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\n1476383423355\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\n1476383423356\tDeferredSave.extensions.json\tDEBUG\tSave changes\n1476383423356\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\n1476383423356\taddons.xpi-utils\tDEBUG\tUpdating add-on states\n1476383423357\taddons.xpi-utils\tDEBUG\tWriting add-ons list\n1476383423358\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi\n1476383423358\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\n1476383423358\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi\n1476383423358\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\n1476383423359\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi\n1476383423359\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\n1476383423361\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\n1476383423361\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\n1476383423361\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\n1476383423361\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\n1476383423361\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\n1476383423362\taddons.manager\tDEBUG\tStarting provider: GMPProvider\n1476383423367\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\n1476383423367\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\n1476383423367\taddons.manager\tDEBUG\tStarting provider: PluginProvider\n1476383423367\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\n1476383423367\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\n1476383423367\taddons.manager\tDEBUG\tCompleted startup sequence\n1476383423611\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\n1476383423611\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\n1476383423612\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\n1476383423616\tDeferredSave.extensions.json\tDEBUG\tStarting write\n1476383423701\taddons.repository\tDEBUG\tNo addons.json found.\n1476383423701\tDeferredSave.addons.json\tDEBUG\tSave changes\n1476383423704\tDeferredSave.addons.json\tDEBUG\tStarting timer\n1476383423724\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\n1476383423725\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\n1476383423725\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\n1476383423727\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\n1476383423728\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\n1476383423756\tDeferredSave.addons.json\tDEBUG\tStarting write\n1476383423767\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\n\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_77'\nDriver info: driver.version: FirefoxDriver",
+      "status" : "BROKEN"
+    }, {
+      "count" : 2,
       "message" : "UnknownHostException: spree.paxotech.com",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "Exception: null",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "NullPointerException: null",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "Test suite was interrupted, some test cases may be lost",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "FileNotFoundException: /Users/wasey/IdeaProjects/PerFactHybrid/TestResults (Is a directory)",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "WebDriverException: session 49f0b61f-a2b5-4b5a-b9f8-a3808342c2b9 does not exist\nCommand duration or timeout: 16 milliseconds\nBuild info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'\nSystem info: host: '199-7-164-214', ip: '199.7.164.214', os.name: 'windows', os.arch: 'x86', os.version: '5.2', java.version: '1.8.0_40'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=false, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=7, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: 49f0b61f-a2b5-4b5a-b9f8-a3808342c2b9\nCommand duration or timeout: 1.87 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_77'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=false, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=7, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=c99a3ccb19d6e5f4475aea694470264d75b5da3a, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: c99a3ccb19d6e5f4475aea694470264d75b5da3a",
       "status" : "BROKEN"
     } ]
   }, {
@@ -34,22 +62,22 @@
     "data" : [ {
       "title" : "Surefire suite : Surefire test",
       "statistic" : {
-        "total" : 120,
-        "passed" : 96,
-        "pending" : 18,
-        "canceled" : 0,
+        "total" : 149,
+        "passed" : 106,
+        "pending" : 22,
+        "canceled" : 9,
         "failed" : 0,
-        "broken" : 6
+        "broken" : 12
       }
     }, {
       "title" : "Default Suite : PerFactHybrid",
       "statistic" : {
-        "total" : 6,
-        "passed" : 5,
-        "pending" : 1,
+        "total" : 21,
+        "passed" : 16,
+        "pending" : 2,
         "canceled" : 0,
         "failed" : 0,
-        "broken" : 0
+        "broken" : 3
       }
     } ]
   }, {
@@ -58,28 +86,28 @@
     "data" : [ {
       "title" : "My Feature",
       "statistic" : {
-        "total" : 80,
-        "passed" : 64,
-        "pending" : 16,
-        "canceled" : 0,
+        "total" : 114,
+        "passed" : 78,
+        "pending" : 26,
+        "canceled" : 8,
         "failed" : 0,
-        "broken" : 0
+        "broken" : 2
       }
     }, {
       "title" : "SignIN TO Spree Account",
       "statistic" : {
-        "total" : 32,
+        "total" : 40,
         "passed" : 32,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 8,
         "failed" : 0,
         "broken" : 0
       }
     }, {
       "title" : "Verify Product Information",
       "statistic" : {
-        "total" : 16,
-        "passed" : 16,
+        "total" : 20,
+        "passed" : 20,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
@@ -88,12 +116,12 @@
     }, {
       "title" : "Without feature",
       "statistic" : {
-        "total" : 62,
-        "passed" : 45,
+        "total" : 83,
+        "passed" : 57,
         "pending" : 11,
-        "canceled" : 0,
+        "canceled" : 1,
         "failed" : 0,
-        "broken" : 6
+        "broken" : 14
       }
     } ]
   }, {

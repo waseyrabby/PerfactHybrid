@@ -4,8 +4,9 @@ public class Constant {
 	    public static final String URL = "http://spree.paxotech.com/";
 	    public static final String Username = "testuser_1";
 	    public static final String Password ="Test@123";
-		public static final String Path_TestData = "/Users/wasey/IdeaProjects/PerFactHybrid/src/main/resources/TestData/UiTestData/";
-    public static final String Path_ApiTestData = "/Users/wasey/IdeaProjects/PerFactHybrid/src/main/resources/TestData/UiTestData/";
+		public static final String Path_TestData = System.getProperty("user.dir") +"/src/main/resources/TestData/UiTestData/";
+    public static final String Path_ApiTestData = System.getProperty("user.dir") +"src/main/resources/TestData/ApiTestData/";
+
 
     public static final String File_TestData = "TestData.xlsx";
 		//Test Data Sheet Columns
@@ -23,7 +24,7 @@ public class Constant {
 		public static final int Col_Phone = 11;
 		public static final int Col_Email = 12;
 		public static final int Col_Result = 13;
-		public static final String Path_ScreenShot = "/Users/wasey/IdeaProjects/PerFactHybrid/TestResults/Screenshots/";
+		public static final String Path_ScreenShot = "/Users/wasey/IdeaProjects/PerFactHybrid/TestResults/Screenshots";
 	public static final String SpreeURL = "http://spree.paxotech.com";
 	public static final int SpreePort= Integer.parseInt("80");
 	public static final String SpreeBase= "/api";

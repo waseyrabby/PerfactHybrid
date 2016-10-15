@@ -1,0 +1,47 @@
+{
+  "uid" : "e82518cf41b1fda6",
+  "name" : "allElements",
+  "title" : "All elements",
+  "time" : {
+    "start" : 1476387172340,
+    "stop" : 1476387183777,
+    "duration" : 11437
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f6506d1fc1723828",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "99960@Aams-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}

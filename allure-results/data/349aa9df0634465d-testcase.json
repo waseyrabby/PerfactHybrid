@@ -1,0 +1,53 @@
+{
+  "uid" : "349aa9df0634465d",
+  "name" : "beforeTest",
+  "title" : "Before test",
+  "time" : {
+    "start" : 1476471951816,
+    "stop" : 1476471951817,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "TestNGException: \nParameter 'HomeTest' is required by @Configuration on method beforeTest but has not been marked @Optional or defined\nin /Users/wasey/Library/Caches/IdeaIC2016.1/temp-testng-customsuite.xml",
+    "stackTrace" : "org.testng.TestNGException: \nParameter 'HomeTest' is required by @Configuration on method beforeTest but has not been marked @Optional or defined\nin /Users/wasey/Library/Caches/IdeaIC2016.1/temp-testng-customsuite.xml\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:154)\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:361)\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:656)\n\tat org.testng.TestRunner.run(TestRunner.java:624)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
+  },
+  "description" : {
+    "value" : "@BeforeTest",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c437535683402c93",
+    "name" : "Default Suite : PerFactHybrid",
+    "title" : "Default Suite : PerFactHybrid"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "29725@Aams-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Default Suite : PerFactHybrid"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Default Suite : PerFactHybrid"
+  } ],
+  "parameters" : [ ]
+}

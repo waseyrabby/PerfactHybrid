@@ -1,25 +1,28 @@
-2016-10-13 15:33:46 INFO  Log:9 - ****************************************************************************************
-2016-10-13 15:33:46 INFO  Log:10 - ****************************************************************************************
-2016-10-13 15:33:46 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$
-2016-10-13 15:33:46 INFO  Log:12 - ****************************************************************************************
-2016-10-13 15:33:46 INFO  Log:13 - ****************************************************************************************
-2016-10-13 15:33:46 INFO  Log:27 - Excel sheet opened
-2016-10-13 15:33:46 INFO  Log:27 - Total number of Row used return as < 41 >.
-2016-10-13 15:33:47 INFO  Log:27 - New driver instantiated
-2016-10-13 15:33:48 INFO  Log:27 - Implicit wait applied on the driver for 10 seconds
-2016-10-13 15:33:51 INFO  Log:27 - Web application launched successfully
-2016-10-13 15:33:51 INFO  Log:27 - My Account link is found on the Home Page
-2016-10-13 15:33:52 INFO  Log:27 - Click action is perfromed on My Account link
-2016-10-13 15:33:52 INFO  Log:27 - Username text box is found on the Login Page
-2016-10-13 15:33:52 INFO  Log:27 - waseyrabby@btinternet.com is entered in UserName text box
-2016-10-13 15:33:52 INFO  Log:27 - Password text box is found on the Login page
-2016-10-13 15:33:52 INFO  Log:27 - Password text box is found on the Login page
-2016-10-13 15:33:52 INFO  Log:27 - 718756 is entered in Password text box
-2016-10-13 15:33:52 INFO  Log:27 - Submit button is found on the Login page
-2016-10-13 15:33:53 INFO  Log:27 - Click action is performed on Submit button
-2016-10-13 15:33:53 INFO  Log:27 - Log Out link is found on the Home Page
-2016-10-13 15:33:54 INFO  Log:18 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2016-10-13 15:33:54 INFO  Log:19 - X
-2016-10-13 15:33:54 INFO  Log:20 - X
-2016-10-13 15:33:54 INFO  Log:21 - X
-2016-10-13 15:33:54 INFO  Log:22 - X
+2016-10-14 23:11:45 INFO  Log:9 - ****************************************************************************************
+2016-10-14 23:11:45 INFO  Log:10 - ****************************************************************************************
+2016-10-14 23:11:45 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 SmokeTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-14 23:11:45 INFO  Log:12 - ****************************************************************************************
+2016-10-14 23:11:45 INFO  Log:13 - ****************************************************************************************
+2016-10-14 23:11:47 INFO  Log:27 - Excel sheet opened
+2016-10-14 23:11:47 INFO  Log:27 - Total number of Row used return as < 41 >.
+2016-10-14 23:11:48 INFO  Log:27 - New driver instantiated
+2016-10-14 23:11:51 ERROR Log:33 - Class Utils | Method OpenBrowser | Exception desc : Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/.org.chromium.Chromium.cxhr5C}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 44abc8d8edd4e4b5bee64433fd1462c5
+2016-10-14 23:11:51 ERROR Log:33 - My Acocunt link is not found on the Home Page
+2016-10-14 23:11:51 ERROR Log:33 - Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : no such session
+  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/.org.chromium.Chromium.cxhr5C}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 44abc8d8edd4e4b5bee64433fd1462c5
+2016-10-14 23:11:51 INFO  Log:18 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-14 23:11:51 INFO  Log:19 - X
+2016-10-14 23:11:51 INFO  Log:20 - X
+2016-10-14 23:11:51 INFO  Log:21 - X
+2016-10-14 23:11:51 INFO  Log:22 - X

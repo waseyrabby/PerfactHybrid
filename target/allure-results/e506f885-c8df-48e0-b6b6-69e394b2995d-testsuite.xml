@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476500274362" stop="1476500274368" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : PerFactHybrid</name>
+    <title>Default Suite : PerFactHybrid</title>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -7,229 +7,638 @@
     "title" : "Test defects",
     "status" : "BROKEN",
     "defects" : [ {
-      "uid" : "59629aa883f4c8eb",
+      "uid" : "2c8ec2b8b3ea0828",
       "failure" : {
         "message" : "Exception: null",
-        "stackTrace" : "java.lang.Exception\n\tat utility.Utils.takeScreenshot(Utils.java:96)\n\tat spreeuitest.RegistrationTest.accountButtonVerification(RegistrationTest.java:26)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
+        "stackTrace" : "java.lang.Exception\n\tat utility.Utils.takeScreenshot(Utils.java:114)\n\tat spreeuitest.SmokeTest.BrowserTest(SmokeTest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
       },
       "testCases" : [ {
-        "uid" : "d696e2f260d33797",
+        "uid" : "120cc15f4476102e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499859912,
+          "stop" : 1476499860028,
+          "duration" : 116
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "22462c4b1d051286",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499170390,
+          "stop" : 1476499170524,
+          "duration" : 134
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "5aa1f9d40aae286a",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1474760645042,
-          "stop" : 1474760645209,
-          "duration" : 167
+          "start" : 1476472290323,
+          "stop" : 1476472298633,
+          "duration" : 8310
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "6e5c870b38f59a78",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500299076,
+          "stop" : 1476500299199,
+          "duration" : 123
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "c65477ac2ddd32e9",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476498479809,
+          "stop" : 1476498482315,
+          "duration" : 2506
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2eec9a0a5e7a7aa4",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499329377,
+          "stop" : 1476499329513,
+          "duration" : 136
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2a1818a139fa2f14",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472127649,
+          "stop" : 1476472127767,
+          "duration" : 118
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4815c68642473df2",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499983802,
+          "stop" : 1476499983923,
+          "duration" : 121
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "97d120feff6fde6f",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476462005510,
+          "stop" : 1476462005660,
+          "duration" : 150
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "599529e0ce795218",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472188538,
+          "stop" : 1476472188680,
+          "duration" : 142
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "86fdadcf3d30f47f",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500915840,
+          "stop" : 1476500915975,
+          "duration" : 135
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f67bf0a308706a43",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476501111251,
+          "stop" : 1476501111384,
+          "duration" : 133
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4df9ce0be73e1ce6",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500017380,
+          "stop" : 1476500017517,
+          "duration" : 137
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8af8ca9935de58a9",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500925908,
+          "stop" : 1476500926053,
+          "duration" : 145
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1b444562c0b904bf",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472002785,
+          "stop" : 1476472002915,
+          "duration" : 130
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "aa5bb3f7b45beeda",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499832969,
+          "stop" : 1476499833128,
+          "duration" : 159
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2e2bad20da0ff3eb",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499408100,
+          "stop" : 1476499408219,
+          "duration" : 119
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4f034e2127587557",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476498815968,
+          "stop" : 1476498816014,
+          "duration" : 46
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b62d7fced3f975a6",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476501073632,
+          "stop" : 1476501073758,
+          "duration" : 126
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9819f543b927255e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500281824,
+          "stop" : 1476500281936,
+          "duration" : 112
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3dcead54ebe11f3d",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500934966,
+          "stop" : 1476500935102,
+          "duration" : 136
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       } ]
     }, {
-      "uid" : "48d66991e013f419",
+      "uid" : "37b29ff34c5dde8d",
       "failure" : {
         "message" : "NullPointerException: null",
-        "stackTrace" : "java.lang.NullPointerException\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:71)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
+        "stackTrace" : "java.lang.NullPointerException\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
       },
       "testCases" : [ {
-        "uid" : "6f33f15cdf8bb3a8",
+        "uid" : "6372356178bd534f",
         "name" : "afterMethod",
         "title" : "After method",
         "time" : {
-          "start" : 1474760645214,
-          "stop" : 1474760645214,
+          "start" : 1476499860038,
+          "stop" : 1476499860038,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4e0e0757e2f1e69e",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499170527,
+          "stop" : 1476499170527,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "5e027f1e8983cfc9",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500299202,
+          "stop" : 1476500299202,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "efb04a2e89c2df62",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499329516,
+          "stop" : 1476499329516,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3901f9d6be3c7a52",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476472127772,
+          "stop" : 1476472127773,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "c6b4f982b0541151",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499983927,
+          "stop" : 1476499983927,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4a901f73c0b84be8",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476462005664,
+          "stop" : 1476462005664,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "c112147cb2380c60",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476472188685,
+          "stop" : 1476472188685,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "a7a11347c46d852d",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500017522,
+          "stop" : 1476500017522,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f1e55a67ed47e918",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476472002921,
+          "stop" : 1476472002921,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9962529c28d08c01",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499833132,
+          "stop" : 1476499833133,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "934d3634364b078e",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499408224,
+          "stop" : 1476499408224,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "6acb667541734237",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476501073761,
+          "stop" : 1476501073761,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "7ed08f244fdc7a25",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500281939,
+          "stop" : 1476500281939,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "56f092d3cdc915e7",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500935106,
+          "stop" : 1476500935106,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       } ]
     }, {
-      "uid" : "419a598f54450709",
+      "uid" : "4aca3b3a2b9fce53",
       "failure" : {
-        "message" : "UnknownHostException: spree.paxotech.com: unknown error",
-        "stackTrace" : "java.net.UnknownHostException: spree.paxotech.com: unknown error\n\tat java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)\n\tat java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)\n\tat java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)\n\tat java.net.InetAddress.getAllByName0(InetAddress.java:1276)\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1192)\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1126)\n\tat org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)\n\tat org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)\n\tat org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)\n\tat org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)\n\tat org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)\n\tat org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)\n\tat org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)\n\tat org.apache.http.client.HttpClient$execute$0.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\n\tat io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2028)\n\tat io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)\n\tat io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)\n\tat io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\n\tat io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1434)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)\n\tat io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1221)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)\n\tat io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)\n\tat io.restassured.filter.Filter$filter$0.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\n\tat io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\n\tat io.restassured.filter.FilterContext$next.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1631)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1637)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)\n\tat io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:166)\n\tat io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)\n\tat spreeapitest.SpreeApiTest.chqconnectiontest(SpreeApiTest.java:28)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)\n"
+        "message" : "TestNGException: \nParameter 'test-name' is required by @Configuration on method beforeTest but has not been marked @Optional or defined\nin /Users/wasey/IdeaProjects/PerFactHybrid/parellal.xml",
+        "stackTrace" : "org.testng.TestNGException: \nParameter 'test-name' is required by @Configuration on method beforeTest but has not been marked @Optional or defined\nin /Users/wasey/IdeaProjects/PerFactHybrid/parellal.xml\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:154)\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:361)\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:656)\n\tat org.testng.TestRunner.run(TestRunner.java:624)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
       },
       "testCases" : [ {
-        "uid" : "72ff62503c0df120",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "b1b2c5763feded60",
+        "name" : "beforeTest",
+        "title" : "Before test",
         "time" : {
-          "start" : 1472680001294,
-          "stop" : 1472680002703,
-          "duration" : 1409
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "a7047e71c17484d7",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472680001294,
-          "stop" : 1472680002703,
-          "duration" : 1409
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "f84cd7b5be6e6b90",
-        "name" : "chqImage",
-        "title" : "Chq image",
-        "time" : {
-          "start" : 1472685621261,
-          "stop" : 1472685622368,
-          "duration" : 1107
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "3177a6f3c2624c0d",
-        "name" : "chqImage",
-        "title" : "Chq image",
-        "time" : {
-          "start" : 1472685621261,
-          "stop" : 1472685622368,
-          "duration" : 1107
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      } ]
-    }, {
-      "uid" : "51bf302c8b08f14",
-      "failure" : {
-        "message" : "Test was interrupted",
-        "stackTrace" : null
-      },
-      "testCases" : [ {
-        "uid" : "6f36dc2651fa6a42",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1476383314969,
-          "stop" : 1476383358458,
-          "duration" : 43489
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "1ba93fe0e69a88a0",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1476383314969,
-          "stop" : 1476383358458,
-          "duration" : 43489
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      } ]
-    }, {
-      "uid" : "3d98f72288501d2b",
-      "failure" : {
-        "message" : "Test suite was interrupted, some test cases may be lost",
-        "stackTrace" : null
-      },
-      "testCases" : [ {
-        "uid" : "dabb8a95261e9ce0",
-        "name" : "Surefire suite : Surefire test",
-        "title" : "Surefire suite : Surefire test",
-        "time" : {
-          "start" : 1476383303093,
-          "stop" : 1476383358458,
-          "duration" : 55365
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      } ]
-    }, {
-      "uid" : "cfe8b6ad43732fdf",
-      "failure" : {
-        "message" : "FileNotFoundException: /Users/wasey/IdeaProjects/PerFactHybrid/TestResults (Is a directory)",
-        "stackTrace" : "java.io.FileNotFoundException: /Users/wasey/IdeaProjects/PerFactHybrid/TestResults (Is a directory)\n\tat java.io.FileOutputStream.open0(Native Method)\n\tat java.io.FileOutputStream.open(FileOutputStream.java:270)\n\tat java.io.FileOutputStream.<init>(FileOutputStream.java:213)\n\tat java.io.FileOutputStream.<init>(FileOutputStream.java:101)\n\tat spreeuitest.ElimentsTest.allElements(ElimentsTest.java:27)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
-      },
-      "testCases" : [ {
-        "uid" : "34b4243eeb88d69f",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472772511097,
-          "stop" : 1472772518168,
-          "duration" : 7071
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      } ]
-    }, {
-      "uid" : "3e64883a058779cd",
-      "failure" : {
-        "message" : "WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: \n08198ce6fd}\",\"syncGUID\":\"QihWObMFns-W\",\"location\":\"app-global\",\"version\":\"49.0.1\",\"type\":\"theme\",\"internalName\":\"classic/1.0\",\"updateURL\":null,\"updateKey\":null,\"optionsURL\":null,\"optionsType\":null,\"aboutURL\":null,\"icons\":{\"32\":\"icon.png\",\"48\":\"icon.png\"},\"iconURL\":null,\"icon64URL\":null,\"defaultLocale\":{\"name\":\"Default\",\"description\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1475967370000,\"updateDate\":1475967370000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":7140,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\n1476383423355\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\n1476383423356\tDeferredSave.extensions.json\tDEBUG\tSave changes\n1476383423356\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\n1476383423356\taddons.xpi-utils\tDEBUG\tUpdating add-on states\n1476383423357\taddons.xpi-utils\tDEBUG\tWriting add-ons list\n1476383423358\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi\n1476383423358\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\n1476383423358\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi\n1476383423358\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\n1476383423359\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi\n1476383423359\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\n1476383423361\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\n1476383423361\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\n1476383423361\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\n1476383423361\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\n1476383423361\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\n1476383423362\taddons.manager\tDEBUG\tStarting provider: GMPProvider\n1476383423367\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\n1476383423367\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\n1476383423367\taddons.manager\tDEBUG\tStarting provider: PluginProvider\n1476383423367\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\n1476383423367\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\n1476383423367\taddons.manager\tDEBUG\tCompleted startup sequence\n1476383423611\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\n1476383423611\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\n1476383423612\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\n1476383423616\tDeferredSave.extensions.json\tDEBUG\tStarting write\n1476383423701\taddons.repository\tDEBUG\tNo addons.json found.\n1476383423701\tDeferredSave.addons.json\tDEBUG\tSave changes\n1476383423704\tDeferredSave.addons.json\tDEBUG\tStarting timer\n1476383423724\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\n1476383423725\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\n1476383423725\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\n1476383423727\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\n1476383423728\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\n1476383423756\tDeferredSave.addons.json\tDEBUG\tStarting write\n1476383423767\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\n\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_77'\nDriver info: driver.version: FirefoxDriver",
-        "stackTrace" : "org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: \n08198ce6fd}\",\"syncGUID\":\"QihWObMFns-W\",\"location\":\"app-global\",\"version\":\"49.0.1\",\"type\":\"theme\",\"internalName\":\"classic/1.0\",\"updateURL\":null,\"updateKey\":null,\"optionsURL\":null,\"optionsType\":null,\"aboutURL\":null,\"icons\":{\"32\":\"icon.png\",\"48\":\"icon.png\"},\"iconURL\":null,\"icon64URL\":null,\"defaultLocale\":{\"name\":\"Default\",\"description\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1475967370000,\"updateDate\":1475967370000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":7140,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\n1476383423355\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\n1476383423356\tDeferredSave.extensions.json\tDEBUG\tSave changes\n1476383423356\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\n1476383423356\taddons.xpi-utils\tDEBUG\tUpdating add-on states\n1476383423357\taddons.xpi-utils\tDEBUG\tWriting add-ons list\n1476383423358\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi\n1476383423358\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\n1476383423358\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi\n1476383423358\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\n1476383423359\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi\n1476383423359\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\n1476383423361\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\n1476383423361\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\n1476383423361\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\n1476383423361\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\n1476383423361\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\n1476383423362\taddons.manager\tDEBUG\tStarting provider: GMPProvider\n1476383423367\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\n1476383423367\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\n1476383423367\taddons.manager\tDEBUG\tStarting provider: PluginProvider\n1476383423367\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\n1476383423367\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\n1476383423367\taddons.manager\tDEBUG\tCompleted startup sequence\n1476383423611\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\n1476383423611\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\n1476383423612\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\n1476383423616\tDeferredSave.extensions.json\tDEBUG\tStarting write\n1476383423701\taddons.repository\tDEBUG\tNo addons.json found.\n1476383423701\tDeferredSave.addons.json\tDEBUG\tSave changes\n1476383423704\tDeferredSave.addons.json\tDEBUG\tStarting timer\n1476383423724\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\n1476383423725\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\n1476383423725\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\n1476383423727\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\n1476383423728\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\n1476383423756\tDeferredSave.addons.json\tDEBUG\tStarting write\n1476383423767\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\n\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_77'\nDriver info: driver.version: FirefoxDriver\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)\n\tat org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)\n\tat spreeuitest.ElimentsTest.allElements(ElimentsTest.java:21)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)\nCaused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:\n08198ce6fd}\",\"syncGUID\":\"QihWObMFns-W\",\"location\":\"app-global\",\"version\":\"49.0.1\",\"type\":\"theme\",\"internalName\":\"classic/1.0\",\"updateURL\":null,\"updateKey\":null,\"optionsURL\":null,\"optionsType\":null,\"aboutURL\":null,\"icons\":{\"32\":\"icon.png\",\"48\":\"icon.png\"},\"iconURL\":null,\"icon64URL\":null,\"defaultLocale\":{\"name\":\"Default\",\"description\":\"The default theme.\",\"creator\":\"Mozilla\",\"homepageURL\":null,\"contributors\":[\"Mozilla Contributors\"]},\"visible\":true,\"active\":true,\"userDisabled\":false,\"appDisabled\":false,\"descriptor\":\"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi\",\"installDate\":1475967370000,\"updateDate\":1475967370000,\"applyBackgroundUpdates\":1,\"skinnable\":true,\"size\":7140,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":false,\"hasBinaryComponents\":false,\"strictCompatibility\":true,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"49.0.1\",\"maxVersion\":\"49.0.1\"}],\"targetPlatforms\":[],\"seen\":true}\n1476383423355\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\n1476383423356\tDeferredSave.extensions.json\tDEBUG\tSave changes\n1476383423356\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\n1476383423356\taddons.xpi-utils\tDEBUG\tUpdating add-on states\n1476383423357\taddons.xpi-utils\tDEBUG\tWriting add-ons list\n1476383423358\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi\n1476383423358\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.2\n1476383423358\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi\n1476383423358\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0.4\n1476383423359\taddons.xpi\tDEBUG\tRegistering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi\n1476383423359\taddons.xpi\tDEBUG\tCalling bootstrap method startup on webcompat@mozilla.org version 1.0\n1476383423361\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\n1476383423361\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\n1476383423361\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\n1476383423361\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\n1476383423361\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\n1476383423362\taddons.manager\tDEBUG\tStarting provider: GMPProvider\n1476383423367\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\n1476383423367\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\n1476383423367\taddons.manager\tDEBUG\tStarting provider: PluginProvider\n1476383423367\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\n1476383423367\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\n1476383423367\taddons.manager\tDEBUG\tCompleted startup sequence\n1476383423611\taddons.manager\tDEBUG\tStarting provider: <unnamed-provider>\n1476383423611\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\n1476383423612\taddons.manager\tDEBUG\tProvider finished startup: <unnamed-provider>\n1476383423616\tDeferredSave.extensions.json\tDEBUG\tStarting write\n1476383423701\taddons.repository\tDEBUG\tNo addons.json found.\n1476383423701\tDeferredSave.addons.json\tDEBUG\tSave changes\n1476383423704\tDeferredSave.addons.json\tDEBUG\tStarting timer\n1476383423724\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\n1476383423725\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\n1476383423725\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\n1476383423727\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\n1476383423728\taddons.xpi-utils\tDEBUG\tXPI Database saved, setting schema version preference to 17\n1476383423756\tDeferredSave.addons.json\tDEBUG\tStarting write\n1476383423767\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\n\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)\n\t... 35 more\n"
-      },
-      "testCases" : [ {
-        "uid" : "48e8ab160951e072",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1476383422482,
-          "stop" : 1476383468298,
-          "duration" : 45816
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "c267aa514ec0f8ab",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1476383422482,
-          "stop" : 1476383468298,
-          "duration" : 45816
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      } ]
-    }, {
-      "uid" : "b0e144533b8c9d2b",
-      "failure" : {
-        "message" : "WebDriverException: session 49f0b61f-a2b5-4b5a-b9f8-a3808342c2b9 does not exist\nCommand duration or timeout: 16 milliseconds\nBuild info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'\nSystem info: host: '199-7-164-214', ip: '199.7.164.214', os.name: 'windows', os.arch: 'x86', os.version: '5.2', java.version: '1.8.0_40'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=false, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=7, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: 49f0b61f-a2b5-4b5a-b9f8-a3808342c2b9\nCommand duration or timeout: 1.87 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_77'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=false, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=7, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=c99a3ccb19d6e5f4475aea694470264d75b5da3a, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: c99a3ccb19d6e5f4475aea694470264d75b5da3a",
-        "stackTrace" : "org.openqa.selenium.WebDriverException: session 49f0b61f-a2b5-4b5a-b9f8-a3808342c2b9 does not exist\nCommand duration or timeout: 16 milliseconds\nBuild info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'\nSystem info: host: '199-7-164-214', ip: '199.7.164.214', os.name: 'windows', os.arch: 'x86', os.version: '5.2', java.version: '1.8.0_40'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=false, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=7, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: 49f0b61f-a2b5-4b5a-b9f8-a3808342c2b9\nCommand duration or timeout: 1.87 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_77'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=false, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=7, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=c99a3ccb19d6e5f4475aea694470264d75b5da3a, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: c99a3ccb19d6e5f4475aea694470264d75b5da3a\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:71)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_77'\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)\n\t... 34 more\nCaused by: org.openqa.selenium.remote.SessionNotFoundException: session 49f0b61f-a2b5-4b5a-b9f8-a3808342c2b9 does not exist\nCommand duration or timeout: 16 milliseconds\nBuild info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'\nSystem info: host: '199-7-164-214', ip: '199.7.164.214', os.name: 'windows', os.arch: 'x86', os.version: '5.2', java.version: '1.8.0_40'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=false, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=7, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: 49f0b61f-a2b5-4b5a-b9f8-a3808342c2b9\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_77'\nDriver info: driver.version: EventFiringWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n\tat java.lang.reflect.Method.invoke(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)\n\tat com.sun.proxy.$Proxy1.close(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.close(EventFiringWebDriver.java:198)\n\tat org.openqa.selenium.remote.server.handler.CloseWindow.call(CloseWindow.java:33)\n\tat org.openqa.selenium.remote.server.handler.CloseWindow.call(CloseWindow.java:1)\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n\tat java.lang.Thread.run(Unknown Source)\n"
-      },
-      "testCases" : [ {
-        "uid" : "4569486c9fa97c60",
-        "name" : "afterMethod",
-        "title" : "After method",
-        "time" : {
-          "start" : 1476383523981,
-          "stop" : 1476383523982,
+          "start" : 1476471772370,
+          "stop" : 1476471772371,
           "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       } ]
     }, {
-      "uid" : "d97db6fe80c90218",
+      "uid" : "577a548ee84acbff",
       "failure" : {
-        "message" : "UnknownHostException: spree.paxotech.com",
-        "stackTrace" : "java.net.UnknownHostException: spree.paxotech.com\n\tat java.net.InetAddress.getAllByName0(InetAddress.java:1280)\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1192)\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1126)\n\tat org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)\n\tat org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)\n\tat org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)\n\tat org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)\n\tat org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)\n\tat org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)\n\tat org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)\n\tat org.apache.http.client.HttpClient$execute$0.call(Unknown Source)\n\tat io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2028)\n\tat io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)\n\tat io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)\n\tat io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)\n\tat io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1434)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)\n\tat io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1221)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)\n\tat io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)\n\tat io.restassured.filter.Filter$filter$0.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\n\tat io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat io.restassured.filter.Filter$filter$0.call(Unknown Source)\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\n\tat io.restassured.filter.FilterContext$next.call(Unknown Source)\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1631)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1637)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)\n\tat io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:166)\n\tat io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)\n\tat appModules.api_Action.chqconnectiontest(api_Action.java:23)\n\tat spreeapitest.SpreeApiTest.chqconnectiontest(SpreeApiTest.java:19)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)\n"
+        "message" : "TestNGException: \nMethod beforeTest requires 1 parameters but 0 were supplied in the @Configuration annotation.",
+        "stackTrace" : "org.testng.TestNGException: \nMethod beforeTest requires 1 parameters but 0 were supplied in the @Configuration annotation.\n\tat org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:127)\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:376)\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:656)\n\tat org.testng.TestRunner.run(TestRunner.java:624)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
       },
       "testCases" : [ {
-        "uid" : "f565504a6bf12352",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "2c1c7cbd212c74",
+        "name" : "beforeTest",
+        "title" : "Before test",
         "time" : {
-          "start" : 1472685622442,
-          "stop" : 1472685622499,
-          "duration" : 57
+          "start" : 1476471895953,
+          "stop" : 1476471895953,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "cebd189f3eafe671",
+      "failure" : {
+        "message" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: b2c71dba-ac06-3249-a8c0-3c6d0d1e248b",
+        "stackTrace" : "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: b2c71dba-ac06-3249-a8c0-3c6d0d1e248b\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7060 [/127.0.0.1] failed: Connection refused\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:318)\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\n\t... 18 more\nCaused by: java.net.ConnectException: Connection refused\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:123)\n\t... 33 more\n"
+      },
+      "testCases" : [ {
+        "uid" : "655725762f57dfd0",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476472298637,
+          "stop" : 1476472298638,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "8db076cb3d41c791",
+      "failure" : {
+        "message" : "FileNotFoundException: /Users/wasey/IdeaProjects/PerFactHybridsrc/main/resources/TestData/UiTestData/TestData.xlsx (No such file or directory)",
+        "stackTrace" : "java.io.FileNotFoundException: /Users/wasey/IdeaProjects/PerFactHybridsrc/main/resources/TestData/UiTestData/TestData.xlsx (No such file or directory)\n\tat java.io.FileInputStream.open0(Native Method)\n\tat java.io.FileInputStream.open(FileInputStream.java:195)\n\tat java.io.FileInputStream.<init>(FileInputStream.java:138)\n\tat java.io.FileInputStream.<init>(FileInputStream.java:93)\n\tat utility.ExcelUtils.setExcelFile(ExcelUtils.java:18)\n\tat spreeuitest.beforeaftertest.beforeMethod(beforeaftertest.java:41)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:589)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+      },
+      "testCases" : [ {
+        "uid" : "369402236b8122d9",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476461878051,
+          "stop" : 1476461878052,
+          "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "270dba8feb9e8ba5",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "76af242007b57e3d",
+        "name" : "beforeMethod",
+        "title" : "Before method",
         "time" : {
-          "start" : 1472685622442,
-          "stop" : 1472685622499,
-          "duration" : 57
+          "start" : 1476461804320,
+          "stop" : 1476461804321,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "509b80ffe4be9212",
+      "failure" : {
+        "message" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 649184b0-d30c-a746-bef2-abc16f9f9a2a",
+        "stackTrace" : "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 649184b0-d30c-a746-bef2-abc16f9f9a2a\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:318)\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\n\t... 18 more\nCaused by: java.net.ConnectException: Connection refused\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:123)\n\t... 33 more\n"
+      },
+      "testCases" : [ {
+        "uid" : "cf50f6af27c0ddc3",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476498482319,
+          "stop" : 1476498482320,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "1ff789740a5b360d",
+      "failure" : {
+        "message" : "StaleElementReferenceException: Element is no longer attached to the DOM\nCommand duration or timeout: 5 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 5ceb9f94-41d1-7c48-892a-b9980369148f",
+        "stackTrace" : "org.openqa.selenium.StaleElementReferenceException: Element is no longer attached to the DOM\nCommand duration or timeout: 5 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 5ceb9f94-41d1-7c48-892a-b9980369148f\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)\n\tat spreeuitest.ElimentsTest.allElements(ElimentsTest.java:34)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.StaleElementReferenceException: Element is no longer attached to the DOM\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: unknown\n\tat <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9457)\n\tat <anonymous class>.Utils.getElementAt(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous5865551040773119957webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9039)\n\tat <anonymous class>.WebElement.getElementText(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous5865551040773119957webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12092)\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous5865551040773119957webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous5865551040773119957webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)\n\tat <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/anonymous5865551040773119957webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)\n"
+      },
+      "testCases" : [ {
+        "uid" : "3c5cfda20f7c02e9",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476462004016,
+          "stop" : 1476462012653,
+          "duration" : 8637
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "a1e0fe2a57bb2c27",
+      "failure" : {
+        "message" : "TestNGException: \nParameter 'HomeTest' is required by @Configuration on method beforeTest but has not been marked @Optional or defined\nin /Users/wasey/Library/Caches/IdeaIC2016.1/temp-testng-customsuite.xml",
+        "stackTrace" : "org.testng.TestNGException: \nParameter 'HomeTest' is required by @Configuration on method beforeTest but has not been marked @Optional or defined\nin /Users/wasey/Library/Caches/IdeaIC2016.1/temp-testng-customsuite.xml\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:154)\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:361)\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:656)\n\tat org.testng.TestRunner.run(TestRunner.java:624)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
+      },
+      "testCases" : [ {
+        "uid" : "687678ba76d3a9",
+        "name" : "beforeTest",
+        "title" : "Before test",
+        "time" : {
+          "start" : 1476471951816,
+          "stop" : 1476471951817,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "59eef630abe33720",
+      "failure" : {
+        "message" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/.org.chromium.Chromium.9ei28T}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 4c5953c7d057573868660873bd1acd2d",
+        "stackTrace" : "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/.org.chromium.Chromium.9ei28T}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 4c5953c7d057573868660873bd1acd2d\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9515 [/127.0.0.1] failed: Connection refused\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:318)\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\n\t... 33 more\nCaused by: java.net.ConnectException: Connection refused\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:123)\n\t... 46 more\n"
+      },
+      "testCases" : [ {
+        "uid" : "fd4f5cdcca803554",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500915986,
+          "stop" : 1476500915987,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "5d3d31d320ac004a",
+      "failure" : {
+        "message" : "SessionNotFoundException: no such session\n  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/.org.chromium.Chromium.cxhr5C}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 44abc8d8edd4e4b5bee64433fd1462c5",
+        "stackTrace" : "org.openqa.selenium.remote.SessionNotFoundException: no such session\n  (Driver info: chromedriver=2.12.301326 (093c7e07b4a916b690e784b0374c7f618f1ea4be),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/.org.chromium.Chromium.cxhr5C}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 44abc8d8edd4e4b5bee64433fd1462c5\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
+      },
+      "testCases" : [ {
+        "uid" : "389fc0dbc0dc171",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476501111394,
+          "stop" : 1476501111394,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "90a4d4478bc287e4",
+      "failure" : {
+        "message" : "TestNGException: \nParameter 'HomeTest' is required by @Configuration on method beforeTest but has not been marked @Optional or defined\nin /Users/wasey/IdeaProjects/PerFactHybrid/parellal.xml",
+        "stackTrace" : "org.testng.TestNGException: \nParameter 'HomeTest' is required by @Configuration on method beforeTest but has not been marked @Optional or defined\nin /Users/wasey/IdeaProjects/PerFactHybrid/parellal.xml\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:154)\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:361)\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:656)\n\tat org.testng.TestRunner.run(TestRunner.java:624)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\n"
+      },
+      "testCases" : [ {
+        "uid" : "2cbfde62fe8942a9",
+        "name" : "beforeTest",
+        "title" : "Before test",
+        "time" : {
+          "start" : 1476471826834,
+          "stop" : 1476471826835,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "45a50fe0eca16a33",
+      "failure" : {
+        "message" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/.org.chromium.Chromium.USYqpL}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 982bd3d07250d37976cd81d91f7c5036",
+        "stackTrace" : "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/.org.chromium.Chromium.USYqpL}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 982bd3d07250d37976cd81d91f7c5036\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9515 [/127.0.0.1] failed: Connection refused\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:318)\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\n\t... 33 more\nCaused by: java.net.ConnectException: Connection refused\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:123)\n\t... 46 more\n"
+      },
+      "testCases" : [ {
+        "uid" : "e047d90d00a69fd4",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500926064,
+          "stop" : 1476500926065,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "38a983fdb5a8d016",
+      "failure" : {
+        "message" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 14d3706e-9db1-dc4b-9fd5-6c9798b1862d",
+        "stackTrace" : "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.59.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 14d3706e-9db1-dc4b-9fd5-6c9798b1862d\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)\n\tat spreeuitest.beforeaftertest.afterMethod(beforeaftertest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.run(TestNG.java:1064)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:318)\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\n\t... 33 more\nCaused by: java.net.ConnectException: Connection refused\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)\n\tat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:123)\n\t... 48 more\n"
+      },
+      "testCases" : [ {
+        "uid" : "474726f5c3afdccc",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476498816019,
+          "stop" : 1476498816019,
+          "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"

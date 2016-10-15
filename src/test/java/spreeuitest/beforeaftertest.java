@@ -2,8 +2,7 @@ package spreeuitest;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 import pageObjects.BaseClass;
 import ru.yandex.qatools.allure.annotations.Attachment;
 import utility.Constant;
@@ -18,7 +17,14 @@ public class beforeaftertest {
     public WebDriver driver;
     protected String sTestCaseName;
     protected int iTestCaseRow;
-
+    String testName = "";
+//    @BeforeTest
+//    @Parameters({ "HomeTest" })
+//    public void beforeTest(String testName) {
+//        this.testName = testName;
+//        long id = Thread.currentThread().getId();
+//        System.out.println("Before test " + testName + ". Thread id is: " + id);
+//    }
     @BeforeMethod
     public void beforeMethod() throws Exception {
 
@@ -70,4 +76,9 @@ public class beforeaftertest {
         // Closing the opened driver
         driver.close();
     }
+//    @AfterTest
+//    public void afterTest() {
+//        long id = Thread.currentThread().getId();
+//        System.out.println("After test  " + testName + ". Thread id is: " + id);
+//    }
 }

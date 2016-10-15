@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-class Suite" parallel="classes" thread-count="2" >
+    <test name="Test-class test" >
+        <classes>
+            <class name="spreeuitest.ElimentsTest" />
+            <class name="spreeuitest.HomeTest" />
+            <class name="spreeuitest.LoginTest" />
+            <class name="spreeuitest.RegistrationTest" />
+            <class name="spreeuitest.ProductTest" />
+            <class name="spreeuitest.SmokeTest" />
+        </classes>
+    </test>
+</suite>

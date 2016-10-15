@@ -2,122 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8ba28f0-71ea-46fd-8fe6-8d90822c50c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhantomJS/src/main/java/phantom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/core/DriverFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhantomJS/src/main/java/todo-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/Driver/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/model/HomePageData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/BeforeAfterHooks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/core/ResourceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IntelliJIdea2016.1/options/window.manager.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/controller/LoginpageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/test/java/com/patco/Listener/Listener.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/DriverFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/TestData/data.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/java/com/BDTjUnit/patco/test/loginfunctionalityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/chromedriver 2" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/selenium-safari-driver-2.43.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jdk/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/pages/Homepage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/pages/Busketpage.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaRejax/src/test/java/mysql/paxovision/test/CustomerVerificationtest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kargo/Drivers/driver.properties" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.opensourcecms.data.exel/wordpress.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/controller/CheckoutpageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/steps/LoginSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/ResourceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/java/com/BDTjUnit/patco/test/HomefuncitionalityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SVN/DatabaseConnectionExample/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/utils/ScreenRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_testng_testng_6_9_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/driver.properties" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/model/HomePageLocator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/Base.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/ApplicationController.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.homedepot/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/spreeuitest/SmokeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.testing/src/test/java/test.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/core/PatcoScriptbase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/DriverFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/config/AppConfig.properties" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/Feature/Spree.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/selenium-safari-driver-2.43.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/untitled2/practice.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_0.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/Driver/IEDriverServer.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/Feature/Home.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/model/AppConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/spreeuitest/HomeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/controller/ApplicationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/ApplicationConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaRejax/src/main/java/com/java/multithreading/Worker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jdk/src/main/java/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/Scriptbase.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaRejax/src/test/Resources/allure.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/test/java/com/patco/Test/HomePageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/spreeapitest/SpreeApiTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.opensourcecms.data.exel/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaRejax/src/main/java/ValidateXmlFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/controller/HomepageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/steps/HomeSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/pages/Checkoutpage.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/core/PageBase.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/waseyPythonFramework/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/ApplicationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/TestData/data.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/selenium-safari-driver-2.43.1.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/BrowserStackLocal" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/Feature/Login.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/ResourceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/cucumber.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/chromedriver 2" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/phantomjs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.opensourcecms.data.exel/src/test/java/Testscript.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_53_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhantomJS/src/main/java/conf.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_apache_poi_poi_3_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/selenium-safari-driver-2.43.1.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kargo/Bug-Report-001.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/pages/loginpage.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/ScriptBase.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_apache_poi_poi_3_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/libraries/Maven__org_testng_testng_6_9_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/ApplicationController.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/BeforeAfterHooks.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/DriverFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/ResourceFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/ScriptBase.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/main/java/com/paxotech/bdt/utils/ScreenRecord.java" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/Driver/chromedriver" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/Feature/Spree.feature" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/DevTools/InterviewPrep/BDT/BehaviorDrivenHybrid/src/resources/config/AppConfig.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/ApplicationConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/ApplicationController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/Base.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/DriverFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/ResourceFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/Scriptbase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/pages/Busketpage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/pages/Checkoutpage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/pages/Homepage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/pages/loginpage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/steps/HomeSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/steps/LoginSteps.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/main/java/com/BDTjUnit/patco/framework/steps/smokeSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/java/com/BDTjUnit/patco/test/HomefuncitionalityTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/java/com/BDTjUnit/patco/test/loginfunctionalityTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/Feature/Home.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/Feature/Login.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/chromedriver" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FinalProjects/src/test/resources/cucumber.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaRejax/src/main/java/ValidateXmlFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaRejax/src/main/java/com/java/multithreading/Worker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaRejax/src/test/Resources/allure.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaRejax/src/test/java/mysql/paxovision/test/CustomerVerificationtest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/controller/ApplicationController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/controller/CheckoutpageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/controller/HomepageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/controller/LoginpageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/core/DriverFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/core/PageBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/core/PatcoScriptbase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/core/ResourceFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/model/AppConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/model/HomePageData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/main/java/com/patco/model/HomePageLocator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/test/java/com/patco/Listener/Listener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MvcFramework/src/test/java/com/patco/Test/HomePageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/driver.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/spreeapitest/SpreeApiTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/spreeuitest/HomeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/spreeuitest/SmokeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhantomJS/src/main/java/conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhantomJS/src/main/java/phantom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhantomJS/src/main/java/todo-spec.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SVN/DatabaseConnectionExample/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SVN/DatabaseConnectionExample/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.homedepot/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.opensourcecms.data.exel/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.opensourcecms.data.exel/src/test/java/Testscript.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.opensourcecms.data.exel/wordpress.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../com.testing/src/test/java/test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javabasic/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jdk/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jdk/src/main/java/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kargo/Drivers/driver.properties" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/IntelliJIdea2016.1/options/window.manager.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/untitled2/practice.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/waseyPythonFramework/test.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Drivers/chromedriver 2" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestResults/wasey.xls" afterPath="$PROJECT_DIR$/TestResults/wasey.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/TestData/UiTestData/TestData.xlsx" afterPath="$PROJECT_DIR$/src/main/resources/TestData/UiTestData/TestData.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Drivers/chromedriver 2" afterPath="$PROJECT_DIR$/target/classes/Drivers/chromedriver 2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestData/ApiTestData/TestData.xlsx" afterPath="$PROJECT_DIR$/target/classes/TestData/ApiTestData/TestData.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestData/UiTestData/TestData.xlsx" afterPath="$PROJECT_DIR$/target/classes/TestData/UiTestData/TestData.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utility/Constant.class" afterPath="$PROJECT_DIR$/target/classes/utility/Constant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utility/ExcelUtils.class" afterPath="$PROJECT_DIR$/target/classes/utility/ExcelUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utility/Utils.class" afterPath="$PROJECT_DIR$/target/classes/utility/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/spreeuitest/beforeaftertest.class" afterPath="$PROJECT_DIR$/target/test-classes/spreeuitest/beforeaftertest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OnlineStore.iml" afterPath="$PROJECT_DIR$/OnlineStore.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestResults/TestLog4JoUtput" afterPath="$PROJECT_DIR$/TestResults/TestLog4JoUtput" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/behaviors.json" afterPath="$PROJECT_DIR$/allure-results/data/behaviors.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/defects.json" afterPath="$PROJECT_DIR$/allure-results/data/defects.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/environment.json" afterPath="$PROJECT_DIR$/allure-results/data/environment.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/graph.json" afterPath="$PROJECT_DIR$/allure-results/data/graph.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/report.json" afterPath="$PROJECT_DIR$/allure-results/data/report.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/timeline.json" afterPath="$PROJECT_DIR$/allure-results/data/timeline.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/total.json" afterPath="$PROJECT_DIR$/allure-results/data/total.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/widgets.json" afterPath="$PROJECT_DIR$/allure-results/data/widgets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allure-results/data/xunit.json" afterPath="$PROJECT_DIR$/allure-results/data/xunit.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utility/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/utility/Constant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utility/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/utility/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/spreeuitest/beforeaftertest.java" afterPath="$PROJECT_DIR$/src/test/java/spreeuitest/beforeaftertest.java" />
     </list>
     <ignored path="PerFactHybrid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,113 +165,7 @@
     <favorites_list name="PerFactHybrid" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home_Page.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/Home_Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beforeaftertest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/beforeaftertest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/RegistrationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utility/Constant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExcelUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utility/ExcelUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignIn_Action.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/appModules/SignIn_Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/ProductTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utility/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="55" column="52" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Listener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utility/Listener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Log.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utility/Log.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#1364#1365#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -290,12 +210,10 @@
         <option value="$PROJECT_DIR$/src/main/java/appModules/ProductSelect_Action.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utility/Listeners.java" />
-        <option value="$PROJECT_DIR$/src/test/java/spreeuitest/beforeaftertest.java" />
         <option value="$PROJECT_DIR$/src/test/java/spreeuitest/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/spreeuitest/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/spreeuitest/SmokeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/spreeuitest/ProductTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utility/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/appModules/api_Action.java" />
         <option value="$PROJECT_DIR$/target/allure-results/environment.xml" />
         <option value="$PROJECT_DIR$/src/test/java/spreeuitest/HomeTest.java" />
@@ -309,6 +227,9 @@
         <option value="$PROJECT_DIR$/bin/Page Titles.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Reporting/allure.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/parellal.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/spreeuitest/beforeaftertest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utility/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/utility/Utils.java" />
       </list>
     </option>
@@ -356,8 +277,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,32 +292,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spreeuitest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,14 +394,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApiTestData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -525,123 +410,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reporting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Drivers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PerFactHybrid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appModules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -652,25 +427,53 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Drivers" />
+      <recent name="$PROJECT_DIR$/src/main/resources/TestData/UiTestData" />
+      <recent name="$PROJECT_DIR$/TestResults" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Reporting" />
+      <recent name="$PROJECT_DIR$/src/main/resources/TestData/ApiTestData" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestResults" />
       <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/Screenshots/a" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/TestData/UiTestData" />
-      <recent name="$PROJECT_DIR$/TestResults" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Reporting" />
-      <recent name="$PROJECT_DIR$/src/main/resources/TestData/ApiTestData" />
-      <recent name="$PROJECT_DIR$/src/main/resources/TestData" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.ProductTest.Product1Test">
-    <configuration default="false" name="RegistrationTest.accountButtonVerification" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SmokeTest">
+    <configuration default="false" name="/Users/wasey/IdeaProjects/PerFactHybrid/parellal.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="OnlineStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/parellal.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="HomeTest (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="spreeuitest.*" />
@@ -682,7 +485,40 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="spreeuitest" />
-      <option name="MAIN_CLASS_NAME" value="spreeuitest.RegistrationTest" />
+      <option name="MAIN_CLASS_NAME" value="spreeuitest.HomeTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoginTest.accountButtonVerification" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="spreeuitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="OnlineStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="spreeuitest" />
+      <option name="MAIN_CLASS_NAME" value="spreeuitest.LoginTest" />
       <option name="METHOD_NAME" value="accountButtonVerification" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -703,22 +539,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="HomeTest.HomeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="spreeuitest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="/Users/wasey/IdeaProjects/PerFactHybrid/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="OnlineStore" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="spreeuitest" />
-      <option name="MAIN_CLASS_NAME" value="spreeuitest.HomeTest" />
-      <option name="METHOD_NAME" value="HomeTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -736,7 +567,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="ProductTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SmokeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="spreeuitest.*" />
@@ -746,78 +577,12 @@
       <module name="OnlineStore" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="spreeuitest" />
-      <option name="MAIN_CLASS_NAME" value="spreeuitest.ProductTest" />
+      <option name="MAIN_CLASS_NAME" value="spreeuitest.SmokeTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="HomeTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="spreeuitest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="OnlineStore" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="spreeuitest" />
-      <option name="MAIN_CLASS_NAME" value="spreeuitest.HomeTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProductTest.Product1Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="spreeuitest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="OnlineStore" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="spreeuitest" />
-      <option name="MAIN_CLASS_NAME" value="spreeuitest.ProductTest" />
-      <option name="METHOD_NAME" value="Product1Test" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1170,19 +935,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.spreeuitest in OnlineStore" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.HomeTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RegistrationTest.accountButtonVerification" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.HomeTest.HomeTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ProductTest" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.HomeTest (1)" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.ProductTest.Product1Test" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG./Users/wasey/IdeaProjects/PerFactHybrid/parellal.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.HomeTest (2)" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.LoginTest.accountButtonVerification" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG./Users/wasey/IdeaProjects/PerFactHybrid/testng.xml" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.SmokeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ProductTest.Product1Test" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.HomeTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ProductTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.HomeTest.HomeTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.RegistrationTest.accountButtonVerification" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SmokeTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/wasey/IdeaProjects/PerFactHybrid/testng.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG./Users/wasey/IdeaProjects/PerFactHybrid/parellal.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.LoginTest.accountButtonVerification" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.HomeTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -1203,66 +968,66 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeTest_(1) - 2016.10.13 at 15h 22m 00s.xml">
-      <configuration name="HomeTest (1)" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 22h 53m 38s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomeTest_(1) - 2016.10.13 at 15h 29m 03s.xml">
-      <configuration name="HomeTest (1)" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 22h 57m 50s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomeTest_HomeTest - 2016.10.13 at 15h 19m 16s.xml">
-      <configuration name="HomeTest.HomeTest" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 22h 57m 54s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomeTest_HomeTest - 2016.10.13 at 15h 19m 49s.xml">
-      <configuration name="HomeTest.HomeTest" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 22h 58m 02s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomeTest_HomeTest - 2016.10.13 at 15h 19m 52s.xml">
-      <configuration name="HomeTest.HomeTest" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 22h 58m 19s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomeTest_HomeTest - 2016.10.13 at 15h 19m 56s.xml">
-      <configuration name="HomeTest.HomeTest" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 23h 08m 36s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomeTest_HomeTest - 2016.10.13 at 15h 20m 05s.xml">
-      <configuration name="HomeTest.HomeTest" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 23h 08m 46s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductTest - 2016.10.13 at 15h 20m 18s.xml">
-      <configuration name="ProductTest" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 23h 08m 55s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductTest_Product1Test - 2016.10.13 at 15h 30m 32s.xml">
-      <configuration name="ProductTest.Product1Test" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 23h 11m 14s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductTest_Product1Test - 2016.10.13 at 15h 31m 40s.xml">
-      <configuration name="ProductTest.Product1Test" configurationId="TestNG" />
+    <history-entry file="SmokeTest - 2016.10.14 at 23h 11m 51s.xml">
+      <configuration name="SmokeTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45970938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34569538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45960265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30543634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07653429" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47139305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1321,29 +1086,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logfile.log" />
-    <entry file="file://$PROJECT_DIR$/TestResults/TestLog4JoUtput.txt" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL-sources.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL-sources.jar!/org/apache/poi/POIXMLDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="169" column="23" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10-sources.jar!/org/testng/SuiteRunnerWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10-sources.jar!/org/testng/Reporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1370,13 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1408,6 +1143,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,6 +1154,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1423,6 +1164,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1437,6 +1181,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1457,25 +1202,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/SmokeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/spreeapitest/beforeAfterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,13 +1235,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appModules/api_Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,13 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Reporting/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1540,6 +1258,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1550,17 +1269,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/HomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1582,15 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1598,6 +1302,151 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appModules/SignIn_Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appModules/api_Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parellal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/HomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Drivers/chromedriver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="1" column="1496" selection-start-line="1" selection-start-column="1496" selection-end-line="1" selection-end-column="1496" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phantomjsdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="26" column="117" selection-start-line="26" selection-start-column="117" selection-end-line="26" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/beforeaftertest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/SmokeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Reporting/allure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.53.0/selenium-remote-driver-2.53.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="664" column="0" selection-start-line="664" selection-start-column="0" selection-end-line="664" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1613,54 +1462,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/ExcelUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appModules/SignIn_Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/beforeaftertest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/spreeuitest/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="55" column="52" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

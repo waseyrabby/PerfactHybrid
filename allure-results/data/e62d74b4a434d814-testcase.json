@@ -1,0 +1,56 @@
+{
+  "uid" : "e62d74b4a434d814",
+  "name" : "Product1Test",
+  "title" : "Product 1 test",
+  "time" : {
+    "start" : 1476499012727,
+    "stop" : 1476499015468,
+    "duration" : 2741
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "89e2b1e25e71bdc1",
+    "name" : "Suite : Random Test",
+    "title" : "Suite : Random Test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Random Test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Ruby on Rail Begs"
+  }, {
+    "name" : "feature",
+    "value" : "Verify Product Information"
+  }, {
+    "name" : "story",
+    "value" : "Ruby on Rail Tote"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Random Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "36362@Aams-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

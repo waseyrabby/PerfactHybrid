@@ -1,0 +1,59 @@
+{
+  "uid" : "52b6acacb7bfdcb0",
+  "name" : "main",
+  "title" : "Main",
+  "time" : {
+    "start" : 1476498468520,
+    "stop" : 1476498468524,
+    "duration" : 4
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test not implemented yet",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5a37bddd3f3d2f6d",
+    "name" : "Test-class Suite : Test-class test",
+    "title" : "Test-class Suite : Test-class test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Story2"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "My Feature"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test-class Suite : Test-class test"
+  }, {
+    "name" : "thread",
+    "value" : "35410@Aams-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test-class Suite : Test-class test"
+  } ],
+  "parameters" : [ ]
+}

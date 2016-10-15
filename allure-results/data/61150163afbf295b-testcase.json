@@ -1,0 +1,56 @@
+{
+  "uid" : "61150163afbf295b",
+  "name" : "ProductSelectionTest",
+  "title" : "Product selection test",
+  "time" : {
+    "start" : 1476499020908,
+    "stop" : 1476499020959,
+    "duration" : 51
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "89e2b1e25e71bdc1",
+    "name" : "Suite : Random Test",
+    "title" : "Suite : Random Test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Story2"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Random Test"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "My Feature"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Random Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "36362@Aams-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

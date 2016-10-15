@@ -1,2236 +1,3549 @@
 {
   "features" : [ {
-    "title" : "Without feature",
+    "title" : "SignIN TO Spree Account",
     "statistic" : {
-      "total" : 83,
-      "passed" : 57,
-      "pending" : 11,
-      "canceled" : 1,
+      "total" : 104,
+      "passed" : 12,
+      "pending" : 0,
+      "canceled" : 64,
       "failed" : 0,
-      "broken" : 14
+      "broken" : 28
     },
     "stories" : [ {
-      "uid" : "3957b697bd777f9",
-      "title" : "Without story",
+      "uid" : "1eb784e9ddc113a5",
+      "title" : "password",
       "statistic" : {
-        "total" : 83,
-        "passed" : 57,
-        "pending" : 11,
-        "canceled" : 1,
+        "total" : 26,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 9,
         "failed" : 0,
         "broken" : 14
       },
       "testCases" : [ {
-        "uid" : "7710a2f6e9f6278b",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472849086581,
-          "stop" : 1472849118288,
-          "duration" : 31707
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1b7791b373c8a567",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472849898685,
-          "stop" : 1472849910403,
-          "duration" : 11718
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "bb411cc1d6b1ae07",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472848946943,
-          "stop" : 1472848979912,
-          "duration" : 32969
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "7df44a5312c60da5",
-        "name" : "chqImage",
-        "title" : "Chq image",
-        "time" : {
-          "start" : 1472683878391,
-          "stop" : 1472683880976,
-          "duration" : 2585
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "eaeba9071a41dced",
-        "name" : "chqImage",
-        "title" : "Chq image",
-        "time" : {
-          "start" : 1472683878391,
-          "stop" : 1472683880976,
-          "duration" : 2585
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "9b71ea66d38e0614",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472683881088,
-          "stop" : 1472683883458,
-          "duration" : 2370
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "918c883e699b8dea",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472683881088,
-          "stop" : 1472683883458,
-          "duration" : 2370
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "ff70b6e7060c3ab5",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472772596446,
-          "stop" : 1472772629266,
-          "duration" : 32820
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8153e3392d5d15be",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472678867870,
-          "stop" : 1472678867874,
-          "duration" : 4
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "11fa3661fe208a59",
-        "name" : "test5",
-        "title" : "Test 5",
-        "time" : {
-          "start" : 1472678867874,
-          "stop" : 1472678867874,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "94d6d1794e9d2ed8",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1472678867875,
-          "stop" : 1472678867875,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "dbdff09f09bfa422",
-        "name" : "test5",
-        "title" : "Test 5",
-        "time" : {
-          "start" : 1472678867875,
-          "stop" : 1472678867875,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "4844466cc913da29",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472678872995,
-          "stop" : 1472678876481,
-          "duration" : 3486
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "134cce71a13b6540",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472678872995,
-          "stop" : 1472678876481,
-          "duration" : 3486
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "eec51c9fdb6e19b5",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472678883062,
-          "stop" : 1472678885412,
-          "duration" : 2350
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "14b60ccbb0e027fa",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472678883062,
-          "stop" : 1472678885412,
-          "duration" : 2350
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "bee0ee58cb5f50fe",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472678889313,
-          "stop" : 1472678893834,
-          "duration" : 4521
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "7d3af8011e0e609b",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472678889313,
-          "stop" : 1472678893834,
-          "duration" : 4521
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "4c1575d7852030fd",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472678897880,
-          "stop" : 1472678898777,
-          "duration" : 897
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "bdad328dde47942",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472678897880,
-          "stop" : 1472678898777,
-          "duration" : 897
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b39d6c986233f9a6",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472678903405,
-          "stop" : 1472678903577,
-          "duration" : 172
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "89e9cd7af5d8c3e2",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472678903405,
-          "stop" : 1472678903577,
-          "duration" : 172
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "3d7f87f4fbde51d3",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472678908099,
-          "stop" : 1472678911229,
-          "duration" : 3130
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "7300394186fa1ac6",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472678908099,
-          "stop" : 1472678911229,
-          "duration" : 3130
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "395ae759294c5ecc",
+        "uid" : "120cc15f4476102e",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
-          "start" : 1472678915460,
-          "stop" : 1472678917823,
-          "duration" : 2363
+          "start" : 1476499859912,
+          "stop" : 1476499860028,
+          "duration" : 116
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "BROKEN"
       }, {
-        "uid" : "e12c841d6962441f",
+        "uid" : "5bd77897f42c4b6f",
         "name" : "BrowserTest",
         "title" : "Browser test",
         "time" : {
-          "start" : 1472678915460,
-          "stop" : 1472678917823,
-          "duration" : 2363
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "3fb9c1e88ad49cb5",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472678921589,
-          "stop" : 1472678924560,
-          "duration" : 2971
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8a38b5cc709c272f",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472678921589,
-          "stop" : 1472678924560,
-          "duration" : 2971
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6f33f15cdf8bb3a8",
-        "name" : "afterMethod",
-        "title" : "After method",
-        "time" : {
-          "start" : 1474760645214,
-          "stop" : 1474760645214,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "cb4ba028fa7267c3",
-        "name" : "chqImage",
-        "title" : "Chq image",
-        "time" : {
-          "start" : 1472681461502,
-          "stop" : 1472681464697,
-          "duration" : 3195
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "ec1e9f5b00db06bd",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472681464808,
-          "stop" : 1472681467923,
-          "duration" : 3115
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6d5a1be3e95b9b64",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472849390635,
-          "stop" : 1472849402093,
-          "duration" : 11458
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8e3c2ffe2694493e",
-        "name" : "test5",
-        "title" : "Test 5",
-        "time" : {
-          "start" : 1472680237180,
-          "stop" : 1472680237183,
-          "duration" : 3
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "1b4195cc6270a4ed",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472680241066,
-          "stop" : 1472680245346,
-          "duration" : 4280
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "bcc02a87101521f9",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472677609055,
-          "stop" : 1472677611319,
-          "duration" : 2264
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e575d835c91be48e",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472677616641,
-          "stop" : 1472677619258,
-          "duration" : 2617
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e3277401624ac434",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472850010504,
-          "stop" : 1472850022246,
-          "duration" : 11742
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "2081b7207bd7767b",
-        "name" : "test5",
-        "title" : "Test 5",
-        "time" : {
-          "start" : 1472679996031,
-          "stop" : 1472679996031,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "9011e71151642cc0",
-        "name" : "test5",
-        "title" : "Test 5",
-        "time" : {
-          "start" : 1472679996031,
-          "stop" : 1472679996031,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "72ff62503c0df120",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472680001294,
-          "stop" : 1472680002703,
-          "duration" : 1409
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "a7047e71c17484d7",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1472680001294,
-          "stop" : 1472680002703,
-          "duration" : 1409
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "7d20c7a022753abb",
-        "name" : "chqImage",
-        "title" : "Chq image",
-        "time" : {
-          "start" : 1476383309462,
-          "stop" : 1476383312228,
-          "duration" : 2766
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "4bd469a63b5efc73",
-        "name" : "chqImage",
-        "title" : "Chq image",
-        "time" : {
-          "start" : 1476383309462,
-          "stop" : 1476383312228,
-          "duration" : 2766
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "36652c9b307de4df",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1476383312338,
-          "stop" : 1476383314964,
-          "duration" : 2626
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "223dcf0fd266c17e",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
-        "time" : {
-          "start" : 1476383312338,
-          "stop" : 1476383314964,
-          "duration" : 2626
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6f36dc2651fa6a42",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1476383314969,
-          "stop" : 1476383358458,
-          "duration" : 43489
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "1ba93fe0e69a88a0",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1476383314969,
-          "stop" : 1476383358458,
-          "duration" : 43489
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "dabb8a95261e9ce0",
-        "name" : "Surefire suite : Surefire test",
-        "title" : "Surefire suite : Surefire test",
-        "time" : {
-          "start" : 1476383303093,
-          "stop" : 1476383358458,
-          "duration" : 55365
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "290f46a4c66402ab",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472849762493,
-          "stop" : 1472849775661,
-          "duration" : 13168
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "34b4243eeb88d69f",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1472772511097,
-          "stop" : 1472772518168,
-          "duration" : 7071
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "48e8ab160951e072",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1476383422482,
-          "stop" : 1476383468298,
-          "duration" : 45816
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "c267aa514ec0f8ab",
-        "name" : "allElements",
-        "title" : "All elements",
-        "time" : {
-          "start" : 1476383422482,
-          "stop" : 1476383468298,
-          "duration" : 45816
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "4569486c9fa97c60",
-        "name" : "afterMethod",
-        "title" : "After method",
-        "time" : {
-          "start" : 1476383523981,
-          "stop" : 1476383523982,
+          "start" : 1476471772419,
+          "stop" : 1476471772420,
           "duration" : 1
         },
         "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "52c69f48652005ed",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476471895991,
+          "stop" : 1476471895991,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "22462c4b1d051286",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499170390,
+          "stop" : 1476499170524,
+          "duration" : 134
+        },
+        "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "31c0f45547ba46d4",
-        "name" : "beforeMethod",
-        "title" : "Before method",
+        "uid" : "3f4c541599eb8c69",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
         "time" : {
-          "start" : 1476383523982,
-          "stop" : 1476383523984,
+          "start" : 1476472298643,
+          "stop" : 1476472298643,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6e5c870b38f59a78",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500299076,
+          "stop" : 1476500299199,
+          "duration" : 123
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f32fcb1206a106a2",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476387223305,
+          "stop" : 1476387226423,
+          "duration" : 3118
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a5ed0cacc03c0989",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476387223305,
+          "stop" : 1476387226423,
+          "duration" : 3118
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f4497f398eb760ff",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476461878079,
+          "stop" : 1476461878080,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "8ed386304a2718bf",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476498482340,
+          "stop" : 1476498482340,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "2eec9a0a5e7a7aa4",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499329377,
+          "stop" : 1476499329513,
+          "duration" : 136
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4815c68642473df2",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499983802,
+          "stop" : 1476499983923,
+          "duration" : 121
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3bb307b007ec5ba1",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476462005673,
+          "stop" : 1476462005673,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "86fdadcf3d30f47f",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500915840,
+          "stop" : 1476500915975,
+          "duration" : 135
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f67bf0a308706a43",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476501111251,
+          "stop" : 1476501111384,
+          "duration" : 133
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4df9ce0be73e1ce6",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500017380,
+          "stop" : 1476500017517,
+          "duration" : 137
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1904754cd003ccba",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476471826884,
+          "stop" : 1476471826884,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "96a63dea086a873b",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499033039,
+          "stop" : 1476499036857,
+          "duration" : 3818
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8af8ca9935de58a9",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500925908,
+          "stop" : 1476500926053,
+          "duration" : 145
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1c4467e1c548fc2e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476461804355,
+          "stop" : 1476461804355,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "aa5bb3f7b45beeda",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499832969,
+          "stop" : 1476499833128,
+          "duration" : 159
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2e2bad20da0ff3eb",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499408100,
+          "stop" : 1476499408219,
+          "duration" : 119
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2b20eadef2be9f1e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476498816027,
+          "stop" : 1476498816027,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "b62d7fced3f975a6",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476501073632,
+          "stop" : 1476501073758,
+          "duration" : 126
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9819f543b927255e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500281824,
+          "stop" : 1476500281936,
+          "duration" : 112
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3dcead54ebe11f3d",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500934966,
+          "stop" : 1476500935102,
+          "duration" : 136
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "6835eb2c7932434c",
+      "title" : "waseyrabby@btinternet.com",
+      "statistic" : {
+        "total" : 26,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 9,
+        "failed" : 0,
+        "broken" : 14
+      },
+      "testCases" : [ {
+        "uid" : "120cc15f4476102e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499859912,
+          "stop" : 1476499860028,
+          "duration" : 116
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "5bd77897f42c4b6f",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476471772419,
+          "stop" : 1476471772420,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "52c69f48652005ed",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476471895991,
+          "stop" : 1476471895991,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "22462c4b1d051286",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499170390,
+          "stop" : 1476499170524,
+          "duration" : 134
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3f4c541599eb8c69",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476472298643,
+          "stop" : 1476472298643,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6e5c870b38f59a78",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500299076,
+          "stop" : 1476500299199,
+          "duration" : 123
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f32fcb1206a106a2",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476387223305,
+          "stop" : 1476387226423,
+          "duration" : 3118
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a5ed0cacc03c0989",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476387223305,
+          "stop" : 1476387226423,
+          "duration" : 3118
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f4497f398eb760ff",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476461878079,
+          "stop" : 1476461878080,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "8ed386304a2718bf",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476498482340,
+          "stop" : 1476498482340,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "2eec9a0a5e7a7aa4",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499329377,
+          "stop" : 1476499329513,
+          "duration" : 136
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4815c68642473df2",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499983802,
+          "stop" : 1476499983923,
+          "duration" : 121
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3bb307b007ec5ba1",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476462005673,
+          "stop" : 1476462005673,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "86fdadcf3d30f47f",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500915840,
+          "stop" : 1476500915975,
+          "duration" : 135
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f67bf0a308706a43",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476501111251,
+          "stop" : 1476501111384,
+          "duration" : 133
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4df9ce0be73e1ce6",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500017380,
+          "stop" : 1476500017517,
+          "duration" : 137
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1904754cd003ccba",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476471826884,
+          "stop" : 1476471826884,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "96a63dea086a873b",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499033039,
+          "stop" : 1476499036857,
+          "duration" : 3818
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8af8ca9935de58a9",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500925908,
+          "stop" : 1476500926053,
+          "duration" : 145
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1c4467e1c548fc2e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476461804355,
+          "stop" : 1476461804355,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "aa5bb3f7b45beeda",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499832969,
+          "stop" : 1476499833128,
+          "duration" : 159
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2e2bad20da0ff3eb",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476499408100,
+          "stop" : 1476499408219,
+          "duration" : 119
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2b20eadef2be9f1e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476498816027,
+          "stop" : 1476498816027,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "b62d7fced3f975a6",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476501073632,
+          "stop" : 1476501073758,
+          "duration" : 126
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9819f543b927255e",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500281824,
+          "stop" : 1476500281936,
+          "duration" : 112
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3dcead54ebe11f3d",
+        "name" : "BrowserTest",
+        "title" : "Browser test",
+        "time" : {
+          "start" : 1476500934966,
+          "stop" : 1476500935102,
+          "duration" : 136
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "a9b22a9596fd3701",
+      "title" : "Story2",
+      "statistic" : {
+        "total" : 26,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 23,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "f148dd18816008e1",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499860040,
+          "stop" : 1476499860041,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6cdd52b739c22f42",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476471772420,
+          "stop" : 1476471772421,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "41ccd8c8b78e6348",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476471895992,
+          "stop" : 1476471895992,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9c29b1c21672152e",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499170530,
+          "stop" : 1476499170530,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "54c36f1556e050ce",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476472298644,
+          "stop" : 1476472298644,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "10883c949643df4f",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500299204,
+          "stop" : 1476500299204,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "bf5bb04094dc46a0",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476387231290,
+          "stop" : 1476387234014,
+          "duration" : 2724
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a801ba91f4d317ab",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476387231290,
+          "stop" : 1476387234014,
+          "duration" : 2724
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a0b5b6cb90a89432",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476461878081,
+          "stop" : 1476461878081,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a680a49a0bdc4262",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476498482341,
+          "stop" : 1476498482343,
           "duration" : 2
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "8218dcda5a0f6e86",
+        "uid" : "acbc9bc1c576b534",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499329517,
+          "stop" : 1476499329518,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "8986a81d2b0c2e21",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499983929,
+          "stop" : 1476499983930,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "179f74463da912b8",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476462005674,
+          "stop" : 1476462005674,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "d70a14aebd4b9ebd",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500915989,
+          "stop" : 1476500915990,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "734c9efb85178ba4",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476501111396,
+          "stop" : 1476501111397,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "7e3ddd78cf311ca6",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500017524,
+          "stop" : 1476500017525,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f9cbae28be2110eb",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476471826885,
+          "stop" : 1476471826886,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "4308bf71c5664a25",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499054405,
+          "stop" : 1476499057645,
+          "duration" : 3240
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8db27f453650aafe",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500926067,
+          "stop" : 1476500926067,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "e6b1c8866e35d84c",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476461804356,
+          "stop" : 1476461804358,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9ecdab99ebff2ce8",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499833135,
+          "stop" : 1476499833135,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "fb5be7a4c7de54d4",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499408227,
+          "stop" : 1476499408228,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "e1df77923e2a7403",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476498816028,
+          "stop" : 1476498816028,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "fe6b53327d56b367",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476501073763,
+          "stop" : 1476501073764,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3db970c737913bbf",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500281941,
+          "stop" : 1476500281941,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "b47de74d15b35de7",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500935107,
+          "stop" : 1476500935108,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      } ]
+    }, {
+      "uid" : "25708e59c7046759",
+      "title" : "Story1",
+      "statistic" : {
+        "total" : 26,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 23,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "f148dd18816008e1",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499860040,
+          "stop" : 1476499860041,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6cdd52b739c22f42",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476471772420,
+          "stop" : 1476471772421,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "41ccd8c8b78e6348",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476471895992,
+          "stop" : 1476471895992,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9c29b1c21672152e",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499170530,
+          "stop" : 1476499170530,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "54c36f1556e050ce",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476472298644,
+          "stop" : 1476472298644,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "10883c949643df4f",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500299204,
+          "stop" : 1476500299204,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "bf5bb04094dc46a0",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476387231290,
+          "stop" : 1476387234014,
+          "duration" : 2724
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a801ba91f4d317ab",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476387231290,
+          "stop" : 1476387234014,
+          "duration" : 2724
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a0b5b6cb90a89432",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476461878081,
+          "stop" : 1476461878081,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a680a49a0bdc4262",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476498482341,
+          "stop" : 1476498482343,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "acbc9bc1c576b534",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499329517,
+          "stop" : 1476499329518,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "8986a81d2b0c2e21",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499983929,
+          "stop" : 1476499983930,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "179f74463da912b8",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476462005674,
+          "stop" : 1476462005674,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "d70a14aebd4b9ebd",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500915989,
+          "stop" : 1476500915990,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "734c9efb85178ba4",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476501111396,
+          "stop" : 1476501111397,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "7e3ddd78cf311ca6",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500017524,
+          "stop" : 1476500017525,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f9cbae28be2110eb",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476471826885,
+          "stop" : 1476471826886,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "4308bf71c5664a25",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499054405,
+          "stop" : 1476499057645,
+          "duration" : 3240
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8db27f453650aafe",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500926067,
+          "stop" : 1476500926067,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "e6b1c8866e35d84c",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476461804356,
+          "stop" : 1476461804358,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9ecdab99ebff2ce8",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499833135,
+          "stop" : 1476499833135,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "fb5be7a4c7de54d4",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476499408227,
+          "stop" : 1476499408228,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "e1df77923e2a7403",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476498816028,
+          "stop" : 1476498816028,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "fe6b53327d56b367",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476501073763,
+          "stop" : 1476501073764,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3db970c737913bbf",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500281941,
+          "stop" : 1476500281941,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "b47de74d15b35de7",
+        "name" : "signInTest",
+        "title" : "Sign in test",
+        "time" : {
+          "start" : 1476500935107,
+          "stop" : 1476500935108,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      } ]
+    } ]
+  }, {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 69,
+      "passed" : 9,
+      "pending" : 0,
+      "canceled" : 32,
+      "failed" : 0,
+      "broken" : 28
+    },
+    "stories" : [ {
+      "uid" : "2719f43f2cb9a001",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 69,
+        "passed" : 9,
+        "pending" : 0,
+        "canceled" : 32,
+        "failed" : 0,
+        "broken" : 28
+      },
+      "testCases" : [ {
+        "uid" : "6372356178bd534f",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499860038,
+          "stop" : 1476499860038,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2ae51ea28c968af8",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476499860039,
+          "stop" : 1476499860040,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "b1b2c5763feded60",
+        "name" : "beforeTest",
+        "title" : "Before test",
+        "time" : {
+          "start" : 1476471772370,
+          "stop" : 1476471772371,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "ab020ed14e6d32f3",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476471772404,
+          "stop" : 1476471772405,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9749c1ac9536975e",
         "name" : "allElements",
         "title" : "All elements",
         "time" : {
-          "start" : 1472848811482,
-          "stop" : 1472848847270,
-          "duration" : 35788
+          "start" : 1476471772405,
+          "stop" : 1476471784438,
+          "duration" : 12033
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "3f2ce3dadc83f4d",
-        "name" : "main",
-        "title" : "Main",
+        "uid" : "e01a81001174aa22",
+        "name" : "afterMethod",
+        "title" : "After method",
         "time" : {
-          "start" : 1472678116173,
-          "stop" : 1472678116177,
-          "duration" : 4
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "57428833feb8fab6",
-        "name" : "test5",
-        "title" : "Test 5",
-        "time" : {
-          "start" : 1472678116178,
-          "stop" : 1472678116178,
+          "start" : 1476471772413,
+          "stop" : 1476471772413,
           "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PENDING"
+        "status" : "CANCELED"
       }, {
-        "uid" : "3185b625dca86a72",
-        "name" : "main",
-        "title" : "Main",
+        "uid" : "f2f1b15ae3cb9457",
+        "name" : "afterTest",
+        "title" : "After test",
         "time" : {
-          "start" : 1472678116178,
-          "stop" : 1472678116178,
+          "start" : 1476471784555,
+          "stop" : 1476471784555,
           "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PENDING"
+        "status" : "CANCELED"
       }, {
-        "uid" : "f72ba0576e48815",
-        "name" : "test5",
-        "title" : "Test 5",
+        "uid" : "2c1c7cbd212c74",
+        "name" : "beforeTest",
+        "title" : "Before test",
         "time" : {
-          "start" : 1472678116178,
-          "stop" : 1472678116178,
+          "start" : 1476471895953,
+          "stop" : 1476471895953,
           "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PENDING"
+        "status" : "BROKEN"
       }, {
-        "uid" : "b883efa6395bc74c",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "cf516fd99d22fcd4",
+        "name" : "beforeMethod",
+        "title" : "Before method",
         "time" : {
-          "start" : 1472678120588,
-          "stop" : 1472678124504,
-          "duration" : 3916
+          "start" : 1476471895977,
+          "stop" : 1476471895978,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "c760268ebd62412b",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476471895978,
+          "stop" : 1476471908147,
+          "duration" : 12169
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "d43cdd4ec643cb7",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "67cefe20cf521f3f",
+        "name" : "afterMethod",
+        "title" : "After method",
         "time" : {
-          "start" : 1472678120588,
-          "stop" : 1472678124504,
-          "duration" : 3916
+          "start" : 1476471895985,
+          "stop" : 1476471895985,
+          "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "df7ed413b2360809",
-        "name" : "HomeTest",
-        "title" : "Home test",
+        "uid" : "bf0f649858775eea",
+        "name" : "afterTest",
+        "title" : "After test",
         "time" : {
-          "start" : 1472678130469,
-          "stop" : 1472678132649,
-          "duration" : 2180
+          "start" : 1476471908257,
+          "stop" : 1476471908258,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "5c21e29b961bd280",
-        "name" : "HomeTest",
-        "title" : "Home test",
+        "uid" : "4e0e0757e2f1e69e",
+        "name" : "afterMethod",
+        "title" : "After method",
         "time" : {
-          "start" : 1472678130469,
-          "stop" : 1472678132649,
-          "duration" : 2180
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "ecc54561ca1c25e0",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472678137482,
-          "stop" : 1472678141829,
-          "duration" : 4347
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "21e6c11c9b7aaf94",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472678137482,
-          "stop" : 1472678141829,
-          "duration" : 4347
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "396f51e6e49646e1",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472678146381,
-          "stop" : 1472678147879,
-          "duration" : 1498
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "c8758661913ba1ed",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472678146381,
-          "stop" : 1472678147879,
-          "duration" : 1498
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "af4acd682e44d138",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472678152599,
-          "stop" : 1472678152788,
-          "duration" : 189
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e5d126677f2d5c9b",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472678152599,
-          "stop" : 1472678152788,
-          "duration" : 189
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "692e26acb9f34778",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472678156846,
-          "stop" : 1472678159445,
-          "duration" : 2599
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1157135c22d49a13",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472678156846,
-          "stop" : 1472678159445,
-          "duration" : 2599
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "37c1906cf6f1a42c",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472678163385,
-          "stop" : 1472678166521,
-          "duration" : 3136
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "626613c36ae7dc65",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472678163385,
-          "stop" : 1472678166521,
-          "duration" : 3136
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "48ffbd795942f5a2",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472678171501,
-          "stop" : 1472678174557,
-          "duration" : 3056
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "fea4c4a978eccbac",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472678171501,
-          "stop" : 1472678174557,
-          "duration" : 3056
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "f84cd7b5be6e6b90",
-        "name" : "chqImage",
-        "title" : "Chq image",
-        "time" : {
-          "start" : 1472685621261,
-          "stop" : 1472685622368,
-          "duration" : 1107
+          "start" : 1476499170527,
+          "stop" : 1476499170527,
+          "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "3177a6f3c2624c0d",
-        "name" : "chqImage",
-        "title" : "Chq image",
+        "uid" : "f68a10338b014fdb",
+        "name" : "beforeMethod",
+        "title" : "Before method",
         "time" : {
-          "start" : 1472685621261,
-          "stop" : 1472685622368,
-          "duration" : 1107
+          "start" : 1476499170528,
+          "stop" : 1476499170529,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "1c5e8930612dce56",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476472273309,
+          "stop" : 1476472285176,
+          "duration" : 11867
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "655725762f57dfd0",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476472298637,
+          "stop" : 1476472298638,
+          "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "f565504a6bf12352",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "a22461657e839009",
+        "name" : "beforeMethod",
+        "title" : "Before method",
         "time" : {
-          "start" : 1472685622442,
-          "stop" : 1472685622499,
-          "duration" : 57
+          "start" : 1476472298641,
+          "stop" : 1476472298642,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "5e027f1e8983cfc9",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500299202,
+          "stop" : 1476500299202,
+          "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "270dba8feb9e8ba5",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "71b75b8806885d55",
+        "name" : "beforeMethod",
+        "title" : "Before method",
         "time" : {
-          "start" : 1472685622442,
-          "stop" : 1472685622499,
-          "duration" : 57
+          "start" : 1476500299203,
+          "stop" : 1476500299204,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3b852861aa06412f",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476387172340,
+          "stop" : 1476387183777,
+          "duration" : 11437
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e82518cf41b1fda6",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476387172340,
+          "stop" : 1476387183777,
+          "duration" : 11437
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7aa67d0112dced89",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476461877899,
+          "stop" : 1476461890461,
+          "duration" : 12562
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "369402236b8122d9",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476461878051,
+          "stop" : 1476461878052,
+          "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "39d506b611631aff",
-        "name" : "chqImage",
-        "title" : "Chq image",
+        "uid" : "b7ee52ba25090e0",
+        "name" : "afterMethod",
+        "title" : "After method",
         "time" : {
-          "start" : 1472681832315,
-          "stop" : 1472681834619,
-          "duration" : 2304
+          "start" : 1476461878074,
+          "stop" : 1476461878074,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a741889884a0717b",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476498468562,
+          "stop" : 1476498480881,
+          "duration" : 12319
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "627d4f3c0732c25e",
-        "name" : "chqImage",
-        "title" : "Chq image",
+        "uid" : "cf50f6af27c0ddc3",
+        "name" : "afterMethod",
+        "title" : "After method",
         "time" : {
-          "start" : 1472681832315,
-          "stop" : 1472681834619,
-          "duration" : 2304
+          "start" : 1476498482319,
+          "stop" : 1476498482320,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "13bc92cf6840a649",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476498482324,
+          "stop" : 1476498482335,
+          "duration" : 11
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "efb04a2e89c2df62",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499329516,
+          "stop" : 1476499329516,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "429b2ea5799912c7",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476499329516,
+          "stop" : 1476499329517,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3901f9d6be3c7a52",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476472127772,
+          "stop" : 1476472127773,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "c6b4f982b0541151",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499983927,
+          "stop" : 1476499983927,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "ae2bd640e938c4b6",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476499983928,
+          "stop" : 1476499983929,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3c5cfda20f7c02e9",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476462004016,
+          "stop" : 1476462012653,
+          "duration" : 8637
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4a901f73c0b84be8",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476462005664,
+          "stop" : 1476462005664,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b550cdfa69e6ba23",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476462005667,
+          "stop" : 1476462005668,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "687678ba76d3a9",
+        "name" : "beforeTest",
+        "title" : "Before test",
+        "time" : {
+          "start" : 1476471951816,
+          "stop" : 1476471951817,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d698d788153c4fe0",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476471951834,
+          "stop" : 1476471951836,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "363483b741992188",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476471951848,
+          "stop" : 1476471951848,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3422a56f16ff0959",
+        "name" : "afterTest",
+        "title" : "After test",
+        "time" : {
+          "start" : 1476471951851,
+          "stop" : 1476471951851,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "c112147cb2380c60",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476472188685,
+          "stop" : 1476472188685,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "fd4f5cdcca803554",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500915986,
+          "stop" : 1476500915987,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2602a7dca78db2cb",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476500915988,
+          "stop" : 1476500915989,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "389fc0dbc0dc171",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476501111394,
+          "stop" : 1476501111394,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "a56470f471c710d7",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476501111395,
+          "stop" : 1476501111396,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a7a11347c46d852d",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500017522,
+          "stop" : 1476500017522,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "a7c35ef8e10fede6",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476500017523,
+          "stop" : 1476500017524,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "2cbfde62fe8942a9",
+        "name" : "beforeTest",
+        "title" : "Before test",
+        "time" : {
+          "start" : 1476471826834,
+          "stop" : 1476471826835,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d6d1ed65d7e44039",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476471826870,
+          "stop" : 1476471826871,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "28593caaef1da31e",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476471826871,
+          "stop" : 1476471838987,
+          "duration" : 12116
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "aaea52d98e83bb3a",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "b78ac584af82b875",
+        "name" : "afterMethod",
+        "title" : "After method",
         "time" : {
-          "start" : 1472681834711,
-          "stop" : 1472681837520,
-          "duration" : 2809
+          "start" : 1476471826879,
+          "stop" : 1476471826879,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "82c4ac6f1a76fe24",
+        "name" : "afterTest",
+        "title" : "After test",
+        "time" : {
+          "start" : 1476471839090,
+          "stop" : 1476471839090,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "e047d90d00a69fd4",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500926064,
+          "stop" : 1476500926065,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "80369b0b258be5db",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476500926066,
+          "stop" : 1476500926066,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "c21bb27a261f83b7",
+        "name" : "allElements",
+        "title" : "All elements",
+        "time" : {
+          "start" : 1476461804116,
+          "stop" : 1476461815979,
+          "duration" : 11863
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "fed3ac60d45477c1",
-        "name" : "chqconnectiontest",
-        "title" : "Chqconnectiontest",
+        "uid" : "76af242007b57e3d",
+        "name" : "beforeMethod",
+        "title" : "Before method",
         "time" : {
-          "start" : 1472681834711,
-          "stop" : 1472681837520,
-          "duration" : 2809
+          "start" : 1476461804320,
+          "stop" : 1476461804321,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "BROKEN"
+      }, {
+        "uid" : "694441e24ed7b8d2",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476461804348,
+          "stop" : 1476461804348,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f1e55a67ed47e918",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476472002921,
+          "stop" : 1476472002921,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9962529c28d08c01",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499833132,
+          "stop" : 1476499833133,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9eafaa4a8bf20faf",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476499833133,
+          "stop" : 1476499833134,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "934d3634364b078e",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476499408224,
+          "stop" : 1476499408224,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "35f30dc93b2654f",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476499408225,
+          "stop" : 1476499408227,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "474726f5c3afdccc",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476498816019,
+          "stop" : 1476498816019,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "224979fd5c20bd54",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476498816023,
+          "stop" : 1476498816024,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6acb667541734237",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476501073761,
+          "stop" : 1476501073761,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "c7d90c9b2b3bce91",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476501073762,
+          "stop" : 1476501073763,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "7ed08f244fdc7a25",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500281939,
+          "stop" : 1476500281939,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3297ab1b795e582b",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476500281939,
+          "stop" : 1476500281940,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "56f092d3cdc915e7",
+        "name" : "afterMethod",
+        "title" : "After method",
+        "time" : {
+          "start" : 1476500935106,
+          "stop" : 1476500935106,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "dddeccf3906851c1",
+        "name" : "beforeMethod",
+        "title" : "Before method",
+        "time" : {
+          "start" : 1476500935106,
+          "stop" : 1476500935107,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
       } ]
     } ]
   }, {
     "title" : "My Feature",
     "statistic" : {
-      "total" : 114,
-      "passed" : 78,
-      "pending" : 26,
-      "canceled" : 8,
+      "total" : 138,
+      "passed" : 34,
+      "pending" : 34,
+      "canceled" : 58,
       "failed" : 0,
-      "broken" : 2
+      "broken" : 12
     },
     "stories" : [ {
-      "uid" : "bc2129343ee07705",
+      "uid" : "6daad91eab74278b",
       "title" : "Story2",
       "statistic" : {
-        "total" : 57,
-        "passed" : 39,
-        "pending" : 13,
-        "canceled" : 4,
+        "total" : 69,
+        "passed" : 17,
+        "pending" : 17,
+        "canceled" : 29,
         "failed" : 0,
-        "broken" : 1
+        "broken" : 6
       },
       "testCases" : [ {
-        "uid" : "57dcd21f6346332f",
+        "uid" : "c1b40eb5c200dcc6",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472683872082,
-          "stop" : 1472683872087,
+          "start" : 1476471772352,
+          "stop" : 1476471772359,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "1f8f14e2a4eb420e",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476471772406,
+          "stop" : 1476471772412,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6a4914e45dd9daf0",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471772414,
+          "stop" : 1476471772414,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "b284c16bece0cd1f",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471772415,
+          "stop" : 1476471772415,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "60229a0cb0548ab2",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476471772418,
+          "stop" : 1476471772419,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3e6f4242e24236d",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476471895925,
+          "stop" : 1476471895931,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "b3b8044088f9e67f",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476471895978,
+          "stop" : 1476471895984,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "55cfcbb8ca082ecf",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471895987,
+          "stop" : 1476471895987,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "57a4b93205b07a44",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471895988,
+          "stop" : 1476471895988,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "dd28c983988a7e8c",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476471895990,
+          "stop" : 1476471895990,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a430a1f46beece84",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476472250554,
+          "stop" : 1476472250559,
           "duration" : 5
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "a269cbd0466354e7",
+        "uid" : "46cce3ef5a149177",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472257143,
+          "stop" : 1476472259329,
+          "duration" : 2186
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fa4dd8a3fee94ec3",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472683872087,
-          "stop" : 1472683872087,
-          "duration" : 0
+          "start" : 1476472273254,
+          "stop" : 1476472273272,
+          "duration" : 18
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "3be7651f6a2cef55",
+        "uid" : "c0e7dcc343c659b4",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1472683889781,
-          "stop" : 1472683891876,
-          "duration" : 2095
+          "start" : 1476472282725,
+          "stop" : 1476472286026,
+          "duration" : 3301
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "5b75e74c2271e274",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472683889781,
-          "stop" : 1472683891876,
-          "duration" : 2095
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "326bea4463795ce3",
+        "uid" : "5aa1f9d40aae286a",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472683896061,
-          "stop" : 1472683900943,
-          "duration" : 4882
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "621fcb6f0d0b3f72",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683896061,
-          "stop" : 1472683900943,
-          "duration" : 4882
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e597de69cae978c7",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472683910202,
-          "stop" : 1472683910303,
-          "duration" : 101
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "23072186c0af61e2",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472683910202,
-          "stop" : 1472683910303,
-          "duration" : 101
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "63e603057d88b7e7",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683915340,
-          "stop" : 1472683918271,
-          "duration" : 2931
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d90b948994d9bdd2",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683915340,
-          "stop" : 1472683918271,
-          "duration" : 2931
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b8c11b2f29ce8a79",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1474760900808,
-          "stop" : 1474760903240,
-          "duration" : 2432
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d696e2f260d33797",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1474760645042,
-          "stop" : 1474760645209,
-          "duration" : 167
+          "start" : 1476472290323,
+          "stop" : 1476472298633,
+          "duration" : 8310
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "673de2e5b64156c8",
+        "uid" : "1714ccf2b92ebee6",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476472292623,
+          "stop" : 1476472295935,
+          "duration" : 3312
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "859554aa88f0a353",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476472300903,
+          "stop" : 1476472300904,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "5f7bf50267064615",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472679996027,
-          "stop" : 1472679996031,
+          "start" : 1476387172315,
+          "stop" : 1476387172319,
           "duration" : 4
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "b368c44149f4fd0a",
+        "uid" : "76c240180ecd361d",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472679996031,
-          "stop" : 1472679996031,
+          "start" : 1476387172320,
+          "stop" : 1476387172320,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "d98c90003122c8fa",
+        "uid" : "e8a57e48f2569264",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1472680006502,
-          "stop" : 1472680023206,
-          "duration" : 16704
+          "start" : 1476387188816,
+          "stop" : 1476387191498,
+          "duration" : 2682
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cf3196aa058f1db8",
+        "uid" : "87409e71369c0ef6",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1472680006502,
-          "stop" : 1472680023206,
-          "duration" : 16704
+          "start" : 1476387188816,
+          "stop" : 1476387191498,
+          "duration" : 2682
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "79bd2a55da931f2",
+        "uid" : "e94bee62bbfe36c7",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472680026678,
-          "stop" : 1472680030550,
-          "duration" : 3872
+          "start" : 1476387196026,
+          "stop" : 1476387199012,
+          "duration" : 2986
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "49d400e5740c1722",
+        "uid" : "99d1bcbf7cdafb9e",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472680026678,
-          "stop" : 1472680030550,
-          "duration" : 3872
+          "start" : 1476387196026,
+          "stop" : 1476387199012,
+          "duration" : 2986
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "108a400ae0a4c918",
+        "uid" : "acb01046512c3d0e",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1472680040441,
-          "stop" : 1472680040541,
-          "duration" : 100
+          "start" : 1476387210425,
+          "stop" : 1476387210496,
+          "duration" : 71
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "424c7116ae7e4689",
+        "uid" : "5bd8cbd4fcb1477c",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1472680040441,
-          "stop" : 1472680040541,
-          "duration" : 100
+          "start" : 1476387210425,
+          "stop" : 1476387210496,
+          "duration" : 71
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "c5c5efead959fa2a",
+        "uid" : "7055da8ac2879bb0",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472680044403,
-          "stop" : 1472680047524,
-          "duration" : 3121
+          "start" : 1476387215439,
+          "stop" : 1476387218450,
+          "duration" : 3011
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4e719b2d9f6a2a6d",
+        "uid" : "22123ef019a96f57",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472680044403,
-          "stop" : 1472680047524,
-          "duration" : 3121
+          "start" : 1476387215439,
+          "stop" : 1476387218450,
+          "duration" : 3011
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "9273255e1f94ad4d",
+        "uid" : "c1e9536d88aafdb7",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1476383303088,
-          "stop" : 1476383303093,
-          "duration" : 5
+          "start" : 1476461877855,
+          "stop" : 1476461877869,
+          "duration" : 14
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "c2983384af2af2dd",
-        "name" : "main",
-        "title" : "Main",
+        "uid" : "6826ee3eea8919be",
+        "name" : "HomeTest",
+        "title" : "Home test",
         "time" : {
-          "start" : 1476383303093,
-          "stop" : 1476383303093,
+          "start" : 1476461878071,
+          "stop" : 1476461878073,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "647556c72c5ae10d",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476461878075,
+          "stop" : 1476461878075,
           "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PENDING"
+        "status" : "CANCELED"
       }, {
-        "uid" : "f9650975883a8cb8",
+        "uid" : "bd392b63d4fda27f",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1474761220737,
-          "stop" : 1474761223013,
-          "duration" : 2276
+          "start" : 1476461878076,
+          "stop" : 1476461878076,
+          "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "e6c1d870d7160b4",
+        "uid" : "6be80d0835eccc7f",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476461878078,
+          "stop" : 1476461878079,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "7a1cdb9926efb8ce",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1476383422457,
-          "stop" : 1476383422461,
+          "start" : 1476498468520,
+          "stop" : 1476498468524,
           "duration" : 4
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "2c4647d8d196f783",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1476383422461,
-          "stop" : 1476383422461,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "d519d5c535f9cbf1",
+        "uid" : "a303e33755f3e103",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1476383484562,
-          "stop" : 1476383495838,
-          "duration" : 11276
+          "start" : 1476498476945,
+          "stop" : 1476498479654,
+          "duration" : 2709
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "6a20dd1e6876b90e",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1476383484562,
-          "stop" : 1476383495838,
-          "duration" : 11276
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "7ec30e8f7670cd7",
+        "uid" : "c65477ac2ddd32e9",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1476383507117,
-          "stop" : 1476383521346,
-          "duration" : 14229
+          "start" : 1476498479809,
+          "stop" : 1476498482315,
+          "duration" : 2506
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "BROKEN"
       }, {
-        "uid" : "867c6f0e0d7bdc2",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1476383507117,
-          "stop" : 1476383521346,
-          "duration" : 14229
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "f6e638bb08b1dcb5",
+        "uid" : "398381d5ede44343",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1476383523984,
-          "stop" : 1476383523984,
+          "start" : 1476498482338,
+          "stop" : 1476498482338,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "f2217c71f8edbc39",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1476383523984,
-          "stop" : 1476383523984,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "CANCELED"
-      }, {
-        "uid" : "1af78fe70b94aba6",
+        "uid" : "140182b090427e9c",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1476383523985,
-          "stop" : 1476383523985,
+          "start" : 1476498486041,
+          "stop" : 1476498486041,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "2c312f591d05aa7",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1476383523985,
-          "stop" : 1476383523985,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "CANCELED"
-      }, {
-        "uid" : "aa8cf7420f656e94",
+        "uid" : "f3450452a3a3db32",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1476380773858,
-          "stop" : 1476380773863,
+          "start" : 1476472126332,
+          "stop" : 1476472126337,
           "duration" : 5
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "6beca37594456aaa",
+        "uid" : "2a1818a139fa2f14",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1476380788003,
-          "stop" : 1476380801491,
-          "duration" : 13488
+          "start" : 1476472127649,
+          "stop" : 1476472127767,
+          "duration" : 118
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "BROKEN"
       }, {
-        "uid" : "4a58cc4f1919e10a",
+        "uid" : "69b147cf38005d9d",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472685615196,
-          "stop" : 1472685615200,
+          "start" : 1476462003974,
+          "stop" : 1476462003986,
+          "duration" : 12
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "97d120feff6fde6f",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476462005510,
+          "stop" : 1476462005660,
+          "duration" : 150
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "6d049b1e3ebb56da",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476462005668,
+          "stop" : 1476462005668,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a2992a7569fa6844",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476462005669,
+          "stop" : 1476462005670,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "59a2f303c2c6434e",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476462005671,
+          "stop" : 1476462005672,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f69fc0335b301139",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476471951770,
+          "stop" : 1476471951779,
+          "duration" : 9
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "462c6a6d33208d25",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476471951837,
+          "stop" : 1476471951847,
+          "duration" : 10
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "4afec8593283522a",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476472187019,
+          "stop" : 1476472187027,
+          "duration" : 8
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "599529e0ce795218",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472188538,
+          "stop" : 1476472188680,
+          "duration" : 142
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "85247d9b6e957f45",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476471826802,
+          "stop" : 1476471826820,
+          "duration" : 18
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "1455ee1fe973ec40",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476471826872,
+          "stop" : 1476471826879,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "c96ed403850d84ea",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471826880,
+          "stop" : 1476471826880,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "399caa673f38001c",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471826881,
+          "stop" : 1476471826881,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "5f0c7d5a87c8217b",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476471826883,
+          "stop" : 1476471826883,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "4643ef0a0270d227",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476498998549,
+          "stop" : 1476498998553,
           "duration" : 4
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "ae31821265770950",
+        "uid" : "422893a63ba06b7f",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476499005972,
+          "stop" : 1476499008744,
+          "duration" : 2772
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "61150163afbf295b",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476499020908,
+          "stop" : 1476499020959,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8a8f03493158d633",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476499024823,
+          "stop" : 1476499028046,
+          "duration" : 3223
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2938cef600f306d9",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472685615200,
-          "stop" : 1472685615200,
-          "duration" : 0
+          "start" : 1476461804069,
+          "stop" : 1476461804086,
+          "duration" : 17
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "d5fbe61164ea4da5",
+        "uid" : "4e7899c7d48be3f2",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1472685625050,
-          "stop" : 1472685638980,
-          "duration" : 13930
+          "start" : 1476461804346,
+          "stop" : 1476461804347,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "cacd8108099f2846",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472685625050,
-          "stop" : 1472685638980,
-          "duration" : 13930
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e7ab7250ec32f6d1",
+        "uid" : "1f265e701dd62c7e",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472685642909,
-          "stop" : 1472685646147,
-          "duration" : 3238
+          "start" : 1476461804349,
+          "stop" : 1476461804349,
+          "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "b7a60eabbb3891c2",
+        "uid" : "c0b79432cb792495",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472685642909,
-          "stop" : 1472685646147,
-          "duration" : 3238
+          "start" : 1476461804350,
+          "stop" : 1476461804351,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "be5cab7f03467d25",
+        "uid" : "e8ba2fb480207cac",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1472685657419,
-          "stop" : 1472685657480,
-          "duration" : 61
+          "start" : 1476461804353,
+          "stop" : 1476461804354,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "128ff24916e28bde",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472685657419,
-          "stop" : 1472685657480,
-          "duration" : 61
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "190d363ff15a9ebb",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685661392,
-          "stop" : 1472685664056,
-          "duration" : 2664
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b563a2fe94a6f2c7",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685661392,
-          "stop" : 1472685664056,
-          "duration" : 2664
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "2ba5f90c0643b6bb",
+        "uid" : "ba499e7af7e7ed5f",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472681826495,
-          "stop" : 1472681826500,
+          "start" : 1476472001332,
+          "stop" : 1476472001337,
           "duration" : 5
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "42011c544b8e3765",
+        "uid" : "1b444562c0b904bf",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472002785,
+          "stop" : 1476472002915,
+          "duration" : 130
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f984b2bea9c5b6fc",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476484513551,
+          "stop" : 1476484515614,
+          "duration" : 2063
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7eda18fdb05cb675",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472681826500,
-          "stop" : 1472681826500,
-          "duration" : 0
+          "start" : 1476498805796,
+          "stop" : 1476498805801,
+          "duration" : 5
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "cdde8aa6a678a752",
+        "uid" : "9458a99fe745df7d",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1472681843000,
-          "stop" : 1472681844943,
-          "duration" : 1943
+          "start" : 1476498812456,
+          "stop" : 1476498814717,
+          "duration" : 2261
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "83577b7c3e8f5a6a",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472681843000,
-          "stop" : 1472681844943,
-          "duration" : 1943
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8b0225d8d122ef3e",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681848365,
-          "stop" : 1472681851414,
-          "duration" : 3049
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "f5b99f5641d70508",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681848365,
-          "stop" : 1472681851414,
-          "duration" : 3049
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "ca49365d20909fb4",
+        "uid" : "6cd019c474f56771",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1472681861114,
-          "stop" : 1472681861330,
-          "duration" : 216
+          "start" : 1476498816024,
+          "stop" : 1476498816025,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "2a1f3878bcfc252e",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472681861114,
-          "stop" : 1472681861330,
-          "duration" : 216
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1d6d7692df31103a",
+        "uid" : "290c3a9f786df80e",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472681865391,
-          "stop" : 1472681868371,
-          "duration" : 2980
+          "start" : 1476498816025,
+          "stop" : 1476498816026,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8578dd83ad6ccb3f",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681865391,
-          "stop" : 1472681868371,
-          "duration" : 2980
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       } ]
     }, {
-      "uid" : "2c7a8d2f8e4de1a2",
+      "uid" : "b489dcc26466242f",
       "title" : "Story1",
       "statistic" : {
         "total" : 52,
-        "passed" : 34,
-        "pending" : 13,
-        "canceled" : 4,
+        "passed" : 10,
+        "pending" : 17,
+        "canceled" : 23,
         "failed" : 0,
-        "broken" : 1
+        "broken" : 2
       },
       "testCases" : [ {
-        "uid" : "57dcd21f6346332f",
+        "uid" : "c1b40eb5c200dcc6",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472683872082,
-          "stop" : 1472683872087,
+          "start" : 1476471772352,
+          "stop" : 1476471772359,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "6a4914e45dd9daf0",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471772414,
+          "stop" : 1476471772414,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "b284c16bece0cd1f",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471772415,
+          "stop" : 1476471772415,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "60229a0cb0548ab2",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476471772418,
+          "stop" : 1476471772419,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3e6f4242e24236d",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476471895925,
+          "stop" : 1476471895931,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "55cfcbb8ca082ecf",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471895987,
+          "stop" : 1476471895987,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "57a4b93205b07a44",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471895988,
+          "stop" : 1476471895988,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "dd28c983988a7e8c",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476471895990,
+          "stop" : 1476471895990,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a430a1f46beece84",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476472250554,
+          "stop" : 1476472250559,
           "duration" : 5
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "a269cbd0466354e7",
+        "uid" : "fa4dd8a3fee94ec3",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472683872087,
-          "stop" : 1472683872087,
-          "duration" : 0
+          "start" : 1476472273254,
+          "stop" : 1476472273272,
+          "duration" : 18
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "3be7651f6a2cef55",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472683889781,
-          "stop" : 1472683891876,
-          "duration" : 2095
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "5b75e74c2271e274",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472683889781,
-          "stop" : 1472683891876,
-          "duration" : 2095
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "326bea4463795ce3",
+        "uid" : "5aa1f9d40aae286a",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472683896061,
-          "stop" : 1472683900943,
-          "duration" : 4882
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "621fcb6f0d0b3f72",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683896061,
-          "stop" : 1472683900943,
-          "duration" : 4882
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e597de69cae978c7",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472683910202,
-          "stop" : 1472683910303,
-          "duration" : 101
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "23072186c0af61e2",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472683910202,
-          "stop" : 1472683910303,
-          "duration" : 101
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "63e603057d88b7e7",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683915340,
-          "stop" : 1472683918271,
-          "duration" : 2931
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d90b948994d9bdd2",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472683915340,
-          "stop" : 1472683918271,
-          "duration" : 2931
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b8c11b2f29ce8a79",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1474760900808,
-          "stop" : 1474760903240,
-          "duration" : 2432
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d696e2f260d33797",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1474760645042,
-          "stop" : 1474760645209,
-          "duration" : 167
+          "start" : 1476472290323,
+          "stop" : 1476472298633,
+          "duration" : 8310
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "673de2e5b64156c8",
+        "uid" : "1714ccf2b92ebee6",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476472292623,
+          "stop" : 1476472295935,
+          "duration" : 3312
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "859554aa88f0a353",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476472300903,
+          "stop" : 1476472300904,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "5f7bf50267064615",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472679996027,
-          "stop" : 1472679996031,
+          "start" : 1476387172315,
+          "stop" : 1476387172319,
           "duration" : 4
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "b368c44149f4fd0a",
+        "uid" : "76c240180ecd361d",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472679996031,
-          "stop" : 1472679996031,
+          "start" : 1476387172320,
+          "stop" : 1476387172320,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "d98c90003122c8fa",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472680006502,
-          "stop" : 1472680023206,
-          "duration" : 16704
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "cf3196aa058f1db8",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472680006502,
-          "stop" : 1472680023206,
-          "duration" : 16704
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "79bd2a55da931f2",
+        "uid" : "e94bee62bbfe36c7",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472680026678,
-          "stop" : 1472680030550,
-          "duration" : 3872
+          "start" : 1476387196026,
+          "stop" : 1476387199012,
+          "duration" : 2986
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "49d400e5740c1722",
+        "uid" : "99d1bcbf7cdafb9e",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472680026678,
-          "stop" : 1472680030550,
-          "duration" : 3872
+          "start" : 1476387196026,
+          "stop" : 1476387199012,
+          "duration" : 2986
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "108a400ae0a4c918",
+        "uid" : "acb01046512c3d0e",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1472680040441,
-          "stop" : 1472680040541,
-          "duration" : 100
+          "start" : 1476387210425,
+          "stop" : 1476387210496,
+          "duration" : 71
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "424c7116ae7e4689",
+        "uid" : "5bd8cbd4fcb1477c",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1472680040441,
-          "stop" : 1472680040541,
-          "duration" : 100
+          "start" : 1476387210425,
+          "stop" : 1476387210496,
+          "duration" : 71
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "c5c5efead959fa2a",
+        "uid" : "7055da8ac2879bb0",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472680044403,
-          "stop" : 1472680047524,
-          "duration" : 3121
+          "start" : 1476387215439,
+          "stop" : 1476387218450,
+          "duration" : 3011
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4e719b2d9f6a2a6d",
+        "uid" : "22123ef019a96f57",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472680044403,
-          "stop" : 1472680047524,
-          "duration" : 3121
+          "start" : 1476387215439,
+          "stop" : 1476387218450,
+          "duration" : 3011
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "9273255e1f94ad4d",
+        "uid" : "c1e9536d88aafdb7",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1476383303088,
-          "stop" : 1476383303093,
-          "duration" : 5
+          "start" : 1476461877855,
+          "stop" : 1476461877869,
+          "duration" : 14
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "c2983384af2af2dd",
-        "name" : "main",
-        "title" : "Main",
+        "uid" : "647556c72c5ae10d",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
         "time" : {
-          "start" : 1476383303093,
-          "stop" : 1476383303093,
+          "start" : 1476461878075,
+          "stop" : 1476461878075,
           "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PENDING"
+        "status" : "CANCELED"
       }, {
-        "uid" : "f9650975883a8cb8",
+        "uid" : "bd392b63d4fda27f",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1474761220737,
-          "stop" : 1474761223013,
-          "duration" : 2276
+          "start" : 1476461878076,
+          "stop" : 1476461878076,
+          "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "e6c1d870d7160b4",
+        "uid" : "6be80d0835eccc7f",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476461878078,
+          "stop" : 1476461878079,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "7a1cdb9926efb8ce",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1476383422457,
-          "stop" : 1476383422461,
+          "start" : 1476498468520,
+          "stop" : 1476498468524,
           "duration" : 4
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "2c4647d8d196f783",
-        "name" : "main",
-        "title" : "Main",
-        "time" : {
-          "start" : 1476383422461,
-          "stop" : 1476383422461,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PENDING"
-      }, {
-        "uid" : "7ec30e8f7670cd7",
+        "uid" : "c65477ac2ddd32e9",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1476383507117,
-          "stop" : 1476383521346,
-          "duration" : 14229
+          "start" : 1476498479809,
+          "stop" : 1476498482315,
+          "duration" : 2506
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "BROKEN"
       }, {
-        "uid" : "867c6f0e0d7bdc2",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1476383507117,
-          "stop" : 1476383521346,
-          "duration" : 14229
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "f6e638bb08b1dcb5",
+        "uid" : "398381d5ede44343",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1476383523984,
-          "stop" : 1476383523984,
+          "start" : 1476498482338,
+          "stop" : 1476498482338,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "f2217c71f8edbc39",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1476383523984,
-          "stop" : 1476383523984,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "CANCELED"
-      }, {
-        "uid" : "1af78fe70b94aba6",
+        "uid" : "140182b090427e9c",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1476383523985,
-          "stop" : 1476383523985,
+          "start" : 1476498486041,
+          "stop" : 1476498486041,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "2c312f591d05aa7",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1476383523985,
-          "stop" : 1476383523985,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "CANCELED"
-      }, {
-        "uid" : "aa8cf7420f656e94",
+        "uid" : "f3450452a3a3db32",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1476380773858,
-          "stop" : 1476380773863,
+          "start" : 1476472126332,
+          "stop" : 1476472126337,
           "duration" : 5
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "4a58cc4f1919e10a",
+        "uid" : "69b147cf38005d9d",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472685615196,
-          "stop" : 1472685615200,
+          "start" : 1476462003974,
+          "stop" : 1476462003986,
+          "duration" : 12
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "6d049b1e3ebb56da",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476462005668,
+          "stop" : 1476462005668,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a2992a7569fa6844",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476462005669,
+          "stop" : 1476462005670,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "59a2f303c2c6434e",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476462005671,
+          "stop" : 1476462005672,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "f69fc0335b301139",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476471951770,
+          "stop" : 1476471951779,
+          "duration" : 9
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "4afec8593283522a",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476472187019,
+          "stop" : 1476472187027,
+          "duration" : 8
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "85247d9b6e957f45",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476471826802,
+          "stop" : 1476471826820,
+          "duration" : 18
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "c96ed403850d84ea",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471826880,
+          "stop" : 1476471826880,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "399caa673f38001c",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476471826881,
+          "stop" : 1476471826881,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "5f0c7d5a87c8217b",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476471826883,
+          "stop" : 1476471826883,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "4643ef0a0270d227",
+        "name" : "main",
+        "title" : "Main",
+        "time" : {
+          "start" : 1476498998549,
+          "stop" : 1476498998553,
           "duration" : 4
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "ae31821265770950",
+        "uid" : "61150163afbf295b",
+        "name" : "ProductSelectionTest",
+        "title" : "Product selection test",
+        "time" : {
+          "start" : 1476499020908,
+          "stop" : 1476499020959,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8a8f03493158d633",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476499024823,
+          "stop" : 1476499028046,
+          "duration" : 3223
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2938cef600f306d9",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472685615200,
-          "stop" : 1472685615200,
-          "duration" : 0
+          "start" : 1476461804069,
+          "stop" : 1476461804086,
+          "duration" : 17
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "e7ab7250ec32f6d1",
+        "uid" : "1f265e701dd62c7e",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472685642909,
-          "stop" : 1472685646147,
-          "duration" : 3238
+          "start" : 1476461804349,
+          "stop" : 1476461804349,
+          "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "b7a60eabbb3891c2",
+        "uid" : "c0b79432cb792495",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472685642909,
-          "stop" : 1472685646147,
-          "duration" : 3238
+          "start" : 1476461804350,
+          "stop" : 1476461804351,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "be5cab7f03467d25",
+        "uid" : "e8ba2fb480207cac",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1472685657419,
-          "stop" : 1472685657480,
-          "duration" : 61
+          "start" : 1476461804353,
+          "stop" : 1476461804354,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "128ff24916e28bde",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472685657419,
-          "stop" : 1472685657480,
-          "duration" : 61
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "190d363ff15a9ebb",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685661392,
-          "stop" : 1472685664056,
-          "duration" : 2664
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b563a2fe94a6f2c7",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472685661392,
-          "stop" : 1472685664056,
-          "duration" : 2664
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "2ba5f90c0643b6bb",
+        "uid" : "ba499e7af7e7ed5f",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472681826495,
-          "stop" : 1472681826500,
+          "start" : 1476472001332,
+          "stop" : 1476472001337,
           "duration" : 5
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "42011c544b8e3765",
+        "uid" : "f984b2bea9c5b6fc",
+        "name" : "accountButtonVerification",
+        "title" : "Account button verification",
+        "time" : {
+          "start" : 1476484513551,
+          "stop" : 1476484515614,
+          "duration" : 2063
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7eda18fdb05cb675",
         "name" : "main",
         "title" : "Main",
         "time" : {
-          "start" : 1472681826500,
-          "stop" : 1472681826500,
-          "duration" : 0
+          "start" : 1476498805796,
+          "stop" : 1476498805801,
+          "duration" : 5
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "cdde8aa6a678a752",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472681843000,
-          "stop" : 1472681844943,
-          "duration" : 1943
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "83577b7c3e8f5a6a",
-        "name" : "HomeTest",
-        "title" : "Home test",
-        "time" : {
-          "start" : 1472681843000,
-          "stop" : 1472681844943,
-          "duration" : 1943
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8b0225d8d122ef3e",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681848365,
-          "stop" : 1472681851414,
-          "duration" : 3049
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "f5b99f5641d70508",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681848365,
-          "stop" : 1472681851414,
-          "duration" : 3049
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "ca49365d20909fb4",
+        "uid" : "6cd019c474f56771",
         "name" : "ProductSelectionTest",
         "title" : "Product selection test",
         "time" : {
-          "start" : 1472681861114,
-          "stop" : 1472681861330,
-          "duration" : 216
+          "start" : 1476498816024,
+          "stop" : 1476498816025,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "2a1f3878bcfc252e",
-        "name" : "ProductSelectionTest",
-        "title" : "Product selection test",
-        "time" : {
-          "start" : 1472681861114,
-          "stop" : 1472681861330,
-          "duration" : 216
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1d6d7692df31103a",
+        "uid" : "290c3a9f786df80e",
         "name" : "accountButtonVerification",
         "title" : "Account button verification",
         "time" : {
-          "start" : 1472681865391,
-          "stop" : 1472681868371,
-          "duration" : 2980
+          "start" : 1476498816025,
+          "stop" : 1476498816026,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8578dd83ad6ccb3f",
-        "name" : "accountButtonVerification",
-        "title" : "Account button verification",
-        "time" : {
-          "start" : 1472681865391,
-          "stop" : 1472681868371,
-          "duration" : 2980
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       } ]
     }, {
-      "uid" : "ea589432c76faef3",
+      "uid" : "2ec6f6b34439a788",
       "title" : "W",
       "statistic" : {
-        "total" : 5,
-        "passed" : 5,
+        "total" : 17,
+        "passed" : 7,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 6,
         "failed" : 0,
-        "broken" : 0
+        "broken" : 4
       },
       "testCases" : [ {
-        "uid" : "d519d5c535f9cbf1",
+        "uid" : "1f8f14e2a4eb420e",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1476383484562,
-          "stop" : 1476383495838,
-          "duration" : 11276
+          "start" : 1476471772406,
+          "stop" : 1476471772412,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "b3b8044088f9e67f",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476471895978,
+          "stop" : 1476471895984,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "46cce3ef5a149177",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472257143,
+          "stop" : 1476472259329,
+          "duration" : 2186
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "6a20dd1e6876b90e",
+        "uid" : "c0e7dcc343c659b4",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1476383484562,
-          "stop" : 1476383495838,
-          "duration" : 11276
+          "start" : 1476472282725,
+          "stop" : 1476472286026,
+          "duration" : 3301
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "6beca37594456aaa",
+        "uid" : "e8a57e48f2569264",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1476380788003,
-          "stop" : 1476380801491,
-          "duration" : 13488
+          "start" : 1476387188816,
+          "stop" : 1476387191498,
+          "duration" : 2682
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "d5fbe61164ea4da5",
+        "uid" : "87409e71369c0ef6",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1472685625050,
-          "stop" : 1472685638980,
-          "duration" : 13930
+          "start" : 1476387188816,
+          "stop" : 1476387191498,
+          "duration" : 2682
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cacd8108099f2846",
+        "uid" : "6826ee3eea8919be",
         "name" : "HomeTest",
         "title" : "Home test",
         "time" : {
-          "start" : 1472685625050,
-          "stop" : 1472685638980,
-          "duration" : 13930
+          "start" : 1476461878071,
+          "stop" : 1476461878073,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a303e33755f3e103",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476498476945,
+          "stop" : 1476498479654,
+          "duration" : 2709
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2a1818a139fa2f14",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472127649,
+          "stop" : 1476472127767,
+          "duration" : 118
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "97d120feff6fde6f",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476462005510,
+          "stop" : 1476462005660,
+          "duration" : 150
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "462c6a6d33208d25",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476471951837,
+          "stop" : 1476471951847,
+          "duration" : 10
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "599529e0ce795218",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472188538,
+          "stop" : 1476472188680,
+          "duration" : 142
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1455ee1fe973ec40",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476471826872,
+          "stop" : 1476471826879,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "422893a63ba06b7f",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476499005972,
+          "stop" : 1476499008744,
+          "duration" : 2772
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4e7899c7d48be3f2",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476461804346,
+          "stop" : 1476461804347,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "1b444562c0b904bf",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476472002785,
+          "stop" : 1476472002915,
+          "duration" : 130
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9458a99fe745df7d",
+        "name" : "HomeTest",
+        "title" : "Home test",
+        "time" : {
+          "start" : 1476498812456,
+          "stop" : 1476498814717,
+          "duration" : 2261
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
@@ -2239,755 +3552,300 @@
   }, {
     "title" : "Verify Product Information",
     "statistic" : {
-      "total" : 20,
-      "passed" : 20,
+      "total" : 24,
+      "passed" : 6,
       "pending" : 0,
-      "canceled" : 0,
+      "canceled" : 16,
       "failed" : 0,
-      "broken" : 0
+      "broken" : 2
     },
     "stories" : [ {
-      "uid" : "a7c5280c56763ca4",
+      "uid" : "6bdfb5584f3601fc",
       "title" : "Ruby on Rail Begs",
       "statistic" : {
-        "total" : 10,
-        "passed" : 10,
+        "total" : 12,
+        "passed" : 3,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 8,
         "failed" : 0,
-        "broken" : 0
+        "broken" : 1
       },
       "testCases" : [ {
-        "uid" : "b8a42f96b497637a",
+        "uid" : "c87151a2d906d058",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
-          "start" : 1472683905242,
-          "stop" : 1472683906327,
-          "duration" : 1085
+          "start" : 1476471772417,
+          "stop" : 1476471772417,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "175f77061901b72e",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476471895989,
+          "stop" : 1476471895989,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "614cd487cc3cd7d2",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476472300902,
+          "stop" : 1476472300903,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9ee6ca466f42859d",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476387203593,
+          "stop" : 1476387204898,
+          "duration" : 1305
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "49eeb463c3679802",
+        "uid" : "17641854b85be3b0",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
-          "start" : 1472683905242,
-          "stop" : 1472683906327,
-          "duration" : 1085
+          "start" : 1476387203593,
+          "stop" : 1476387204898,
+          "duration" : 1305
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4a27923f564d5af2",
+        "uid" : "756c68f827cbb8b",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
-          "start" : 1472680034659,
-          "stop" : 1472680035934,
-          "duration" : 1275
+          "start" : 1476461878077,
+          "stop" : 1476461878078,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6f6294ddfc73e707",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476498482337,
+          "stop" : 1476498482337,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a9b7f96435733f07",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476462005671,
+          "stop" : 1476462005671,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "c3c66a710f9942cd",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476471826882,
+          "stop" : 1476471826882,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "e62d74b4a434d814",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476499012727,
+          "stop" : 1476499015468,
+          "duration" : 2741
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "5514cd5f14e787f9",
+        "uid" : "a27d0be0441b202b",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
-          "start" : 1472680034659,
-          "stop" : 1472680035934,
-          "duration" : 1275
+          "start" : 1476461804352,
+          "stop" : 1476461804352,
+          "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "6b3de98129dcb74",
+        "uid" : "4f034e2127587557",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
-          "start" : 1476383522080,
-          "stop" : 1476383522103,
-          "duration" : 23
+          "start" : 1476498815968,
+          "stop" : 1476498816014,
+          "duration" : 46
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "7e1e259661b09398",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1476383522080,
-          "stop" : 1476383522103,
-          "duration" : 23
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1869ee99b381ae8",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472685651295,
-          "stop" : 1472685652609,
-          "duration" : 1314
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "810d1610cd32250d",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472685651295,
-          "stop" : 1472685652609,
-          "duration" : 1314
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "221b6f657e9ed88e",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472681855886,
-          "stop" : 1472681856986,
-          "duration" : 1100
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "95636dd80beb9d43",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472681855886,
-          "stop" : 1472681856986,
-          "duration" : 1100
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "BROKEN"
       } ]
     }, {
-      "uid" : "faefc54441dd6a12",
+      "uid" : "a85fec44b2168d61",
       "title" : "Ruby on Rail Tote",
       "statistic" : {
-        "total" : 10,
-        "passed" : 10,
+        "total" : 12,
+        "passed" : 3,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 8,
         "failed" : 0,
-        "broken" : 0
+        "broken" : 1
       },
       "testCases" : [ {
-        "uid" : "b8a42f96b497637a",
+        "uid" : "c87151a2d906d058",
         "name" : "Product1Test",
         "title" : "Product 1 test",
         "time" : {
-          "start" : 1472683905242,
-          "stop" : 1472683906327,
-          "duration" : 1085
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "49eeb463c3679802",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472683905242,
-          "stop" : 1472683906327,
-          "duration" : 1085
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "4a27923f564d5af2",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472680034659,
-          "stop" : 1472680035934,
-          "duration" : 1275
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "5514cd5f14e787f9",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472680034659,
-          "stop" : 1472680035934,
-          "duration" : 1275
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6b3de98129dcb74",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1476383522080,
-          "stop" : 1476383522103,
-          "duration" : 23
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "7e1e259661b09398",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1476383522080,
-          "stop" : 1476383522103,
-          "duration" : 23
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1869ee99b381ae8",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472685651295,
-          "stop" : 1472685652609,
-          "duration" : 1314
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "810d1610cd32250d",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472685651295,
-          "stop" : 1472685652609,
-          "duration" : 1314
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "221b6f657e9ed88e",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472681855886,
-          "stop" : 1472681856986,
-          "duration" : 1100
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "95636dd80beb9d43",
-        "name" : "Product1Test",
-        "title" : "Product 1 test",
-        "time" : {
-          "start" : 1472681855886,
-          "stop" : 1472681856986,
-          "duration" : 1100
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      } ]
-    } ]
-  }, {
-    "title" : "SignIN TO Spree Account",
-    "statistic" : {
-      "total" : 40,
-      "passed" : 32,
-      "pending" : 0,
-      "canceled" : 8,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "stories" : [ {
-      "uid" : "802c629e37ef21b1",
-      "title" : "password",
-      "statistic" : {
-        "total" : 10,
-        "passed" : 8,
-        "pending" : 0,
-        "canceled" : 2,
-        "failed" : 0,
-        "broken" : 0
-      },
-      "testCases" : [ {
-        "uid" : "a8a02b5b1a0636eb",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472683922355,
-          "stop" : 1472683925360,
-          "duration" : 3005
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6a6c96060dbad1dc",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472683922355,
-          "stop" : 1472683925360,
-          "duration" : 3005
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1d7aae277665dc92",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472680052195,
-          "stop" : 1472680054847,
-          "duration" : 2652
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "80b2ddeebb0fb464",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472680052195,
-          "stop" : 1472680054847,
-          "duration" : 2652
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8ef26757f797719b",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1476383523986,
-          "stop" : 1476383523987,
-          "duration" : 1
-        },
-        "severity" : "NORMAL",
-        "status" : "CANCELED"
-      }, {
-        "uid" : "f6388ff9e7adfd2c",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1476383523986,
-          "stop" : 1476383523987,
-          "duration" : 1
-        },
-        "severity" : "NORMAL",
-        "status" : "CANCELED"
-      }, {
-        "uid" : "ea3fc731ca657cf7",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472685668414,
-          "stop" : 1472685670951,
-          "duration" : 2537
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6aa3ffa9c36c12a6",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472685668414,
-          "stop" : 1472685670951,
-          "duration" : 2537
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "457c5be87ffc893f",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472681873072,
-          "stop" : 1472681876006,
-          "duration" : 2934
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8f9eb114dc468b27",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472681873072,
-          "stop" : 1472681876006,
-          "duration" : 2934
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      } ]
-    }, {
-      "uid" : "d6f5bceb8c1782b9",
-      "title" : "waseyrabby@btinternet.com",
-      "statistic" : {
-        "total" : 10,
-        "passed" : 8,
-        "pending" : 0,
-        "canceled" : 2,
-        "failed" : 0,
-        "broken" : 0
-      },
-      "testCases" : [ {
-        "uid" : "a8a02b5b1a0636eb",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472683922355,
-          "stop" : 1472683925360,
-          "duration" : 3005
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6a6c96060dbad1dc",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472683922355,
-          "stop" : 1472683925360,
-          "duration" : 3005
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1d7aae277665dc92",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472680052195,
-          "stop" : 1472680054847,
-          "duration" : 2652
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "80b2ddeebb0fb464",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472680052195,
-          "stop" : 1472680054847,
-          "duration" : 2652
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8ef26757f797719b",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1476383523986,
-          "stop" : 1476383523987,
-          "duration" : 1
-        },
-        "severity" : "NORMAL",
-        "status" : "CANCELED"
-      }, {
-        "uid" : "f6388ff9e7adfd2c",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1476383523986,
-          "stop" : 1476383523987,
-          "duration" : 1
-        },
-        "severity" : "NORMAL",
-        "status" : "CANCELED"
-      }, {
-        "uid" : "ea3fc731ca657cf7",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472685668414,
-          "stop" : 1472685670951,
-          "duration" : 2537
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6aa3ffa9c36c12a6",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472685668414,
-          "stop" : 1472685670951,
-          "duration" : 2537
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "457c5be87ffc893f",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472681873072,
-          "stop" : 1472681876006,
-          "duration" : 2934
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "8f9eb114dc468b27",
-        "name" : "BrowserTest",
-        "title" : "Browser test",
-        "time" : {
-          "start" : 1472681873072,
-          "stop" : 1472681876006,
-          "duration" : 2934
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      } ]
-    }, {
-      "uid" : "15b3b2c15be1f151",
-      "title" : "Story2",
-      "statistic" : {
-        "total" : 10,
-        "passed" : 8,
-        "pending" : 0,
-        "canceled" : 2,
-        "failed" : 0,
-        "broken" : 0
-      },
-      "testCases" : [ {
-        "uid" : "bd05ca20d19686ed",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472683929488,
-          "stop" : 1472683932344,
-          "duration" : 2856
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d7ae8174f63c403c",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472683929488,
-          "stop" : 1472683932344,
-          "duration" : 2856
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e30ead289ee42e26",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472680058731,
-          "stop" : 1472680061370,
-          "duration" : 2639
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "5b9d66efae5f650a",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472680058731,
-          "stop" : 1472680061370,
-          "duration" : 2639
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "684fa4120044ba7a",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1476383523988,
-          "stop" : 1476383523988,
+          "start" : 1476471772417,
+          "stop" : 1476471772417,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "4c65b79b814ee544",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "175f77061901b72e",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1476383523988,
-          "stop" : 1476383523988,
+          "start" : 1476471895989,
+          "stop" : 1476471895989,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "9fd33a48e8ab071f",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "614cd487cc3cd7d2",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1472685675109,
-          "stop" : 1472685677968,
-          "duration" : 2859
+          "start" : 1476472300902,
+          "stop" : 1476472300903,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9ee6ca466f42859d",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476387203593,
+          "stop" : 1476387204898,
+          "duration" : 1305
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "499439f34f26c1b1",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "17641854b85be3b0",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1472685675109,
-          "stop" : 1472685677968,
-          "duration" : 2859
+          "start" : 1476387203593,
+          "stop" : 1476387204898,
+          "duration" : 1305
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "8af1cda0f171b73c",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "756c68f827cbb8b",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1472681880351,
-          "stop" : 1472681883389,
-          "duration" : 3038
+          "start" : 1476461878077,
+          "stop" : 1476461878078,
+          "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "6a5810936f5baf5c",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "6f6294ddfc73e707",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1472681880351,
-          "stop" : 1472681883389,
-          "duration" : 3038
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      } ]
-    }, {
-      "uid" : "8590f96e3cebda92",
-      "title" : "Story1",
-      "statistic" : {
-        "total" : 10,
-        "passed" : 8,
-        "pending" : 0,
-        "canceled" : 2,
-        "failed" : 0,
-        "broken" : 0
-      },
-      "testCases" : [ {
-        "uid" : "bd05ca20d19686ed",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472683929488,
-          "stop" : 1472683932344,
-          "duration" : 2856
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d7ae8174f63c403c",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472683929488,
-          "stop" : 1472683932344,
-          "duration" : 2856
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e30ead289ee42e26",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472680058731,
-          "stop" : 1472680061370,
-          "duration" : 2639
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "5b9d66efae5f650a",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472680058731,
-          "stop" : 1472680061370,
-          "duration" : 2639
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "684fa4120044ba7a",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1476383523988,
-          "stop" : 1476383523988,
+          "start" : 1476498482337,
+          "stop" : 1476498482337,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "4c65b79b814ee544",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "a9b7f96435733f07",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1476383523988,
-          "stop" : 1476383523988,
+          "start" : 1476462005671,
+          "stop" : 1476462005671,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "CANCELED"
       }, {
-        "uid" : "9fd33a48e8ab071f",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "c3c66a710f9942cd",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1472685675109,
-          "stop" : 1472685677968,
-          "duration" : 2859
+          "start" : 1476471826882,
+          "stop" : 1476471826882,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "e62d74b4a434d814",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
+        "time" : {
+          "start" : 1476499012727,
+          "stop" : 1476499015468,
+          "duration" : 2741
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "499439f34f26c1b1",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "a27d0be0441b202b",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1472685675109,
-          "stop" : 1472685677968,
-          "duration" : 2859
+          "start" : 1476461804352,
+          "stop" : 1476461804352,
+          "duration" : 0
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "CANCELED"
       }, {
-        "uid" : "8af1cda0f171b73c",
-        "name" : "signInTest",
-        "title" : "Sign in test",
+        "uid" : "4f034e2127587557",
+        "name" : "Product1Test",
+        "title" : "Product 1 test",
         "time" : {
-          "start" : 1472681880351,
-          "stop" : 1472681883389,
-          "duration" : 3038
+          "start" : 1476498815968,
+          "stop" : 1476498816014,
+          "duration" : 46
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "6a5810936f5baf5c",
-        "name" : "signInTest",
-        "title" : "Sign in test",
-        "time" : {
-          "start" : 1472681880351,
-          "stop" : 1472681883389,
-          "duration" : 3038
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "BROKEN"
       } ]
     } ]
   } ]

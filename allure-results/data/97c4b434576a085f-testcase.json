@@ -1,0 +1,59 @@
+{
+  "uid" : "97c4b434576a085f",
+  "name" : "main",
+  "title" : "Main",
+  "time" : {
+    "start" : 1476472001332,
+    "stop" : 1476472001337,
+    "duration" : 5
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test not implemented yet",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c437535683402c93",
+    "name" : "Default Suite : PerFactHybrid",
+    "title" : "Default Suite : PerFactHybrid"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Story2"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "My Feature"
+  }, {
+    "name" : "suite-name",
+    "value" : "Default Suite : PerFactHybrid"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Default Suite : PerFactHybrid"
+  }, {
+    "name" : "thread",
+    "value" : "29813@Aams-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

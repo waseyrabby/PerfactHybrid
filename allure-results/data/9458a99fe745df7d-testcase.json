@@ -1,0 +1,56 @@
+{
+  "uid" : "9458a99fe745df7d",
+  "name" : "HomeTest",
+  "title" : "Home test",
+  "time" : {
+    "start" : 1476498812456,
+    "stop" : 1476498814717,
+    "duration" : 2261
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "89e2b1e25e71bdc1",
+    "name" : "Suite : Random Test",
+    "title" : "Suite : Random Test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Story2"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Random Test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "My Feature"
+  }, {
+    "name" : "thread",
+    "value" : "36013@Aams-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Random Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "story",
+    "value" : "W"
+  } ],
+  "parameters" : [ ]
+}

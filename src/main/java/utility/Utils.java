@@ -13,9 +13,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import java.net.URL;
 
 import java.io.File;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class Utils {
@@ -37,9 +37,14 @@ public class Utils {
 			}
         else if (sBrowserName.contentEquals("chrome")){
             String chromeBinayPath;
+
             chromeBinayPath =  System.getProperty("user.dir") + "/src/main/resources/Drivers/chromedriver 2";
             System.setProperty("webdriver.chrome.driver", chromeBinayPath);
             driver=new ChromeDriver();
+        }
+        else if (sBrowserName.contentEquals("chromeRemote")){
+
+            driver = new RemoteWebDriver(new URL("http://127.0.0.1:9515"),DesiredCapabilities.chrome());
         }
         else if(sBrowserName.contentEquals("IE")){
             String ieBinayPath;

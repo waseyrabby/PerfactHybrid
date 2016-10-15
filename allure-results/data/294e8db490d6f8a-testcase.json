@@ -1,0 +1,56 @@
+{
+  "uid" : "294e8db490d6f8a",
+  "name" : "accountButtonVerification",
+  "title" : "Account button verification",
+  "time" : {
+    "start" : 1476484513551,
+    "stop" : 1476484515614,
+    "duration" : 2063
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c437535683402c93",
+    "name" : "Default Suite : PerFactHybrid",
+    "title" : "Default Suite : PerFactHybrid"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Story2"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "My Feature"
+  }, {
+    "name" : "thread",
+    "value" : "34529@Aams-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Default Suite : PerFactHybrid"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Default Suite : PerFactHybrid"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "a741889884a0717b",
+  "name" : "allElements",
+  "title" : "All elements",
+  "time" : {
+    "start" : 1476498468562,
+    "stop" : 1476498480881,
+    "duration" : 12319
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4666576cad959546",
+    "name" : "Test-class Suite : Test-class test",
+    "title" : "Test-class Suite : Test-class test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "35410@Aams-MacBook-Pro-2.local.pool-1-thread-1(13)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test-class Suite : Test-class test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test-class Suite : Test-class test"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "8a8f03493158d633",
+  "name" : "accountButtonVerification",
+  "title" : "Account button verification",
+  "time" : {
+    "start" : 1476499024823,
+    "stop" : 1476499028046,
+    "duration" : 3223
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "89e2b1e25e71bdc1",
+    "name" : "Suite : Random Test",
+    "title" : "Suite : Random Test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Story2"
+  }, {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Random Test"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "My Feature"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Random Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "36362@Aams-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}
